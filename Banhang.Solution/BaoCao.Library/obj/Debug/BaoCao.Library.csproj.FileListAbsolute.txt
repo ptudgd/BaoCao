@@ -1,0 +1,11 @@
+E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\BaoCao.Library\bin\Debug\BaoCao.Library.dll
+E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\BaoCao.Library\bin\Debug\BaoCao.Library.pdb
+E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\BaoCao.Library\obj\Debug\BaoCao.Library.csproj.CoreCompileInputs.cache
+E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\BaoCao.Library\obj\Debug\BaoCao.Library.dll
+E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\BaoCao.Library\obj\Debug\BaoCao.Library.pdb
+E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\BaoCao.Library\obj\Debug\BaoCao.Library.csprojResolveAssemblyReference.cache
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\BaoCao.Library\bin\Debug\BaoCao.Library.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\BaoCao.Library\bin\Debug\BaoCao.Library.pdb
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\BaoCao.Library\obj\Debug\BaoCao.Library.csproj.CoreCompileInputs.cache
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\BaoCao.Library\obj\Debug\BaoCao.Library.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\BaoCao.Library\obj\Debug\BaoCao.Library.pdb

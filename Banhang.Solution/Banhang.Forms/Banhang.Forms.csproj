@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5AC2692B-8DC9-4A09-87B8-BFA26A7C3B79}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Banhang.Forms</RootNamespace>
+    <AssemblyName>Banhang.Forms</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HoadonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HoadonForm.Designer.cs">
+      <DependentUpon>HoadonForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HanghoaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HanghoaForm.Designer.cs">
+      <DependentUpon>HanghoaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HoadonListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HoadonListForm.Designer.cs">
+      <DependentUpon>HoadonListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="HoadonForm.resx">
+      <DependentUpon>HoadonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HanghoaForm.resx">
+      <DependentUpon>HanghoaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HoadonListForm.resx">
+      <DependentUpon>HoadonListForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Banhang.Business\Banhang.Business.csproj">
+      <Project>{724d656d-1478-4647-9815-cf675f5d1684}</Project>
+      <Name>Banhang.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Banhang.Domain.HanghoaHandler\Banhang.Domain.HanghoaHandler.csproj">
+      <Project>{0e994041-f0e7-4e9d-8abf-eef927169588}</Project>
+      <Name>Banhang.Domain.HanghoaHandler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Banhang.Domain\Banhang.Domain.csproj">
+      <Project>{39ac0a6a-a4e5-4d01-971f-178f2f3c4b97}</Project>
+      <Name>Banhang.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Banhang.Library\Banhang.Library.csproj">
+      <Project>{c0e45b02-da79-4ef9-bebe-04455dfa40a4}</Project>
+      <Name>Banhang.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Banhang.Repository.HanghoaHandler\Banhang.Repository.HanghoaHandler.csproj">
+      <Project>{8aabb6cc-4e1a-48b1-827d-524bf87ba079}</Project>
+      <Name>Banhang.Repository.HanghoaHandler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Banhang.Repository\Banhang.Repository.csproj">
+      <Project>{2df80d9b-dff4-41c7-bf81-73ab5dce931d}</Project>
+      <Name>Banhang.Repository</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\Banhang.Domain.HanghoaHandler.CTHoadon.datasource" />
+    <None Include="Properties\DataSources\Banhang.Domain.HanghoaHandler.Hanghoa.datasource" />
+    <None Include="Properties\DataSources\Banhang.Domain.HanghoaHandler.Hoadon.datasource" />
+    <None Include="Properties\DataSources\Banhang.Domain.HanghoaHandler.NhomHanghoa.datasource" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

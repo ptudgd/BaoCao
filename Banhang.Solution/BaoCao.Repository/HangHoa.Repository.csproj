@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1D212168-D100-46E0-AEC5-4E98CDA74859}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BaoCao.Repository</RootNamespace>
+    <AssemblyName>BaoCao.Repository</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HangHoaDeleteRepository.cs" />
+    <Compile Include="HangHoaListRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaoCao.Library\BaoCao.Library.csproj">
+      <Project>{5390fb3e-d6f2-4742-aa52-27a65fe71210}</Project>
+      <Name>BaoCao.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HangHoa.Library\HangHoa.Domain.csproj">
+      <Project>{1057ae9b-9366-4b29-8933-5734c63f5d0d}</Project>
+      <Name>HangHoa.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KhachHang.Library\KhachHang.Domain.csproj">
+      <Project>{441bb1ca-f4a7-47e9-97dd-1752987f4b5d}</Project>
+      <Name>KhachHang.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NhaCungCap.Library\NhaCungCap.Domain.csproj">
+      <Project>{cad2190b-a158-4ba8-b16d-b6f43a8cf1c1}</Project>
+      <Name>NhaCungCap.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NhanVien.Libary\NhanVien.Domain.csproj">
+      <Project>{8e1283e9-1490-446e-8972-fee6cb9995f8}</Project>
+      <Name>NhanVien.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PhieuBanHang.Library\PhieuBanHang.Domain.csproj">
+      <Project>{0c404f65-f6ec-4710-8987-0be0ecbec4db}</Project>
+      <Name>PhieuBanHang.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PhieuMuaHang.Library\PhieuMuaHang.Domain.csproj">
+      <Project>{262e9b2b-c9a5-4548-ba22-106ea195cbc6}</Project>
+      <Name>PhieuMuaHang.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

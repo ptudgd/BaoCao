@@ -1,0 +1,11 @@
+E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\NhanVien.Libary\bin\Debug\NhanVien.Libary.dll
+E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\NhanVien.Libary\bin\Debug\NhanVien.Libary.pdb
+E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\NhanVien.Libary\obj\Debug\NhanVien.Libary.csproj.CoreCompileInputs.cache
+E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\NhanVien.Libary\obj\Debug\NhanVien.Libary.dll
+E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\NhanVien.Libary\obj\Debug\NhanVien.Libary.pdb
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhanVien.Libary\bin\Debug\NhanVien.Libary.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhanVien.Libary\bin\Debug\NhanVien.Libary.pdb
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhanVien.Libary\obj\Debug\NhanVien.Libary.csproj.CoreCompileInputs.cache
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhanVien.Libary\obj\Debug\NhanVien.Libary.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhanVien.Libary\obj\Debug\NhanVien.Libary.pdb
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhanVien.Libary\obj\Debug\NhanVien.Libary.csprojResolveAssemblyReference.cache

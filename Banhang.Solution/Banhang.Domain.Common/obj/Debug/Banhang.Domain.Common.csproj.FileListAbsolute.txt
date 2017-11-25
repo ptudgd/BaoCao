@@ -1,0 +1,16 @@
+E:\____Dhsp_2016\03_CongNgheWeb\Banhang.Solution\Banhang.Domain.Common\bin\Debug\Banhang.Domain.Common.dll
+E:\____Dhsp_2016\03_CongNgheWeb\Banhang.Solution\Banhang.Domain.Common\bin\Debug\Banhang.Domain.Common.pdb
+E:\____Dhsp_2016\03_CongNgheWeb\Banhang.Solution\Banhang.Domain.Common\obj\Debug\Banhang.Domain.Common.csprojResolveAssemblyReference.cache
+E:\____Dhsp_2016\03_CongNgheWeb\Banhang.Solution\Banhang.Domain.Common\obj\Debug\Banhang.Domain.Common.dll
+E:\____Dhsp_2016\03_CongNgheWeb\Banhang.Solution\Banhang.Domain.Common\obj\Debug\Banhang.Domain.Common.pdb
+D:\__dhsp\2017_04_23_Banhang.Solution\Banhang.Solution\Banhang.Domain.Common\bin\Debug\Banhang.Domain.Common.dll
+D:\__dhsp\2017_04_23_Banhang.Solution\Banhang.Solution\Banhang.Domain.Common\bin\Debug\Banhang.Domain.Common.pdb
+D:\__dhsp\2017_04_23_Banhang.Solution\Banhang.Solution\Banhang.Domain.Common\obj\Debug\Banhang.Domain.Common.csprojResolveAssemblyReference.cache
+D:\__dhsp\2017_04_23_Banhang.Solution\Banhang.Solution\Banhang.Domain.Common\obj\Debug\Banhang.Domain.Common.dll
+D:\__dhsp\2017_04_23_Banhang.Solution\Banhang.Solution\Banhang.Domain.Common\obj\Debug\Banhang.Domain.Common.pdb
+E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\Banhang.Domain.Common\bin\Debug\Banhang.Domain.Common.dll
+E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\Banhang.Domain.Common\bin\Debug\Banhang.Domain.Common.pdb
+E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\Banhang.Domain.Common\obj\Debug\Banhang.Domain.Common.csprojResolveAssemblyReference.cache
+E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\Banhang.Domain.Common\obj\Debug\Banhang.Domain.Common.csproj.CoreCompileInputs.cache
+E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\Banhang.Domain.Common\obj\Debug\Banhang.Domain.Common.dll
+E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\Banhang.Domain.Common\obj\Debug\Banhang.Domain.Common.pdb

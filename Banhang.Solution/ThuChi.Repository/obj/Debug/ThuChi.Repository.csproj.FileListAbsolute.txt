@@ -1,0 +1,10 @@
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\ThuChi.Repository\bin\Debug\ThuChi.Repository.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\ThuChi.Repository\bin\Debug\ThuChi.Repository.pdb
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\ThuChi.Repository\bin\Debug\BaoCao.Library.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\ThuChi.Repository\bin\Debug\ThuChi.Library.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\ThuChi.Repository\bin\Debug\BaoCao.Library.pdb
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\ThuChi.Repository\bin\Debug\ThuChi.Library.pdb
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\ThuChi.Repository\obj\Debug\ThuChi.Repository.csprojResolveAssemblyReference.cache
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\ThuChi.Repository\obj\Debug\ThuChi.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\ThuChi.Repository\obj\Debug\ThuChi.Repository.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\ThuChi.Repository\obj\Debug\ThuChi.Repository.pdb

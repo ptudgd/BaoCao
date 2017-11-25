@@ -1,0 +1,10 @@
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhaCungCap.Repository\bin\Debug\NhaCungCap.Repository.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhaCungCap.Repository\bin\Debug\NhaCungCap.Repository.pdb
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhaCungCap.Repository\bin\Debug\BaoCao.Library.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhaCungCap.Repository\bin\Debug\NhaCungCap.Library.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhaCungCap.Repository\bin\Debug\BaoCao.Library.pdb
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhaCungCap.Repository\bin\Debug\NhaCungCap.Library.pdb
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhaCungCap.Repository\obj\Debug\NhaCungCap.Repository.csprojResolveAssemblyReference.cache
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhaCungCap.Repository\obj\Debug\NhaCungCap.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhaCungCap.Repository\obj\Debug\NhaCungCap.Repository.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhaCungCap.Repository\obj\Debug\NhaCungCap.Repository.pdb

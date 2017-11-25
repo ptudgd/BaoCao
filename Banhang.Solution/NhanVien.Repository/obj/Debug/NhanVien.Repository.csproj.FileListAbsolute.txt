@@ -1,0 +1,10 @@
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhanVien.Repository\bin\Debug\NhanVien.Repository.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhanVien.Repository\bin\Debug\NhanVien.Repository.pdb
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhanVien.Repository\bin\Debug\BaoCao.Library.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhanVien.Repository\bin\Debug\NhanVien.Libary.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhanVien.Repository\bin\Debug\BaoCao.Library.pdb
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhanVien.Repository\bin\Debug\NhanVien.Libary.pdb
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhanVien.Repository\obj\Debug\NhanVien.Repository.csprojResolveAssemblyReference.cache
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhanVien.Repository\obj\Debug\NhanVien.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhanVien.Repository\obj\Debug\NhanVien.Repository.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhanVien.Repository\obj\Debug\NhanVien.Repository.pdb

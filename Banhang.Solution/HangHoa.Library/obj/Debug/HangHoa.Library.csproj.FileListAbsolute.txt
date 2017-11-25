@@ -1,0 +1,10 @@
+E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\HangHoa.Library\bin\Debug\HangHoa.Library.dll
+E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\HangHoa.Library\bin\Debug\HangHoa.Library.pdb
+E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\HangHoa.Library\obj\Debug\HangHoa.Library.csproj.CoreCompileInputs.cache
+E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\HangHoa.Library\obj\Debug\HangHoa.Library.dll
+E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\HangHoa.Library\obj\Debug\HangHoa.Library.pdb
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\HangHoa.Library\bin\Debug\HangHoa.Library.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\HangHoa.Library\bin\Debug\HangHoa.Library.pdb
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\HangHoa.Library\obj\Debug\HangHoa.Library.csproj.CoreCompileInputs.cache
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\HangHoa.Library\obj\Debug\HangHoa.Library.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\HangHoa.Library\obj\Debug\HangHoa.Library.pdb

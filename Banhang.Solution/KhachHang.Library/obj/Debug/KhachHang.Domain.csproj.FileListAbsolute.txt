@@ -1,0 +1,5 @@
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\KhachHang.Library\bin\Debug\KhachHang.Library.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\KhachHang.Library\bin\Debug\KhachHang.Library.pdb
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\KhachHang.Library\obj\Debug\KhachHang.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\KhachHang.Library\obj\Debug\KhachHang.Library.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\KhachHang.Library\obj\Debug\KhachHang.Library.pdb

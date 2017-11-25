@@ -1,0 +1,10 @@
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\PhieuBanHang.Repository\bin\Debug\PhieuBanHang.Repository.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\PhieuBanHang.Repository\bin\Debug\PhieuBanHang.Repository.pdb
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\PhieuBanHang.Repository\bin\Debug\BaoCao.Library.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\PhieuBanHang.Repository\bin\Debug\PhieuBanHang.Library.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\PhieuBanHang.Repository\bin\Debug\BaoCao.Library.pdb
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\PhieuBanHang.Repository\bin\Debug\PhieuBanHang.Library.pdb
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\PhieuBanHang.Repository\obj\Debug\PhieuBanHang.Repository.csprojResolveAssemblyReference.cache
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\PhieuBanHang.Repository\obj\Debug\PhieuBanHang.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\PhieuBanHang.Repository\obj\Debug\PhieuBanHang.Repository.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\PhieuBanHang.Repository\obj\Debug\PhieuBanHang.Repository.pdb

@@ -1,0 +1,6 @@
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\ThuChi.Library\bin\Debug\ThuChi.Library.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\ThuChi.Library\bin\Debug\ThuChi.Library.pdb
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\ThuChi.Library\obj\Debug\ThuChi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\ThuChi.Library\obj\Debug\ThuChi.Library.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\ThuChi.Library\obj\Debug\ThuChi.Library.pdb
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\ThuChi.Library\obj\Debug\ThuChi.Domain.csprojResolveAssemblyReference.cache

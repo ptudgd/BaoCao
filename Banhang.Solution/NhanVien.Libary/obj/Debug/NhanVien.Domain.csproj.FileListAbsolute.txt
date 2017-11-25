@@ -1,0 +1,5 @@
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhanVien.Libary\bin\Debug\NhanVien.Libary.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhanVien.Libary\bin\Debug\NhanVien.Libary.pdb
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhanVien.Libary\obj\Debug\NhanVien.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhanVien.Libary\obj\Debug\NhanVien.Libary.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhanVien.Libary\obj\Debug\NhanVien.Libary.pdb

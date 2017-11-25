@@ -1,0 +1,5 @@
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\PhieuMuaHang.Library\bin\Debug\PhieuMuaHang.Library.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\PhieuMuaHang.Library\bin\Debug\PhieuMuaHang.Library.pdb
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\PhieuMuaHang.Library\obj\Debug\PhieuMuaHang.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\PhieuMuaHang.Library\obj\Debug\PhieuMuaHang.Library.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\PhieuMuaHang.Library\obj\Debug\PhieuMuaHang.Library.pdb

@@ -1,0 +1,10 @@
+E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\ThuChi.Library\bin\Debug\ThuChi.Library.dll
+E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\ThuChi.Library\bin\Debug\ThuChi.Library.pdb
+E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\ThuChi.Library\obj\Debug\ThuChi.Library.csproj.CoreCompileInputs.cache
+E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\ThuChi.Library\obj\Debug\ThuChi.Library.dll
+E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\ThuChi.Library\obj\Debug\ThuChi.Library.pdb
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\ThuChi.Library\bin\Debug\ThuChi.Library.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\ThuChi.Library\bin\Debug\ThuChi.Library.pdb
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\ThuChi.Library\obj\Debug\ThuChi.Library.csproj.CoreCompileInputs.cache
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\ThuChi.Library\obj\Debug\ThuChi.Library.dll
+C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\ThuChi.Library\obj\Debug\ThuChi.Library.pdb

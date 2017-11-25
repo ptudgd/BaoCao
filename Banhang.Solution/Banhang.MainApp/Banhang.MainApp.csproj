@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C5C2EC2B-E436-4E7A-8282-0CABFB54A0C4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Banhang.MainApp</RootNamespace>
+    <AssemblyName>Banhang.MainApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>dragon 06.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductListForm.Designer.cs">
+      <DependentUpon>ProductListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SinhvienListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SinhvienListForm.Designer.cs">
+      <DependentUpon>SinhvienListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductListForm.resx">
+      <DependentUpon>ProductListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SinhvienListForm.resx">
+      <DependentUpon>SinhvienListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\DataSources\Banhang.Domain.Product.datasource" />
+    <None Include="Properties\DataSources\Banhang.Domain.Sinhvien.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Banhang.Business\Banhang.Business.csproj">
+      <Project>{724d656d-1478-4647-9815-cf675f5d1684}</Project>
+      <Name>Banhang.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Banhang.Domain.Common\Banhang.Domain.Common.csproj">
+      <Project>{77830dc8-b4ac-4800-b832-b84997273ebc}</Project>
+      <Name>Banhang.Domain.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Banhang.Domain.HanghoaHandler\Banhang.Domain.HanghoaHandler.csproj">
+      <Project>{0e994041-f0e7-4e9d-8abf-eef927169588}</Project>
+      <Name>Banhang.Domain.HanghoaHandler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Banhang.Domain\Banhang.Domain.csproj">
+      <Project>{39ac0a6a-a4e5-4d01-971f-178f2f3c4b97}</Project>
+      <Name>Banhang.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Banhang.Forms\Banhang.Forms.csproj">
+      <Project>{5ac2692b-8dc9-4a09-87b8-bfa26a7c3b79}</Project>
+      <Name>Banhang.Forms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Banhang.Library\Banhang.Library.csproj">
+      <Project>{c0e45b02-da79-4ef9-bebe-04455dfa40a4}</Project>
+      <Name>Banhang.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Banhang.Repository.HanghoaHandler\Banhang.Repository.HanghoaHandler.csproj">
+      <Project>{8aabb6cc-4e1a-48b1-827d-524bf87ba079}</Project>
+      <Name>Banhang.Repository.HanghoaHandler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Banhang.Repository\Banhang.Repository.csproj">
+      <Project>{2df80d9b-dff4-41c7-bf81-73ab5dce931d}</Project>
+      <Name>Banhang.Repository</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dragon 06.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
