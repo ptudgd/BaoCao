@@ -38,15 +38,6 @@
             System.Windows.Forms.Label tenLabel;
             System.Windows.Forms.Label tenlotLabel;
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.nhanVienBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btnEdit = new System.Windows.Forms.Button();
-            this.btnDel = new System.Windows.Forms.Button();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.btnLoad = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.khachHangBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.khachhangIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.hoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tenlotDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -55,6 +46,15 @@
             this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sDTDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.diachiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.khachHangBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.nhanVienBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnEdit = new System.Windows.Forms.Button();
+            this.btnDel = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnLoad = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.diachiTextBox = new System.Windows.Forms.TextBox();
             this.emailTextBox = new System.Windows.Forms.TextBox();
             this.gioitinhCheckBox = new System.Windows.Forms.CheckBox();
@@ -72,11 +72,83 @@
             tenLabel = new System.Windows.Forms.Label();
             tenlotLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.khachHangBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nhanVienBindingSource)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.khachHangBindingSource)).BeginInit();
             this.SuspendLayout();
+            // 
+            // diachiLabel
+            // 
+            diachiLabel.AutoSize = true;
+            diachiLabel.Location = new System.Drawing.Point(30, 27);
+            diachiLabel.Name = "diachiLabel";
+            diachiLabel.Size = new System.Drawing.Size(43, 13);
+            diachiLabel.TabIndex = 14;
+            diachiLabel.Text = "Địa chỉ:";
+            // 
+            // emailLabel
+            // 
+            emailLabel.AutoSize = true;
+            emailLabel.Location = new System.Drawing.Point(30, 53);
+            emailLabel.Name = "emailLabel";
+            emailLabel.Size = new System.Drawing.Size(35, 13);
+            emailLabel.TabIndex = 16;
+            emailLabel.Text = "Email:";
+            // 
+            // gioitinhLabel
+            // 
+            gioitinhLabel.AutoSize = true;
+            gioitinhLabel.Location = new System.Drawing.Point(30, 81);
+            gioitinhLabel.Name = "gioitinhLabel";
+            gioitinhLabel.Size = new System.Drawing.Size(50, 13);
+            gioitinhLabel.TabIndex = 18;
+            gioitinhLabel.Text = "Giới tính:";
+            // 
+            // hoLabel
+            // 
+            hoLabel.AutoSize = true;
+            hoLabel.Location = new System.Drawing.Point(30, 109);
+            hoLabel.Name = "hoLabel";
+            hoLabel.Size = new System.Drawing.Size(24, 13);
+            hoLabel.TabIndex = 20;
+            hoLabel.Text = "Họ:";
+            // 
+            // khachhangIdLabel
+            // 
+            khachhangIdLabel.AutoSize = true;
+            khachhangIdLabel.Location = new System.Drawing.Point(30, 135);
+            khachhangIdLabel.Name = "khachhangIdLabel";
+            khachhangIdLabel.Size = new System.Drawing.Size(85, 13);
+            khachhangIdLabel.TabIndex = 22;
+            khachhangIdLabel.Text = "Mã khách hàng:";
+            // 
+            // sDTLabel
+            // 
+            sDTLabel.AutoSize = true;
+            sDTLabel.Location = new System.Drawing.Point(30, 161);
+            sDTLabel.Name = "sDTLabel";
+            sDTLabel.Size = new System.Drawing.Size(73, 13);
+            sDTLabel.TabIndex = 24;
+            sDTLabel.Text = "Số điện thọai:";
+            // 
+            // tenLabel
+            // 
+            tenLabel.AutoSize = true;
+            tenLabel.Location = new System.Drawing.Point(30, 187);
+            tenLabel.Name = "tenLabel";
+            tenLabel.Size = new System.Drawing.Size(29, 13);
+            tenLabel.TabIndex = 26;
+            tenLabel.Text = "Tên:";
+            // 
+            // tenlotLabel
+            // 
+            tenlotLabel.AutoSize = true;
+            tenlotLabel.Location = new System.Drawing.Point(30, 213);
+            tenlotLabel.Name = "tenlotLabel";
+            tenlotLabel.Size = new System.Drawing.Size(43, 13);
+            tenlotLabel.TabIndex = 28;
+            tenlotLabel.Text = "Tên lót:";
             // 
             // dataGridView1
             // 
@@ -97,98 +169,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(842, 157);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.dataGridView1);
-            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox2.Location = new System.Drawing.Point(0, 266);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(848, 176);
-            this.groupBox2.TabIndex = 3;
-            this.groupBox2.TabStop = false;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(643, 60);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(102, 53);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Phiếu mua hàng";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // btnEdit
-            // 
-            this.btnEdit.Location = new System.Drawing.Point(535, 60);
-            this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(102, 53);
-            this.btnEdit.TabIndex = 13;
-            this.btnEdit.Text = "Sửa";
-            this.btnEdit.UseVisualStyleBackColor = true;
-            // 
-            // btnDel
-            // 
-            this.btnDel.Location = new System.Drawing.Point(427, 60);
-            this.btnDel.Name = "btnDel";
-            this.btnDel.Size = new System.Drawing.Size(102, 53);
-            this.btnDel.TabIndex = 12;
-            this.btnDel.Text = "Xóa";
-            this.btnDel.UseVisualStyleBackColor = true;
-            // 
-            // btnAdd
-            // 
-            this.btnAdd.Location = new System.Drawing.Point(319, 60);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(102, 53);
-            this.btnAdd.TabIndex = 11;
-            this.btnAdd.Text = "Thêm";
-            this.btnAdd.UseVisualStyleBackColor = true;
-            // 
-            // btnLoad
-            // 
-            this.btnLoad.Location = new System.Drawing.Point(628, 179);
-            this.btnLoad.Name = "btnLoad";
-            this.btnLoad.Size = new System.Drawing.Size(118, 44);
-            this.btnLoad.TabIndex = 10;
-            this.btnLoad.Text = "Tải dữ liệu";
-            this.btnLoad.UseVisualStyleBackColor = true;
-            this.btnLoad.Click += new System.EventHandler(this.btnLoad_Click);
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(diachiLabel);
-            this.groupBox1.Controls.Add(this.diachiTextBox);
-            this.groupBox1.Controls.Add(emailLabel);
-            this.groupBox1.Controls.Add(this.emailTextBox);
-            this.groupBox1.Controls.Add(gioitinhLabel);
-            this.groupBox1.Controls.Add(this.gioitinhCheckBox);
-            this.groupBox1.Controls.Add(hoLabel);
-            this.groupBox1.Controls.Add(this.hoTextBox);
-            this.groupBox1.Controls.Add(khachhangIdLabel);
-            this.groupBox1.Controls.Add(this.khachhangIdTextBox);
-            this.groupBox1.Controls.Add(sDTLabel);
-            this.groupBox1.Controls.Add(this.sDTTextBox);
-            this.groupBox1.Controls.Add(tenLabel);
-            this.groupBox1.Controls.Add(this.tenTextBox);
-            this.groupBox1.Controls.Add(tenlotLabel);
-            this.groupBox1.Controls.Add(this.tenlotTextBox);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.btnEdit);
-            this.groupBox1.Controls.Add(this.btnDel);
-            this.groupBox1.Controls.Add(this.btnAdd);
-            this.groupBox1.Controls.Add(this.btnLoad);
-            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.groupBox1.Location = new System.Drawing.Point(0, 0);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(848, 266);
-            this.groupBox1.TabIndex = 2;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Khách Hàng";
-            // 
-            // khachHangBindingSource
-            // 
-            this.khachHangBindingSource.DataSource = typeof(KhachHang.Domain.KhachHang);
             // 
             // khachhangIdDataGridViewTextBoxColumn
             // 
@@ -238,14 +218,100 @@
             this.diachiDataGridViewTextBoxColumn.HeaderText = "Địa chỉ";
             this.diachiDataGridViewTextBoxColumn.Name = "diachiDataGridViewTextBoxColumn";
             // 
-            // diachiLabel
+            // khachHangBindingSource
             // 
-            diachiLabel.AutoSize = true;
-            diachiLabel.Location = new System.Drawing.Point(30, 27);
-            diachiLabel.Name = "diachiLabel";
-            diachiLabel.Size = new System.Drawing.Size(43, 13);
-            diachiLabel.TabIndex = 14;
-            diachiLabel.Text = "Địa chỉ:";
+            this.khachHangBindingSource.DataSource = typeof(KhachHang.Domain.KhachHang);
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.dataGridView1);
+            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox2.Location = new System.Drawing.Point(0, 266);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(848, 176);
+            this.groupBox2.TabIndex = 3;
+            this.groupBox2.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(643, 60);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(102, 53);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "Phiếu mua hàng";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnEdit
+            // 
+            this.btnEdit.Location = new System.Drawing.Point(535, 60);
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.Size = new System.Drawing.Size(102, 53);
+            this.btnEdit.TabIndex = 13;
+            this.btnEdit.Text = "Sửa";
+            this.btnEdit.UseVisualStyleBackColor = true;
+            // 
+            // btnDel
+            // 
+            this.btnDel.Location = new System.Drawing.Point(427, 60);
+            this.btnDel.Name = "btnDel";
+            this.btnDel.Size = new System.Drawing.Size(102, 53);
+            this.btnDel.TabIndex = 12;
+            this.btnDel.Text = "Xóa";
+            this.btnDel.UseVisualStyleBackColor = true;
+            this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.BackColor = System.Drawing.SystemColors.Control;
+            this.btnAdd.Location = new System.Drawing.Point(319, 60);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(102, 53);
+            this.btnAdd.TabIndex = 11;
+            this.btnAdd.Text = "Thêm";
+            this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
+            // btnLoad
+            // 
+            this.btnLoad.Location = new System.Drawing.Point(628, 179);
+            this.btnLoad.Name = "btnLoad";
+            this.btnLoad.Size = new System.Drawing.Size(118, 44);
+            this.btnLoad.TabIndex = 10;
+            this.btnLoad.Text = "Tải dữ liệu";
+            this.btnLoad.UseVisualStyleBackColor = true;
+            this.btnLoad.Click += new System.EventHandler(this.btnLoad_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(diachiLabel);
+            this.groupBox1.Controls.Add(this.diachiTextBox);
+            this.groupBox1.Controls.Add(emailLabel);
+            this.groupBox1.Controls.Add(this.emailTextBox);
+            this.groupBox1.Controls.Add(gioitinhLabel);
+            this.groupBox1.Controls.Add(this.gioitinhCheckBox);
+            this.groupBox1.Controls.Add(hoLabel);
+            this.groupBox1.Controls.Add(this.hoTextBox);
+            this.groupBox1.Controls.Add(khachhangIdLabel);
+            this.groupBox1.Controls.Add(this.khachhangIdTextBox);
+            this.groupBox1.Controls.Add(sDTLabel);
+            this.groupBox1.Controls.Add(this.sDTTextBox);
+            this.groupBox1.Controls.Add(tenLabel);
+            this.groupBox1.Controls.Add(this.tenTextBox);
+            this.groupBox1.Controls.Add(tenlotLabel);
+            this.groupBox1.Controls.Add(this.tenlotTextBox);
+            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.btnEdit);
+            this.groupBox1.Controls.Add(this.btnDel);
+            this.groupBox1.Controls.Add(this.btnAdd);
+            this.groupBox1.Controls.Add(this.btnLoad);
+            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.groupBox1.Location = new System.Drawing.Point(0, 0);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(848, 266);
+            this.groupBox1.TabIndex = 2;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Khách Hàng";
             // 
             // diachiTextBox
             // 
@@ -255,15 +321,6 @@
             this.diachiTextBox.Size = new System.Drawing.Size(104, 20);
             this.diachiTextBox.TabIndex = 15;
             // 
-            // emailLabel
-            // 
-            emailLabel.AutoSize = true;
-            emailLabel.Location = new System.Drawing.Point(30, 53);
-            emailLabel.Name = "emailLabel";
-            emailLabel.Size = new System.Drawing.Size(35, 13);
-            emailLabel.TabIndex = 16;
-            emailLabel.Text = "Email:";
-            // 
             // emailTextBox
             // 
             this.emailTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.khachHangBindingSource, "Email", true));
@@ -271,15 +328,6 @@
             this.emailTextBox.Name = "emailTextBox";
             this.emailTextBox.Size = new System.Drawing.Size(104, 20);
             this.emailTextBox.TabIndex = 17;
-            // 
-            // gioitinhLabel
-            // 
-            gioitinhLabel.AutoSize = true;
-            gioitinhLabel.Location = new System.Drawing.Point(30, 81);
-            gioitinhLabel.Name = "gioitinhLabel";
-            gioitinhLabel.Size = new System.Drawing.Size(50, 13);
-            gioitinhLabel.TabIndex = 18;
-            gioitinhLabel.Text = "Giới tính:";
             // 
             // gioitinhCheckBox
             // 
@@ -291,15 +339,6 @@
             this.gioitinhCheckBox.Text = "Nam";
             this.gioitinhCheckBox.UseVisualStyleBackColor = true;
             // 
-            // hoLabel
-            // 
-            hoLabel.AutoSize = true;
-            hoLabel.Location = new System.Drawing.Point(30, 109);
-            hoLabel.Name = "hoLabel";
-            hoLabel.Size = new System.Drawing.Size(24, 13);
-            hoLabel.TabIndex = 20;
-            hoLabel.Text = "Họ:";
-            // 
             // hoTextBox
             // 
             this.hoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.khachHangBindingSource, "Ho", true));
@@ -307,15 +346,6 @@
             this.hoTextBox.Name = "hoTextBox";
             this.hoTextBox.Size = new System.Drawing.Size(104, 20);
             this.hoTextBox.TabIndex = 21;
-            // 
-            // khachhangIdLabel
-            // 
-            khachhangIdLabel.AutoSize = true;
-            khachhangIdLabel.Location = new System.Drawing.Point(30, 135);
-            khachhangIdLabel.Name = "khachhangIdLabel";
-            khachhangIdLabel.Size = new System.Drawing.Size(85, 13);
-            khachhangIdLabel.TabIndex = 22;
-            khachhangIdLabel.Text = "Mã khách hàng:";
             // 
             // khachhangIdTextBox
             // 
@@ -325,15 +355,6 @@
             this.khachhangIdTextBox.Size = new System.Drawing.Size(104, 20);
             this.khachhangIdTextBox.TabIndex = 23;
             // 
-            // sDTLabel
-            // 
-            sDTLabel.AutoSize = true;
-            sDTLabel.Location = new System.Drawing.Point(30, 161);
-            sDTLabel.Name = "sDTLabel";
-            sDTLabel.Size = new System.Drawing.Size(73, 13);
-            sDTLabel.TabIndex = 24;
-            sDTLabel.Text = "Số điện thọai:";
-            // 
             // sDTTextBox
             // 
             this.sDTTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.khachHangBindingSource, "SDT", true));
@@ -342,15 +363,6 @@
             this.sDTTextBox.Size = new System.Drawing.Size(104, 20);
             this.sDTTextBox.TabIndex = 25;
             // 
-            // tenLabel
-            // 
-            tenLabel.AutoSize = true;
-            tenLabel.Location = new System.Drawing.Point(30, 187);
-            tenLabel.Name = "tenLabel";
-            tenLabel.Size = new System.Drawing.Size(29, 13);
-            tenLabel.TabIndex = 26;
-            tenLabel.Text = "Tên:";
-            // 
             // tenTextBox
             // 
             this.tenTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.khachHangBindingSource, "Ten", true));
@@ -358,15 +370,6 @@
             this.tenTextBox.Name = "tenTextBox";
             this.tenTextBox.Size = new System.Drawing.Size(104, 20);
             this.tenTextBox.TabIndex = 27;
-            // 
-            // tenlotLabel
-            // 
-            tenlotLabel.AutoSize = true;
-            tenlotLabel.Location = new System.Drawing.Point(30, 213);
-            tenlotLabel.Name = "tenlotLabel";
-            tenlotLabel.Size = new System.Drawing.Size(43, 13);
-            tenlotLabel.TabIndex = 28;
-            tenlotLabel.Text = "Tên lót:";
             // 
             // tenlotTextBox
             // 
@@ -386,11 +389,11 @@
             this.Name = "frmKhachHang";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.khachHangBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nhanVienBindingSource)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.khachHangBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }

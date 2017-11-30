@@ -40,8 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HangHoaAddRepository.cs" />
     <Compile Include="HangHoaDeleteRepository.cs" />
     <Compile Include="HangHoaListRepository.cs" />
+    <Compile Include="HangHoaLoadNhomHangHoaRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -64,6 +66,10 @@
     <ProjectReference Include="..\NhanVien.Libary\NhanVien.Domain.csproj">
       <Project>{8e1283e9-1490-446e-8972-fee6cb9995f8}</Project>
       <Name>NhanVien.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NhomHangHoa.Domain\NhomHangHoa.Domain.csproj">
+      <Project>{62d9e786-e5ec-4167-852b-96689fc1db90}</Project>
+      <Name>NhomHangHoa.Domain</Name>
     </ProjectReference>
     <ProjectReference Include="..\PhieuBanHang.Library\PhieuBanHang.Domain.csproj">
       <Project>{0c404f65-f6ec-4710-8987-0be0ecbec4db}</Project>

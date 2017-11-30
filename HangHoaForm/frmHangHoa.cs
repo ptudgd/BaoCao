@@ -21,11 +21,11 @@ namespace HangHoaForm
         }
 
         private void btnLoad_Click(object sender, EventArgs e)
-        {
-
-            using (var cmd = new HangHoaListRepository())
+        {          
+            
+            using(var cmd = new HangHoaListRepository())
             {
-                this.hangHoaBindingSource.DataSource = cmd.Execute();
+                hangHoaBindingSource.DataSource = cmd.Execute();
             }
         }
 
@@ -44,6 +44,51 @@ namespace HangHoaForm
                     cmd.hangHoaId = cur.HanghoaId;
                     cmd.Execute();
                 }
+                using(var cmd = new HangHoaListRepository())
+                {
+                    this.hangHoaBindingSource.DataSource = cmd.Execute();
+                }
+            }
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            var cur = this.hangHoaBindingSource.Current as HangHoa.Domain.HangHoa;
+            if (cur != null && !string.IsNullOrWhiteSpace(cur.HanghoaId))
+            {
+                using (var cmd = new HangHoaDeleteRepository())
+                {
+                    cmd.hangHoaId = cur.HanghoaId;
+                    cmd.Execute();
+                }
+                using (var cmd = new HangHoaAddRepository())
+                {
+                    cmd.HanghoaId = this.hanghoaIdTextBox.Text;
+                    cmd.GiaBan = Convert.ToInt32(this.giaBanTextBox.Text);
+                    cmd.TenHanghoa = this.tenHanghoaTextBox.Text;
+                    cmd.Mota = this.motaTextBox.Text;
+                    cmd.SoLuongTonKho = Convert.ToInt32(this.soLuongTonKhoTextBox.Text);
+                    cmd.NhomHanghoaId = this.nhomHanghoaIdTextBox.Text;
+                    cmd.Execute();
+                }
+                using (var cmd = new HangHoaListRepository())
+                {
+                    this.hangHoaBindingSource.DataSource = cmd.Execute();
+                }
+            }
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            var f = new frmAdd();
+            if(f.ShowDialog() != DialogResult.OK)
+            {
                 using(var cmd = new HangHoaListRepository())
                 {
                     this.hangHoaBindingSource.DataSource = cmd.Execute();

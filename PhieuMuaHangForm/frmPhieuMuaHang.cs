@@ -21,6 +21,7 @@ namespace PhieuMuaHangForm
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
+            
             string data1 = dateTimePicker1.Value.ToShortDateString();
             string data2 = dateTimePicker2.Value.ToShortDateString();
             using(var cmd = new PhieuMuaHangListRepository())

@@ -18,14 +18,7 @@ namespace BaoCao.Repository
                 using(var cmd = conn.CreateCommand())
                 {
                     conn.Open();
-                    cmd.CommandText = "DELETE FROM HangHoa WHERE HanghoaId = @HanghoaId";
-                    cmd.Parameters.Add(new SqlParameter()
-                    {
-                        ParameterName = "@HanghoaId",
-                        Value = this.hangHoaId,
-                        SqlDbType = System.Data.SqlDbType.VarChar
-                    });
-
+                    cmd.CommandText = "DELETE FROM HangHoa WHERE HanghoaId ='"+hangHoaId+"'";
                     cmd.ExecuteNonQuery();
                 }
                 conn.Close();

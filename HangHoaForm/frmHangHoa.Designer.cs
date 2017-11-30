@@ -36,14 +36,6 @@
             System.Windows.Forms.Label soLuongTonKhoLabel;
             System.Windows.Forms.Label tenHanghoaLabel;
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.hanghoaIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tenHanghoaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.giaBanDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.motaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.soLuongTonKhoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nhomHanghoaIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.hangHoaBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.nhanVienBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnEdit = new System.Windows.Forms.Button();
             this.btnDel = new System.Windows.Forms.Button();
@@ -56,6 +48,14 @@
             this.nhomHanghoaIdTextBox = new System.Windows.Forms.TextBox();
             this.soLuongTonKhoTextBox = new System.Windows.Forms.TextBox();
             this.tenHanghoaTextBox = new System.Windows.Forms.TextBox();
+            this.hanghoaIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tenHanghoaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.giaBanDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.motaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.soLuongTonKhoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nhomHanghoaIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.hangHoaBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.nhanVienBindingSource = new System.Windows.Forms.BindingSource(this.components);
             giaBanLabel = new System.Windows.Forms.Label();
             hanghoaIdLabel = new System.Windows.Forms.Label();
             motaLabel = new System.Windows.Forms.Label();
@@ -63,10 +63,10 @@
             soLuongTonKhoLabel = new System.Windows.Forms.Label();
             tenHanghoaLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hangHoaBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nhanVienBindingSource)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.hangHoaBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nhanVienBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // giaBanLabel
@@ -126,6 +126,7 @@
             // dataGridView1
             // 
             this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.hanghoaIdDataGridViewTextBoxColumn,
@@ -140,47 +141,8 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(878, 229);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.dataGridView1.CursorChanged += new System.EventHandler(this.dataGridView1_CursorChanged);
-            // 
-            // hanghoaIdDataGridViewTextBoxColumn
-            // 
-            this.hanghoaIdDataGridViewTextBoxColumn.DataPropertyName = "HanghoaId";
-            this.hanghoaIdDataGridViewTextBoxColumn.HeaderText = "Mã hàng hóa";
-            this.hanghoaIdDataGridViewTextBoxColumn.Name = "hanghoaIdDataGridViewTextBoxColumn";
-            // 
-            // tenHanghoaDataGridViewTextBoxColumn
-            // 
-            this.tenHanghoaDataGridViewTextBoxColumn.DataPropertyName = "TenHanghoa";
-            this.tenHanghoaDataGridViewTextBoxColumn.HeaderText = "Tên hàng hóa";
-            this.tenHanghoaDataGridViewTextBoxColumn.Name = "tenHanghoaDataGridViewTextBoxColumn";
-            // 
-            // giaBanDataGridViewTextBoxColumn
-            // 
-            this.giaBanDataGridViewTextBoxColumn.DataPropertyName = "GiaBan";
-            this.giaBanDataGridViewTextBoxColumn.HeaderText = "Giá bán";
-            this.giaBanDataGridViewTextBoxColumn.Name = "giaBanDataGridViewTextBoxColumn";
-            // 
-            // motaDataGridViewTextBoxColumn
-            // 
-            this.motaDataGridViewTextBoxColumn.DataPropertyName = "Mota";
-            this.motaDataGridViewTextBoxColumn.HeaderText = "Mô tả";
-            this.motaDataGridViewTextBoxColumn.Name = "motaDataGridViewTextBoxColumn";
-            // 
-            // soLuongTonKhoDataGridViewTextBoxColumn
-            // 
-            this.soLuongTonKhoDataGridViewTextBoxColumn.DataPropertyName = "SoLuongTonKho";
-            this.soLuongTonKhoDataGridViewTextBoxColumn.HeaderText = "Số lượng tồn kho";
-            this.soLuongTonKhoDataGridViewTextBoxColumn.Name = "soLuongTonKhoDataGridViewTextBoxColumn";
-            // 
-            // nhomHanghoaIdDataGridViewTextBoxColumn
-            // 
-            this.nhomHanghoaIdDataGridViewTextBoxColumn.DataPropertyName = "NhomHanghoaId";
-            this.nhomHanghoaIdDataGridViewTextBoxColumn.HeaderText = "Mã nhóm hàng hóa";
-            this.nhomHanghoaIdDataGridViewTextBoxColumn.Name = "nhomHanghoaIdDataGridViewTextBoxColumn";
-            // 
-            // hangHoaBindingSource
-            // 
-            this.hangHoaBindingSource.DataSource = typeof(HangHoa.Domain.HangHoa);
             // 
             // groupBox2
             // 
@@ -200,6 +162,7 @@
             this.btnEdit.TabIndex = 13;
             this.btnEdit.Text = "Sửa";
             this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnDel
             // 
@@ -219,6 +182,7 @@
             this.btnAdd.TabIndex = 11;
             this.btnAdd.Text = "Thêm";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnLoad
             // 
@@ -304,21 +268,61 @@
             this.tenHanghoaTextBox.Size = new System.Drawing.Size(134, 20);
             this.tenHanghoaTextBox.TabIndex = 24;
             // 
-            // Form1
+            // hanghoaIdDataGridViewTextBoxColumn
+            // 
+            this.hanghoaIdDataGridViewTextBoxColumn.DataPropertyName = "HanghoaId";
+            this.hanghoaIdDataGridViewTextBoxColumn.HeaderText = "Mã hàng hóa";
+            this.hanghoaIdDataGridViewTextBoxColumn.Name = "hanghoaIdDataGridViewTextBoxColumn";
+            // 
+            // tenHanghoaDataGridViewTextBoxColumn
+            // 
+            this.tenHanghoaDataGridViewTextBoxColumn.DataPropertyName = "TenHanghoa";
+            this.tenHanghoaDataGridViewTextBoxColumn.HeaderText = "Tên hàng hóa";
+            this.tenHanghoaDataGridViewTextBoxColumn.Name = "tenHanghoaDataGridViewTextBoxColumn";
+            // 
+            // giaBanDataGridViewTextBoxColumn
+            // 
+            this.giaBanDataGridViewTextBoxColumn.DataPropertyName = "GiaBan";
+            this.giaBanDataGridViewTextBoxColumn.HeaderText = "Giá bán";
+            this.giaBanDataGridViewTextBoxColumn.Name = "giaBanDataGridViewTextBoxColumn";
+            // 
+            // motaDataGridViewTextBoxColumn
+            // 
+            this.motaDataGridViewTextBoxColumn.DataPropertyName = "Mota";
+            this.motaDataGridViewTextBoxColumn.HeaderText = "Mô tả";
+            this.motaDataGridViewTextBoxColumn.Name = "motaDataGridViewTextBoxColumn";
+            // 
+            // soLuongTonKhoDataGridViewTextBoxColumn
+            // 
+            this.soLuongTonKhoDataGridViewTextBoxColumn.DataPropertyName = "SoLuongTonKho";
+            this.soLuongTonKhoDataGridViewTextBoxColumn.HeaderText = "Số lượng tồn kho";
+            this.soLuongTonKhoDataGridViewTextBoxColumn.Name = "soLuongTonKhoDataGridViewTextBoxColumn";
+            // 
+            // nhomHanghoaIdDataGridViewTextBoxColumn
+            // 
+            this.nhomHanghoaIdDataGridViewTextBoxColumn.DataPropertyName = "NhomHanghoaId";
+            this.nhomHanghoaIdDataGridViewTextBoxColumn.HeaderText = "Mã nhóm hàng hóa";
+            this.nhomHanghoaIdDataGridViewTextBoxColumn.Name = "nhomHanghoaIdDataGridViewTextBoxColumn";
+            // 
+            // hangHoaBindingSource
+            // 
+            this.hangHoaBindingSource.DataSource = typeof(HangHoa.Domain.HangHoa);
+            // 
+            // frmHangHoa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(884, 491);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Name = "Form1";
+            this.Name = "frmHangHoa";
             this.Text = "Hàng hóa";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hangHoaBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nhanVienBindingSource)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.hangHoaBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nhanVienBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }

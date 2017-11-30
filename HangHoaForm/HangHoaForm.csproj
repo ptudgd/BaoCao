@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdd.Designer.cs">
+      <DependentUpon>frmAdd.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmHangHoa.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -53,6 +59,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAdd.resx">
+      <DependentUpon>frmAdd.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmHangHoa.resx">
       <DependentUpon>frmHangHoa.cs</DependentUpon>
     </EmbeddedResource>
@@ -91,6 +100,10 @@
     <ProjectReference Include="..\HangHoa.Library\HangHoa.Domain.csproj">
       <Project>{1057ae9b-9366-4b29-8933-5734c63f5d0d}</Project>
       <Name>HangHoa.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NhomHangHoa.Domain\NhomHangHoa.Domain.csproj">
+      <Project>{62d9e786-e5ec-4167-852b-96689fc1db90}</Project>
+      <Name>NhomHangHoa.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

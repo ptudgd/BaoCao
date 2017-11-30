@@ -36,6 +36,7 @@ namespace PhieuMuaHang.Repository
                             });
                         }
                     }
+                    conn.Close();
                 }
             }
             return data;

@@ -28,7 +28,31 @@ namespace KhachHangForm
         private void button1_Click(object sender, EventArgs e)
         {
             var f = new PhieuMuaHangForm.frmPhieuMuaHang();
-            f.Show();
+            f.ShowDialog();
+        }
+        
+        
+        private void btnDel_Click(object sender, EventArgs e)
+        {
+            var cur = this.khachHangBindingSource.Current as KhachHang.Domain.KhachHang;
+            if(cur != null && !string.IsNullOrWhiteSpace(cur.KhachhangId))
+            {
+                
+                using(var cmd = new KhachHangDeleteRepository())
+                {
+                    cmd.KhachhangId = cur.KhachhangId;
+                    cmd.Execute();
+                }
+                using(var cmd = new KhachHangListRepository())
+                {
+                    this.khachHangBindingSource.DataSource = cmd.Execute();
+                }
+            }
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
