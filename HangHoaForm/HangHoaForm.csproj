@@ -75,6 +75,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="Properties\DataSources\HangHoa.Library.HangHoa.datasource" />
+    <None Include="Properties\DataSources\NhomHangHoa.Domain.NhomHangHoa.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -97,6 +98,10 @@
       <Project>{1d212168-d100-46e0-aec5-4e98cda74859}</Project>
       <Name>HangHoa.Repository</Name>
     </ProjectReference>
+    <ProjectReference Include="..\HangHoa.Business\HangHoa.Business.csproj">
+      <Project>{7968b5c9-8906-4f36-ae25-6f32e03237a6}</Project>
+      <Name>HangHoa.Business</Name>
+    </ProjectReference>
     <ProjectReference Include="..\HangHoa.Library\HangHoa.Domain.csproj">
       <Project>{1057ae9b-9366-4b29-8933-5734c63f5d0d}</Project>
       <Name>HangHoa.Domain</Name>
@@ -104,6 +109,14 @@
     <ProjectReference Include="..\NhomHangHoa.Domain\NhomHangHoa.Domain.csproj">
       <Project>{62d9e786-e5ec-4167-852b-96689fc1db90}</Project>
       <Name>NhomHangHoa.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NhomHangHoaBusiness\NhomHangHoaBusiness.csproj">
+      <Project>{d9ed3fe2-4f18-4613-b2a7-7e088a5b7393}</Project>
+      <Name>NhomHangHoaBusiness</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NhomHangHoaRepository\NhomHangHoaRepository.csproj">
+      <Project>{cfb5cc92-4396-4485-a2f4-07ef67d8870f}</Project>
+      <Name>NhomHangHoaRepository</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

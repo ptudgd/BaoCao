@@ -16,5 +16,7 @@ namespace NhomHangHoa.Domain
 
         [DisplayName("Mã nhóm hàng hóa")]
         public string NhomHanghoaId { get; set; }
+        [DisplayName("Ghi chú")]
+        public string GhiChu { get; set; }
     }
 }

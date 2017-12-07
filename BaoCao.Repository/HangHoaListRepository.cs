@@ -10,6 +10,7 @@ namespace BaoCao.Repository
 {
     public class HangHoaListRepository : ConnectDatabase
     {
+        public string NhomHanghoaId { get; set; }
         public List<HangHoa.Domain.HangHoa> Execute()
         {
             var data = new List<HangHoa.Domain.HangHoa>(); 
@@ -21,6 +22,10 @@ namespace BaoCao.Repository
                 {
                     conn.Open();
                     cmd.CommandText = "SELECT * FROM HangHoa";
+                    if (!string.IsNullOrWhiteSpace(NhomHanghoaId))
+                    {
+                        cmd.CommandText = "SELECT * FROM HangHoa WHERE NhomHanghoaId='" + NhomHanghoaId + "'";
+                    }
                     using (var reader = cmd.ExecuteReader())
                     {
                         while (reader.Read())

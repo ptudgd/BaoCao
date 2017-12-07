@@ -5,27 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 using BaoCao.Library;
 using System.Data.SqlClient;
+using System.Windows.Forms;
+
 namespace BaoCao.Repository
 {
     public class HangHoaAddRepository : ConnectDatabase
     {
         
-        public string HanghoaId { get; set; }
-
-        
-        public string TenHanghoa { get; set; }
-
-        
-        public int GiaBan { get; set; }
-
-        
-        public string Mota { get; set; }
-
-        
-        public int SoLuongTonKho { get; set; }
-
-        
-        public string NhomHanghoaId { get; set; }
+        public HangHoa.Domain.HangHoa item { get; set; }
 
         private bool check(string a)
         {
@@ -47,21 +34,25 @@ namespace BaoCao.Repository
             }
             return true;
         }
-        public void Execute()
+        public bool Execute()
         {
             using(var conn = new SqlConnection(ConnectionString))
             {
                 using(var cmd = conn.CreateCommand())
                 {
                     conn.Open();                    
-                    if (check(HanghoaId))
+                    if (check(item.HanghoaId))
                     {
-                        cmd.CommandText = "INSERT INTO HangHoa VALUES('" + HanghoaId + "',N'" + TenHanghoa + "','" + GiaBan + "',N'" + Mota + "','" + SoLuongTonKho + "','" + NhomHanghoaId + "')";
+                        cmd.CommandText = "INSERT INTO HangHoa VALUES('" + item.HanghoaId + "',N'" + item.TenHanghoa + "','" + item.GiaBan + "',N'" + item.Mota + "','" + item.SoLuongTonKho + "','" + item.NhomHanghoaId + "')";
                         cmd.ExecuteNonQuery();
-                        
+                        conn.Close();
+                        return true;
                     }
+                    MessageBox.Show("Mã hàng hóa bị trùng!", "THÔNG BÁO!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    conn.Close();
+                    return false;
                 }
-                conn.Close();
+                
             }
         }
     }

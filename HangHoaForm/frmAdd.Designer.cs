@@ -36,12 +36,14 @@
             this.label6 = new System.Windows.Forms.Label();
             this.txtHangHoaId = new System.Windows.Forms.TextBox();
             this.txtTenHangHoa = new System.Windows.Forms.TextBox();
-            this.txtGiaBan = new System.Windows.Forms.TextBox();
             this.txtMoTa = new System.Windows.Forms.TextBox();
-            this.txtTonKho = new System.Windows.Forms.TextBox();
             this.cbbNhomHangHoa = new System.Windows.Forms.ComboBox();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
+            this.nudGiaBan = new System.Windows.Forms.NumericUpDown();
+            this.nudSoLuongTonKho = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.nudGiaBan)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudSoLuongTonKho)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -126,14 +128,6 @@
             this.txtTenHangHoa.TabIndex = 2;
             this.txtTenHangHoa.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // txtGiaBan
-            // 
-            this.txtGiaBan.Location = new System.Drawing.Point(182, 84);
-            this.txtGiaBan.Name = "txtGiaBan";
-            this.txtGiaBan.Size = new System.Drawing.Size(268, 20);
-            this.txtGiaBan.TabIndex = 3;
-            this.txtGiaBan.Text = "0";
-            // 
             // txtMoTa
             // 
             this.txtMoTa.Location = new System.Drawing.Point(182, 191);
@@ -141,14 +135,6 @@
             this.txtMoTa.Name = "txtMoTa";
             this.txtMoTa.Size = new System.Drawing.Size(268, 65);
             this.txtMoTa.TabIndex = 6;
-            // 
-            // txtTonKho
-            // 
-            this.txtTonKho.Location = new System.Drawing.Point(182, 122);
-            this.txtTonKho.Name = "txtTonKho";
-            this.txtTonKho.Size = new System.Drawing.Size(268, 20);
-            this.txtTonKho.TabIndex = 4;
-            this.txtTonKho.Text = "0";
             // 
             // cbbNhomHangHoa
             // 
@@ -180,18 +166,42 @@
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
+            // nudGiaBan
+            // 
+            this.nudGiaBan.Increment = new decimal(new int[] {
+            500,
+            0,
+            0,
+            0});
+            this.nudGiaBan.Location = new System.Drawing.Point(182, 83);
+            this.nudGiaBan.Maximum = new decimal(new int[] {
+            100000000,
+            0,
+            0,
+            0});
+            this.nudGiaBan.Name = "nudGiaBan";
+            this.nudGiaBan.Size = new System.Drawing.Size(268, 20);
+            this.nudGiaBan.TabIndex = 9;
+            // 
+            // nudSoLuongTonKho
+            // 
+            this.nudSoLuongTonKho.Location = new System.Drawing.Point(182, 120);
+            this.nudSoLuongTonKho.Name = "nudSoLuongTonKho";
+            this.nudSoLuongTonKho.Size = new System.Drawing.Size(268, 20);
+            this.nudSoLuongTonKho.TabIndex = 10;
+            // 
             // frmAdd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(493, 380);
+            this.ClientSize = new System.Drawing.Size(514, 352);
+            this.Controls.Add(this.nudSoLuongTonKho);
+            this.Controls.Add(this.nudGiaBan);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.cbbNhomHangHoa);
-            this.Controls.Add(this.txtTonKho);
             this.Controls.Add(this.txtMoTa);
-            this.Controls.Add(this.txtGiaBan);
             this.Controls.Add(this.txtTenHangHoa);
             this.Controls.Add(this.txtHangHoaId);
             this.Controls.Add(this.label6);
@@ -206,6 +216,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form Thêm Mới Dữ Liệu";
             this.Load += new System.EventHandler(this.frmAdd_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.nudGiaBan)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudSoLuongTonKho)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -221,11 +233,11 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtHangHoaId;
         private System.Windows.Forms.TextBox txtTenHangHoa;
-        private System.Windows.Forms.TextBox txtGiaBan;
         private System.Windows.Forms.TextBox txtMoTa;
-        private System.Windows.Forms.TextBox txtTonKho;
         private System.Windows.Forms.ComboBox cbbNhomHangHoa;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.NumericUpDown nudGiaBan;
+        private System.Windows.Forms.NumericUpDown nudSoLuongTonKho;
     }
 }

@@ -1,0 +1,10 @@
+C:\Users\Admiral\Documents\GitHub\BaoCao\NhomHangHoaRepository\bin\Debug\NhomHangHoaRepository.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\NhomHangHoaRepository\bin\Debug\NhomHangHoaRepository.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\NhomHangHoaRepository\bin\Debug\BaoCao.Library.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\NhomHangHoaRepository\bin\Debug\NhomHangHoa.Domain.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\NhomHangHoaRepository\bin\Debug\BaoCao.Library.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\NhomHangHoaRepository\bin\Debug\NhomHangHoa.Domain.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\NhomHangHoaRepository\obj\Debug\NhomHangHoaRepository.csprojResolveAssemblyReference.cache
+C:\Users\Admiral\Documents\GitHub\BaoCao\NhomHangHoaRepository\obj\Debug\NhomHangHoaRepository.csproj.CoreCompileInputs.cache
+C:\Users\Admiral\Documents\GitHub\BaoCao\NhomHangHoaRepository\obj\Debug\NhomHangHoaRepository.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\NhomHangHoaRepository\obj\Debug\NhomHangHoaRepository.pdb

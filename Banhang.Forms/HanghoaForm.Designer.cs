@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.Label giaBanLabel;
             System.Windows.Forms.Label hanghoaIdLabel;
             System.Windows.Forms.Label motaLabel;
@@ -39,15 +40,15 @@
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nhomHanghoaBindingSource = new System.Windows.Forms.BindingSource();
+            this.nhomHanghoaBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.NhomChucnangGroupBox = new System.Windows.Forms.GroupBox();
             this.DeleteButton = new System.Windows.Forms.Button();
             this.SaveButton = new System.Windows.Forms.Button();
             this.LoaDataButton = new System.Windows.Forms.Button();
             this.DetailGroupBox = new System.Windows.Forms.GroupBox();
             this.NhomHanghoaComboBox = new System.Windows.Forms.ComboBox();
-            this.hanghoaBindingSource = new System.Windows.Forms.BindingSource();
-            this.bindingSource1 = new System.Windows.Forms.BindingSource();
+            this.hanghoaBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.HanghoaDeleteButton = new System.Windows.Forms.Button();
             this.HanghoaSaveButton = new System.Windows.Forms.Button();
             this.giaBanTextBox = new System.Windows.Forms.TextBox();
@@ -159,6 +160,9 @@
             this.nhomHanghoaDataGridView.Name = "nhomHanghoaDataGridView";
             this.nhomHanghoaDataGridView.Size = new System.Drawing.Size(278, 436);
             this.nhomHanghoaDataGridView.TabIndex = 0;
+            this.nhomHanghoaDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.nhomHanghoaDataGridView_CellContentClick);
+            this.nhomHanghoaDataGridView.LocationChanged += new System.EventHandler(this.nhomHanghoaDataGridView_LocationChanged);
+            this.nhomHanghoaDataGridView.ParentChanged += new System.EventHandler(this.nhomHanghoaDataGridView_ParentChanged);
             // 
             // dataGridViewTextBoxColumn1
             // 

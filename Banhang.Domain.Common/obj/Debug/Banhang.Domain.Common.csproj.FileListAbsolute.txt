@@ -14,3 +14,9 @@ E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\Banhang.Domain.Common\o
 E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\Banhang.Domain.Common\obj\Debug\Banhang.Domain.Common.csproj.CoreCompileInputs.cache
 E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\Banhang.Domain.Common\obj\Debug\Banhang.Domain.Common.dll
 E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\Banhang.Domain.Common\obj\Debug\Banhang.Domain.Common.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Domain.Common\bin\Debug\Banhang.Domain.Common.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Domain.Common\bin\Debug\Banhang.Domain.Common.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Domain.Common\obj\Debug\Banhang.Domain.Common.csprojResolveAssemblyReference.cache
+C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Domain.Common\obj\Debug\Banhang.Domain.Common.csproj.CoreCompileInputs.cache
+C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Domain.Common\obj\Debug\Banhang.Domain.Common.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Domain.Common\obj\Debug\Banhang.Domain.Common.pdb

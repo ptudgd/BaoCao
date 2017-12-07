@@ -27,14 +27,11 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\bin\Debug\KhachHangForm.p
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\bin\Debug\BaoCao.Library.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\bin\Debug\KhachHang.Library.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\bin\Debug\KhachHang.Repository.dll
-C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\bin\Debug\PhieuMuaHangForm.exe
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\bin\Debug\PhieuMuaHang.Repository.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\bin\Debug\PhieuMuaHang.Library.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\bin\Debug\BaoCao.Library.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\bin\Debug\KhachHang.Library.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\bin\Debug\KhachHang.Repository.pdb
-C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\bin\Debug\PhieuMuaHangForm.pdb
-C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\bin\Debug\PhieuMuaHangForm.exe.config
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\bin\Debug\PhieuMuaHang.Repository.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\bin\Debug\PhieuMuaHang.Library.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\obj\Debug\KhachHangForm.csprojResolveAssemblyReference.cache
@@ -44,3 +41,5 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\obj\Debug\KhachHangForm.c
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\obj\Debug\KhachHangForm.csproj.CoreCompileInputs.cache
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\obj\Debug\KhachHangForm.exe
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\obj\Debug\KhachHangForm.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\obj\Debug\KhachHangForm.frmAdd.resources
+C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\obj\Debug\KhachHangForm.frmPhieuMuaHang.resources

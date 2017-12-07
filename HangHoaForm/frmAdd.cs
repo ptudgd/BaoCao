@@ -66,20 +66,6 @@ namespace HangHoaForm
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            if (this.txtHangHoaId.Text != "")
-            {
-                using (var cmd = new HangHoaAddRepository())
-                {
-                    cmd.HanghoaId = this.txtHangHoaId.Text;
-                    cmd.TenHanghoa = this.txtTenHangHoa.Text;
-                    cmd.SoLuongTonKho = Convert.ToInt32(this.txtTonKho.Text);
-                    cmd.Mota = this.txtMoTa.Text;
-                    cmd.GiaBan = Convert.ToInt32(this.txtGiaBan.Text);
-                    cmd.NhomHanghoaId = Convert.ToString(this.cbbNhomHangHoa.ValueMember);
-                    cmd.Execute();
-                }
-            }
-            this.Close();
             
         }
 

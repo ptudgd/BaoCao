@@ -166,5 +166,20 @@ namespace Banhang.Forms
                 }
             }
         }
+
+        private void nhomHanghoaDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void nhomHanghoaDataGridView_LocationChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nhomHanghoaDataGridView_ParentChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

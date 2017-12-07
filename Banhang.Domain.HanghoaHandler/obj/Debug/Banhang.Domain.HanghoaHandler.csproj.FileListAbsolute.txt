@@ -19,3 +19,9 @@ E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\Banhang.Domain.HanghoaH
 E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\Banhang.Domain.HanghoaHandler\obj\Debug\Banhang.Domain.HanghoaHandler.csproj.CoreCompileInputs.cache
 E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\Banhang.Domain.HanghoaHandler\obj\Debug\Banhang.Domain.HanghoaHandler.dll
 E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\Banhang.Domain.HanghoaHandler\obj\Debug\Banhang.Domain.HanghoaHandler.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Domain.HanghoaHandler\bin\Debug\Banhang.Domain.HanghoaHandler.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Domain.HanghoaHandler\bin\Debug\Banhang.Domain.HanghoaHandler.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Domain.HanghoaHandler\obj\Debug\Banhang.Domain.HanghoaHandler.csprojResolveAssemblyReference.cache
+C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Domain.HanghoaHandler\obj\Debug\Banhang.Domain.HanghoaHandler.csproj.CoreCompileInputs.cache
+C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Domain.HanghoaHandler\obj\Debug\Banhang.Domain.HanghoaHandler.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Domain.HanghoaHandler\obj\Debug\Banhang.Domain.HanghoaHandler.pdb

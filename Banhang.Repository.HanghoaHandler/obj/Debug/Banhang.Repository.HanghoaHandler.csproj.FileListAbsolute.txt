@@ -35,3 +35,13 @@ E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\Banhang.Repository.Hang
 E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\Banhang.Repository.HanghoaHandler\obj\Debug\Banhang.Repository.HanghoaHandler.csproj.CoreCompileInputs.cache
 E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\Banhang.Repository.HanghoaHandler\obj\Debug\Banhang.Repository.HanghoaHandler.dll
 E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\Banhang.Repository.HanghoaHandler\obj\Debug\Banhang.Repository.HanghoaHandler.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Repository.HanghoaHandler\bin\Debug\Banhang.Repository.HanghoaHandler.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Repository.HanghoaHandler\bin\Debug\Banhang.Repository.HanghoaHandler.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Repository.HanghoaHandler\bin\Debug\Banhang.Domain.HanghoaHandler.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Repository.HanghoaHandler\bin\Debug\Banhang.Library.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Repository.HanghoaHandler\bin\Debug\Banhang.Domain.HanghoaHandler.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Repository.HanghoaHandler\bin\Debug\Banhang.Library.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Repository.HanghoaHandler\obj\Debug\Banhang.Repository.HanghoaHandler.csprojResolveAssemblyReference.cache
+C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Repository.HanghoaHandler\obj\Debug\Banhang.Repository.HanghoaHandler.csproj.CoreCompileInputs.cache
+C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Repository.HanghoaHandler\obj\Debug\Banhang.Repository.HanghoaHandler.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Repository.HanghoaHandler\obj\Debug\Banhang.Repository.HanghoaHandler.pdb

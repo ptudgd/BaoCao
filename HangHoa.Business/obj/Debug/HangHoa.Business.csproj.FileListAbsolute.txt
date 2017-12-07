@@ -1,0 +1,14 @@
+C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoa.Business\obj\Debug\HangHoa.Business.csprojResolveAssemblyReference.cache
+C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoa.Business\obj\Debug\HangHoa.Business.csproj.CoreCompileInputs.cache
+C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoa.Business\bin\Debug\HangHoa.Business.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoa.Business\bin\Debug\HangHoa.Business.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoa.Business\bin\Debug\BaoCao.Library.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoa.Business\bin\Debug\BaoCao.Repository.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoa.Business\bin\Debug\HangHoa.Library.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoa.Business\bin\Debug\NhomHangHoa.Domain.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoa.Business\bin\Debug\BaoCao.Library.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoa.Business\bin\Debug\BaoCao.Repository.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoa.Business\bin\Debug\HangHoa.Library.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoa.Business\bin\Debug\NhomHangHoa.Domain.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoa.Business\obj\Debug\HangHoa.Business.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoa.Business\obj\Debug\HangHoa.Business.pdb

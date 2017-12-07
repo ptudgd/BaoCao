@@ -49,3 +49,9 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoaForm\obj\Debug\HangHoaForm.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoaForm\obj\Debug\HangHoaForm.frmAdd.resources
 C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoaForm\bin\Debug\NhomHangHoa.Domain.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoaForm\bin\Debug\NhomHangHoa.Domain.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoaForm\bin\Debug\HangHoa.Business.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoaForm\bin\Debug\HangHoa.Business.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoaForm\bin\Debug\NhomHangHoaRepository.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoaForm\bin\Debug\NhomHangHoaRepository.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoaForm\bin\Debug\NhomHangHoaBusiness.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoaForm\bin\Debug\NhomHangHoaBusiness.pdb
