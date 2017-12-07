@@ -44,6 +44,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Banhang.Library\Banhang.Library.csproj">
+      <Project>{C0E45B02-DA79-4EF9-BEBE-04455DFA40A4}</Project>
+      <Name>Banhang.Library</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BaoCao.Library\BaoCao.Library.csproj">
       <Project>{5390fb3e-d6f2-4742-aa52-27a65fe71210}</Project>
       <Name>BaoCao.Library</Name>

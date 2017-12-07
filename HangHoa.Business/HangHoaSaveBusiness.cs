@@ -36,10 +36,7 @@ namespace HangHoa.Business
                     cmd.item = item;
                     cmd.Execute();
                 }
-            }
-            
-            
-            
+            }       
         }
     }
 }

@@ -74,6 +74,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Properties\DataSources\HangHoa.Domain.HangHoa.datasource" />
     <None Include="Properties\DataSources\HangHoa.Library.HangHoa.datasource" />
     <None Include="Properties\DataSources\NhomHangHoa.Domain.NhomHangHoa.datasource" />
     <None Include="Properties\Settings.settings">

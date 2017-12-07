@@ -52,3 +52,5 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapForm\obj\Debug\NhaCungCapForm
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapForm\obj\Debug\NhaCungCapForm.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapForm\bin\Debug\NhomHangHoa.Domain.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapForm\bin\Debug\NhomHangHoa.Domain.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapForm\bin\Debug\NhaCungCapSaveBusiness.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapForm\bin\Debug\NhaCungCapSaveBusiness.pdb

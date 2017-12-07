@@ -48,7 +48,6 @@
             this.nhanVienBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.btnEdit = new System.Windows.Forms.Button();
             this.btnDel = new System.Windows.Forms.Button();
-            this.btnAdd = new System.Windows.Forms.Button();
             this.btnLoad = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.diachiTextBox = new System.Windows.Forms.TextBox();
@@ -202,36 +201,29 @@
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(544, 26);
+            this.btnEdit.Location = new System.Drawing.Point(450, 64);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(102, 53);
             this.btnEdit.TabIndex = 13;
-            this.btnEdit.Text = "Sửa";
+            this.btnEdit.Text = "Lưu";
             this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnDel
             // 
-            this.btnDel.Location = new System.Drawing.Point(436, 26);
+            this.btnDel.Location = new System.Drawing.Point(342, 64);
             this.btnDel.Name = "btnDel";
             this.btnDel.Size = new System.Drawing.Size(102, 53);
             this.btnDel.TabIndex = 12;
             this.btnDel.Text = "Xóa";
             this.btnDel.UseVisualStyleBackColor = true;
-            // 
-            // btnAdd
-            // 
-            this.btnAdd.Location = new System.Drawing.Point(328, 26);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(102, 53);
-            this.btnAdd.TabIndex = 11;
-            this.btnAdd.Text = "Thêm";
-            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
             // 
             // btnLoad
             // 
-            this.btnLoad.Location = new System.Drawing.Point(518, 117);
+            this.btnLoad.Location = new System.Drawing.Point(560, 64);
             this.btnLoad.Name = "btnLoad";
-            this.btnLoad.Size = new System.Drawing.Size(118, 44);
+            this.btnLoad.Size = new System.Drawing.Size(118, 53);
             this.btnLoad.TabIndex = 10;
             this.btnLoad.Text = "Tải dữ liệu";
             this.btnLoad.UseVisualStyleBackColor = true;
@@ -253,7 +245,6 @@
             this.groupBox1.Controls.Add(this.tenTextBox);
             this.groupBox1.Controls.Add(this.btnEdit);
             this.groupBox1.Controls.Add(this.btnDel);
-            this.groupBox1.Controls.Add(this.btnAdd);
             this.groupBox1.Controls.Add(this.btnLoad);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
@@ -339,7 +330,6 @@
         private System.Windows.Forms.BindingSource nhanVienBindingSource;
         private System.Windows.Forms.Button btnEdit;
         private System.Windows.Forms.Button btnDel;
-        private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnLoad;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.BindingSource nhaCungCapBindingSource;

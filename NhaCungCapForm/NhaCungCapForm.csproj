@@ -96,6 +96,10 @@
       <Project>{2587ca3c-24aa-42f5-8f89-66e2e1c44f6e}</Project>
       <Name>NhaCungCap.Repository</Name>
     </ProjectReference>
+    <ProjectReference Include="..\NhaCungCapSaveBusiness\NhaCungCapBusiness.csproj">
+      <Project>{48E933CC-705E-457A-BD9E-7153F68B06F9}</Project>
+      <Name>NhaCungCapBusiness</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

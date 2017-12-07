@@ -27,28 +27,17 @@ namespace KhachHangForm
         {
             try
             {
-                if(this.khachhangIdTextBox.Text != "")
+                var listcur = this.khachHangBindingSource.DataSource as List<KhachHang.Domain.KhachHang>;
+                if(listcur != null)
                 {
                     using(var cmd = new KhachHangAddRepository())
                     {
-                        cmd.KhachhangId = this.khachhangIdTextBox.Text;
-                        cmd.Ho = this.hoTextBox.Text;
-                        cmd.Tenlot = this.tenlotTextBox.Text;
-                        cmd.Ten = this.tenTextBox.Text;
-                        cmd.SDT = this.sDTTextBox.Text;
-                        cmd.Email = this.emailTextBox.Text;
-                        cmd.Gioitinh = this.gioitinhCheckBox.Checked;
-                        cmd.Diachi = this.diachiTextBox.Text;
-                        if (cmd.Execute())
+                        foreach (var item in listcur)
                         {
-                            this.Close();
+                            cmd.item = item;
+                            cmd.Execute();
                         }
                     }
-                    
-                }
-                else
-                {
-                    MessageBox.Show("Mã khách hàng không được bỏ trống!", "THÔNG BÁO!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             catch

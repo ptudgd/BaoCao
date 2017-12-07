@@ -45,6 +45,7 @@
             this.soLuongMua1NDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.phieuMuaHangBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.phieuBanHangBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -54,6 +55,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.btnSearch);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.dateTimePicker2);
@@ -107,6 +109,7 @@
             this.btnEdit.TabIndex = 1;
             this.btnEdit.Text = "Lưu";
             this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // groupBox2
             // 
@@ -177,6 +180,16 @@
             // 
             this.phieuMuaHangBindingSource.DataSource = typeof(PhieuMuaHang.Domain.PhieuMuaHang);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(141, 11);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(123, 37);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Xóa";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmPhieuMuaHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -218,6 +231,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn tongtienDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn ghichuDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn soLuongMua1NDataGridViewTextBoxColumn;
+        private System.Windows.Forms.Button button1;
     }
 }
 

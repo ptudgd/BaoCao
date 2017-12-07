@@ -12,29 +12,7 @@ namespace KhachHang.Repository
 {
     public class KhachHangAddRepository : ConnectDatabase
     {
-        
-        public string KhachhangId { get; set; }
-
-        
-        public string Ho { get; set; }
-
-        
-        public string Tenlot { get; set; }
-
-        
-        public string Ten { get; set; }
-
-        
-        public bool Gioitinh { get; set; }
-
-        
-        public string Email { get; set; }
-
-        
-        public string SDT { get; set; }
-
-        
-        public string Diachi { get; set; }
+        public KhachHang.Domain.KhachHang item { get; set; }
         private bool check(string a)
         {
             using (var conn = new SqlConnection(ConnectionString))
@@ -62,9 +40,9 @@ namespace KhachHang.Repository
                 using(var cmd = conn.CreateCommand())
                 {
                     conn.Open();
-                    if (check(KhachhangId))
+                    if (check(item.KhachhangId))
                     {
-                        cmd.CommandText = "INSERT INTO KhachHang VALUES(N'" + KhachhangId + "',N'" + Ho + "',N'" + Tenlot + "',N'" + Ten + "','" + Gioitinh + "',N'" + Email + "',N'" + SDT + "',N'" + Diachi + "')";
+                        cmd.CommandText = "INSERT INTO KhachHang VALUES(N'" + item.KhachhangId + "',N'" + item.Ho + "',N'" + item.Tenlot + "',N'" + item.Ten + "','" + item.Gioitinh + "',N'" + item.Email + "',N'" + item.SDT + "',N'" + item.Diachi + "')";
                         cmd.ExecuteNonQuery();
                         conn.Close();
                         return true;

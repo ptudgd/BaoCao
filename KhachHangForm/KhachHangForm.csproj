@@ -122,6 +122,10 @@
       <Project>{966a3f25-cba1-4ff3-9b47-cd75fe320745}</Project>
       <Name>PhieuMuaHang.Repository</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PhieuMuaHangBusiness\PhieuMuaHangBusiness.csproj">
+      <Project>{bac70cfd-52b2-4b35-96c5-f214e1111c5d}</Project>
+      <Name>PhieuMuaHangBusiness</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

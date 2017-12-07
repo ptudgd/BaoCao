@@ -39,12 +39,6 @@
             System.Windows.Forms.Label nhomHanghoaIdLabel1;
             System.Windows.Forms.Label tenNhomHanghoaLabel;
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.hanghoaIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tenHanghoaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.giaBanDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.motaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.soLuongTonKhoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nhomHanghoaIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.hangHoaBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnEdit = new System.Windows.Forms.Button();
@@ -62,9 +56,6 @@
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.nhomHangHoaDataGridView = new System.Windows.Forms.DataGridView();
-            this.tenNhomHanghoaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nhomHanghoaIdDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ghiChuDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nhomHangHoaBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.ghiChuTextBox = new System.Windows.Forms.TextBox();
@@ -72,6 +63,15 @@
             this.tenNhomHanghoaTextBox = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.tenNhomHanghoaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nhomHanghoaIdDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ghiChuDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.hanghoaIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tenHanghoaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.giaBanDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.motaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.soLuongTonKhoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nhomHanghoaIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             giaBanLabel = new System.Windows.Forms.Label();
             hanghoaIdLabel = new System.Windows.Forms.Label();
             motaLabel = new System.Windows.Forms.Label();
@@ -198,42 +198,6 @@
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.dataGridView1.CursorChanged += new System.EventHandler(this.dataGridView1_CursorChanged);
-            // 
-            // hanghoaIdDataGridViewTextBoxColumn
-            // 
-            this.hanghoaIdDataGridViewTextBoxColumn.DataPropertyName = "HanghoaId";
-            this.hanghoaIdDataGridViewTextBoxColumn.HeaderText = "Mã hàng hóa";
-            this.hanghoaIdDataGridViewTextBoxColumn.Name = "hanghoaIdDataGridViewTextBoxColumn";
-            // 
-            // tenHanghoaDataGridViewTextBoxColumn
-            // 
-            this.tenHanghoaDataGridViewTextBoxColumn.DataPropertyName = "TenHanghoa";
-            this.tenHanghoaDataGridViewTextBoxColumn.HeaderText = "Tên hàng hóa";
-            this.tenHanghoaDataGridViewTextBoxColumn.Name = "tenHanghoaDataGridViewTextBoxColumn";
-            // 
-            // giaBanDataGridViewTextBoxColumn
-            // 
-            this.giaBanDataGridViewTextBoxColumn.DataPropertyName = "GiaBan";
-            this.giaBanDataGridViewTextBoxColumn.HeaderText = "Giá bán";
-            this.giaBanDataGridViewTextBoxColumn.Name = "giaBanDataGridViewTextBoxColumn";
-            // 
-            // motaDataGridViewTextBoxColumn
-            // 
-            this.motaDataGridViewTextBoxColumn.DataPropertyName = "Mota";
-            this.motaDataGridViewTextBoxColumn.HeaderText = "Mô tả";
-            this.motaDataGridViewTextBoxColumn.Name = "motaDataGridViewTextBoxColumn";
-            // 
-            // soLuongTonKhoDataGridViewTextBoxColumn
-            // 
-            this.soLuongTonKhoDataGridViewTextBoxColumn.DataPropertyName = "SoLuongTonKho";
-            this.soLuongTonKhoDataGridViewTextBoxColumn.HeaderText = "Số lượng tồn kho";
-            this.soLuongTonKhoDataGridViewTextBoxColumn.Name = "soLuongTonKhoDataGridViewTextBoxColumn";
-            // 
-            // nhomHanghoaIdDataGridViewTextBoxColumn
-            // 
-            this.nhomHanghoaIdDataGridViewTextBoxColumn.DataPropertyName = "NhomHanghoaId";
-            this.nhomHanghoaIdDataGridViewTextBoxColumn.HeaderText = "Mã nhóm hàng hóa";
-            this.nhomHanghoaIdDataGridViewTextBoxColumn.Name = "nhomHanghoaIdDataGridViewTextBoxColumn";
             // 
             // hangHoaBindingSource
             // 
@@ -402,24 +366,6 @@
             this.nhomHangHoaDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.nhomHangHoaDataGridView_CellClick);
             this.nhomHangHoaDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.nhomHangHoaDataGridView_CellContentClick);
             // 
-            // tenNhomHanghoaDataGridViewTextBoxColumn
-            // 
-            this.tenNhomHanghoaDataGridViewTextBoxColumn.DataPropertyName = "TenNhomHanghoa";
-            this.tenNhomHanghoaDataGridViewTextBoxColumn.HeaderText = "Tên nhóm hàng hóa";
-            this.tenNhomHanghoaDataGridViewTextBoxColumn.Name = "tenNhomHanghoaDataGridViewTextBoxColumn";
-            // 
-            // nhomHanghoaIdDataGridViewTextBoxColumn1
-            // 
-            this.nhomHanghoaIdDataGridViewTextBoxColumn1.DataPropertyName = "NhomHanghoaId";
-            this.nhomHanghoaIdDataGridViewTextBoxColumn1.HeaderText = "Mã nhóm hàng hóa";
-            this.nhomHanghoaIdDataGridViewTextBoxColumn1.Name = "nhomHanghoaIdDataGridViewTextBoxColumn1";
-            // 
-            // ghiChuDataGridViewTextBoxColumn
-            // 
-            this.ghiChuDataGridViewTextBoxColumn.DataPropertyName = "GhiChu";
-            this.ghiChuDataGridViewTextBoxColumn.HeaderText = "Ghi chú";
-            this.ghiChuDataGridViewTextBoxColumn.Name = "ghiChuDataGridViewTextBoxColumn";
-            // 
             // nhomHangHoaBindingSource
             // 
             this.nhomHangHoaBindingSource.DataSource = typeof(NhomHangHoa.Domain.NhomHangHoa);
@@ -486,6 +432,60 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // tenNhomHanghoaDataGridViewTextBoxColumn
+            // 
+            this.tenNhomHanghoaDataGridViewTextBoxColumn.DataPropertyName = "TenNhomHanghoa";
+            this.tenNhomHanghoaDataGridViewTextBoxColumn.HeaderText = "Tên nhóm hàng hóa";
+            this.tenNhomHanghoaDataGridViewTextBoxColumn.Name = "tenNhomHanghoaDataGridViewTextBoxColumn";
+            // 
+            // nhomHanghoaIdDataGridViewTextBoxColumn1
+            // 
+            this.nhomHanghoaIdDataGridViewTextBoxColumn1.DataPropertyName = "NhomHanghoaId";
+            this.nhomHanghoaIdDataGridViewTextBoxColumn1.HeaderText = "Mã nhóm hàng hóa";
+            this.nhomHanghoaIdDataGridViewTextBoxColumn1.Name = "nhomHanghoaIdDataGridViewTextBoxColumn1";
+            // 
+            // ghiChuDataGridViewTextBoxColumn
+            // 
+            this.ghiChuDataGridViewTextBoxColumn.DataPropertyName = "GhiChu";
+            this.ghiChuDataGridViewTextBoxColumn.HeaderText = "Ghi chú";
+            this.ghiChuDataGridViewTextBoxColumn.Name = "ghiChuDataGridViewTextBoxColumn";
+            // 
+            // hanghoaIdDataGridViewTextBoxColumn
+            // 
+            this.hanghoaIdDataGridViewTextBoxColumn.DataPropertyName = "HanghoaId";
+            this.hanghoaIdDataGridViewTextBoxColumn.HeaderText = "Mã hàng hóa";
+            this.hanghoaIdDataGridViewTextBoxColumn.Name = "hanghoaIdDataGridViewTextBoxColumn";
+            // 
+            // tenHanghoaDataGridViewTextBoxColumn
+            // 
+            this.tenHanghoaDataGridViewTextBoxColumn.DataPropertyName = "TenHanghoa";
+            this.tenHanghoaDataGridViewTextBoxColumn.HeaderText = "Tên hàng hóa";
+            this.tenHanghoaDataGridViewTextBoxColumn.Name = "tenHanghoaDataGridViewTextBoxColumn";
+            // 
+            // giaBanDataGridViewTextBoxColumn
+            // 
+            this.giaBanDataGridViewTextBoxColumn.DataPropertyName = "GiaBan";
+            this.giaBanDataGridViewTextBoxColumn.HeaderText = "Giá bán";
+            this.giaBanDataGridViewTextBoxColumn.Name = "giaBanDataGridViewTextBoxColumn";
+            // 
+            // motaDataGridViewTextBoxColumn
+            // 
+            this.motaDataGridViewTextBoxColumn.DataPropertyName = "Mota";
+            this.motaDataGridViewTextBoxColumn.HeaderText = "Mô tả";
+            this.motaDataGridViewTextBoxColumn.Name = "motaDataGridViewTextBoxColumn";
+            // 
+            // soLuongTonKhoDataGridViewTextBoxColumn
+            // 
+            this.soLuongTonKhoDataGridViewTextBoxColumn.DataPropertyName = "SoLuongTonKho";
+            this.soLuongTonKhoDataGridViewTextBoxColumn.HeaderText = "Số lượng tồn kho";
+            this.soLuongTonKhoDataGridViewTextBoxColumn.Name = "soLuongTonKhoDataGridViewTextBoxColumn";
+            // 
+            // nhomHanghoaIdDataGridViewTextBoxColumn
+            // 
+            this.nhomHanghoaIdDataGridViewTextBoxColumn.DataPropertyName = "NhomHanghoaId";
+            this.nhomHanghoaIdDataGridViewTextBoxColumn.HeaderText = "Mã nhóm hàng hóa";
+            this.nhomHanghoaIdDataGridViewTextBoxColumn.Name = "nhomHanghoaIdDataGridViewTextBoxColumn";
+            // 
             // frmHangHoa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -518,12 +518,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn hanghoaIdDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tenHanghoaDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn giaBanDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn motaDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn soLuongTonKhoDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nhomHanghoaIdDataGridViewTextBoxColumn;
         private System.Windows.Forms.BindingSource hangHoaBindingSource;
         private System.Windows.Forms.BindingSource nhanVienBindingSource;
         private System.Windows.Forms.GroupBox groupBox2;
@@ -545,12 +539,18 @@
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tenNhomHanghoaDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nhomHanghoaIdDataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ghiChuDataGridViewTextBoxColumn;
         private System.Windows.Forms.TextBox ghiChuTextBox;
         private System.Windows.Forms.TextBox nhomHanghoaIdTextBox1;
         private System.Windows.Forms.TextBox tenNhomHanghoaTextBox;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tenNhomHanghoaDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nhomHanghoaIdDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ghiChuDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn hanghoaIdDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tenHanghoaDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn giaBanDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn motaDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn soLuongTonKhoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nhomHanghoaIdDataGridViewTextBoxColumn;
     }
 }
 

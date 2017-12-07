@@ -45,3 +45,5 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\obj\Debug\KhachHangForm.f
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\obj\Debug\KhachHangForm.frmPhieuMuaHang.resources
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\bin\Debug\KhachHangBusiness.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\bin\Debug\KhachHangBusiness.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\bin\Debug\PhieuMuaHangBusiness.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\bin\Debug\PhieuMuaHangBusiness.pdb

@@ -33,15 +33,12 @@ namespace KhachHang.Business
             }
             else
             {
-                using(var cmd = new KhachHangListRepository())
+                using(var cmd = new KhachHangAddRepository())
                 {
-                    
+                    cmd.item = item;
                     cmd.Execute();
                 }
             }
-            
-            
-            
         }
     }
 }
