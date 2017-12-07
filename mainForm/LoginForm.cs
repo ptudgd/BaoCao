@@ -29,6 +29,7 @@ namespace mainForm
             {
                 using (var cmd = new LoginRepository.LoginLoadRepository())
                 {
+                    
                     cmd.username = this.txtUser.Text;
                     cmd.password = this.txtPass.Text;
                     if (cmd.Execute())

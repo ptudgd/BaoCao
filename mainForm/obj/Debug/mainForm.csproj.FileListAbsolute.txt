@@ -161,3 +161,5 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\mainForm\bin\Debug\NhanVienBusiness.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\mainForm\bin\Debug\NhanVien.Repository.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\mainForm\bin\Debug\NhanVienBusiness.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\mainForm\bin\Debug\NhanVien.Repository.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\mainForm\bin\Debug\KhachHangBusiness.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\mainForm\bin\Debug\KhachHangBusiness.pdb

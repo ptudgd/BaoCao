@@ -110,6 +110,10 @@
       <Project>{54ec22a9-e6a9-4d4e-a6f3-63a9a6506432}</Project>
       <Name>KhachHang.Repository</Name>
     </ProjectReference>
+    <ProjectReference Include="..\KhachHangBusiness\KhachHangBusiness.csproj">
+      <Project>{28C1E20B-03B6-4CEF-9103-B768122A78EB}</Project>
+      <Name>KhachHangBusiness</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PhieuMuaHang.Library\PhieuMuaHang.Domain.csproj">
       <Project>{262e9b2b-c9a5-4548-ba22-106ea195cbc6}</Project>
       <Name>PhieuMuaHang.Domain</Name>
