@@ -152,3 +152,8 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\mainForm\bin\Debug\NhomHangHoaRepositor
 C:\Users\Admiral\Documents\GitHub\BaoCao\mainForm\bin\Debug\NhomHangHoaRepository.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\mainForm\bin\Debug\NhomHangHoaBusiness.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\mainForm\bin\Debug\NhomHangHoaBusiness.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\mainForm\obj\Debug\mainForm.LoginForm.resources
+C:\Users\Admiral\Documents\GitHub\BaoCao\mainForm\bin\Debug\Login.Domain.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\mainForm\bin\Debug\LoginRepository.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\mainForm\bin\Debug\Login.Domain.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\mainForm\bin\Debug\LoginRepository.pdb

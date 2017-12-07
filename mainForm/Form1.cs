@@ -46,5 +46,10 @@ namespace mainForm
             var f = new ThuChiForm.frmThuChi();
             f.Show();
         }
+
+        private void mainForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

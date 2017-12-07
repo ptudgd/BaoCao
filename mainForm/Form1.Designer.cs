@@ -63,28 +63,28 @@
             // nhânViênToolStripMenuItem
             // 
             this.nhânViênToolStripMenuItem.Name = "nhânViênToolStripMenuItem";
-            this.nhânViênToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
+            this.nhânViênToolStripMenuItem.Size = new System.Drawing.Size(74, 20);
             this.nhânViênToolStripMenuItem.Text = "Nhân viên";
             this.nhânViênToolStripMenuItem.Click += new System.EventHandler(this.nhânViênToolStripMenuItem_Click);
             // 
             // kháchHàngToolStripMenuItem
             // 
             this.kháchHàngToolStripMenuItem.Name = "kháchHàngToolStripMenuItem";
-            this.kháchHàngToolStripMenuItem.Size = new System.Drawing.Size(82, 20);
+            this.kháchHàngToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
             this.kháchHàngToolStripMenuItem.Text = "Khách hàng";
             this.kháchHàngToolStripMenuItem.Click += new System.EventHandler(this.kháchHàngToolStripMenuItem_Click);
             // 
             // nhàCungCấpToolStripMenuItem
             // 
             this.nhàCungCấpToolStripMenuItem.Name = "nhàCungCấpToolStripMenuItem";
-            this.nhàCungCấpToolStripMenuItem.Size = new System.Drawing.Size(93, 20);
+            this.nhàCungCấpToolStripMenuItem.Size = new System.Drawing.Size(97, 20);
             this.nhàCungCấpToolStripMenuItem.Text = "Nhà cung cấp";
             this.nhàCungCấpToolStripMenuItem.Click += new System.EventHandler(this.nhàCungCấpToolStripMenuItem_Click);
             // 
             // thuChuToolStripMenuItem
             // 
             this.thuChuToolStripMenuItem.Name = "thuChuToolStripMenuItem";
-            this.thuChuToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
+            this.thuChuToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.thuChuToolStripMenuItem.Text = "Thu chi";
             this.thuChuToolStripMenuItem.Click += new System.EventHandler(this.thuChuToolStripMenuItem_Click);
             // 
@@ -104,6 +104,7 @@
             this.Name = "mainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bảng chính";
+            this.Load += new System.EventHandler(this.mainForm_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

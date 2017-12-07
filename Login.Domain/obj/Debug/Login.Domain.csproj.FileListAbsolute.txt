@@ -1,0 +1,6 @@
+C:\Users\Admiral\Documents\GitHub\BaoCao\Login.Domain\bin\Debug\Login.Domain.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\Login.Domain\bin\Debug\Login.Domain.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\Login.Domain\obj\Debug\Login.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Admiral\Documents\GitHub\BaoCao\Login.Domain\obj\Debug\Login.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Admiral\Documents\GitHub\BaoCao\Login.Domain\obj\Debug\Login.Domain.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\Login.Domain\obj\Debug\Login.Domain.pdb

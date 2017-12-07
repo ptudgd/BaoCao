@@ -51,10 +51,19 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -79,6 +88,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BaoCao.Library\BaoCao.Library.csproj">
+      <Project>{5390FB3E-D6F2-4742-AA52-27A65FE71210}</Project>
+      <Name>BaoCao.Library</Name>
+    </ProjectReference>
     <ProjectReference Include="..\HangHoaForm\HangHoaForm.csproj">
       <Project>{c17c8125-0fed-44df-9092-710b8fd67c28}</Project>
       <Name>HangHoaForm</Name>
@@ -86,6 +99,14 @@
     <ProjectReference Include="..\KhachHangForm\KhachHangForm.csproj">
       <Project>{88eac526-b8b4-4f42-b6b5-9dfc1b68c6d6}</Project>
       <Name>KhachHangForm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Login.Domain\Login.Domain.csproj">
+      <Project>{00B4FE6C-FA6D-4038-B013-977E3EF290DF}</Project>
+      <Name>Login.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LoginRepository\LoginRepository.csproj">
+      <Project>{3e672378-f24b-4613-9059-4659a6460a95}</Project>
+      <Name>LoginRepository</Name>
     </ProjectReference>
     <ProjectReference Include="..\NhaCungCapForm\NhaCungCapForm.csproj">
       <Project>{391d1e0a-ccec-48c7-a8bd-c0849e5257e7}</Project>
