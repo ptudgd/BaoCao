@@ -35,19 +35,18 @@
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.btnEdit = new System.Windows.Forms.Button();
-            this.btnAdd = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.phieuBanHangBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.thuChiBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.ngayDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.thuDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.chiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.thuChiBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.phieuBanHangBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.phieuBanHangBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.thuChiBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.phieuBanHangBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -57,11 +56,10 @@
             this.groupBox1.Controls.Add(this.dateTimePicker2);
             this.groupBox1.Controls.Add(this.dateTimePicker1);
             this.groupBox1.Controls.Add(this.btnEdit);
-            this.groupBox1.Controls.Add(this.btnAdd);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(871, 51);
+            this.groupBox1.Size = new System.Drawing.Size(871, 58);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             // 
@@ -100,21 +98,12 @@
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(94, 12);
+            this.btnEdit.Location = new System.Drawing.Point(6, 11);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(75, 23);
+            this.btnEdit.Size = new System.Drawing.Size(133, 41);
             this.btnEdit.TabIndex = 1;
-            this.btnEdit.Text = "Chỉnh sửa";
+            this.btnEdit.Text = "Lưu";
             this.btnEdit.UseVisualStyleBackColor = true;
-            // 
-            // btnAdd
-            // 
-            this.btnAdd.Location = new System.Drawing.Point(13, 13);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(75, 23);
-            this.btnAdd.TabIndex = 0;
-            this.btnAdd.Text = "Tạo mới";
-            this.btnAdd.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
@@ -129,6 +118,7 @@
             // dataGridView1
             // 
             this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ngayDataGridViewTextBoxColumn,
@@ -136,14 +126,10 @@
             this.chiDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.thuChiBindingSource;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 90);
+            this.dataGridView1.Location = new System.Drawing.Point(3, 64);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(865, 339);
+            this.dataGridView1.Size = new System.Drawing.Size(865, 365);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // thuChiBindingSource
-            // 
-            this.thuChiBindingSource.DataSource = typeof(ThuChi.Domain.ThuChi);
             // 
             // ngayDataGridViewTextBoxColumn
             // 
@@ -163,21 +149,25 @@
             this.chiDataGridViewTextBoxColumn.HeaderText = "Chi";
             this.chiDataGridViewTextBoxColumn.Name = "chiDataGridViewTextBoxColumn";
             // 
-            // Form1
+            // thuChiBindingSource
+            // 
+            this.thuChiBindingSource.DataSource = typeof(ThuChi.Domain.ThuChi);
+            // 
+            // frmThuChi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(871, 432);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
-            this.Name = "Form1";
+            this.Name = "frmThuChi";
             this.Text = "Phiếu Thu Chi";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.phieuBanHangBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.thuChiBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.phieuBanHangBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -190,7 +180,6 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Button btnEdit;
-        private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn ngayDataGridViewTextBoxColumn;

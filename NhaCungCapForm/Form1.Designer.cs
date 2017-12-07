@@ -38,6 +38,12 @@
             this.khachHangBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.nhacungcapIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tenDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.hangHoaCungCapDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sDTDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.diachiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nhomhanghoaIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nhaCungCapBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.nhanVienBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.btnEdit = new System.Windows.Forms.Button();
@@ -45,12 +51,6 @@
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnLoad = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.nhacungcapIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tenDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.hangHoaCungCapDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sDTDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.diachiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nhomhanghoaIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.diachiTextBox = new System.Windows.Forms.TextBox();
             this.hangHoaCungCapTextBox = new System.Windows.Forms.TextBox();
             this.nhacungcapIdTextBox = new System.Windows.Forms.TextBox();
@@ -71,19 +71,80 @@
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
+            // diachiLabel
+            // 
+            diachiLabel.AutoSize = true;
+            diachiLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            diachiLabel.Location = new System.Drawing.Point(12, 156);
+            diachiLabel.Name = "diachiLabel";
+            diachiLabel.Size = new System.Drawing.Size(51, 13);
+            diachiLabel.TabIndex = 13;
+            diachiLabel.Text = "Địa chỉ:";
+            // 
+            // hangHoaCungCapLabel
+            // 
+            hangHoaCungCapLabel.AutoSize = true;
+            hangHoaCungCapLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            hangHoaCungCapLabel.Location = new System.Drawing.Point(12, 78);
+            hangHoaCungCapLabel.Name = "hangHoaCungCapLabel";
+            hangHoaCungCapLabel.Size = new System.Drawing.Size(121, 13);
+            hangHoaCungCapLabel.TabIndex = 15;
+            hangHoaCungCapLabel.Text = "Mặt hàng cung cấp:";
+            // 
+            // nhacungcapIdLabel
+            // 
+            nhacungcapIdLabel.AutoSize = true;
+            nhacungcapIdLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            nhacungcapIdLabel.Location = new System.Drawing.Point(12, 26);
+            nhacungcapIdLabel.Name = "nhacungcapIdLabel";
+            nhacungcapIdLabel.Size = new System.Drawing.Size(110, 13);
+            nhacungcapIdLabel.TabIndex = 17;
+            nhacungcapIdLabel.Text = "Mã nhà cung cấp:";
+            // 
+            // nhomhanghoaIdLabel
+            // 
+            nhomhanghoaIdLabel.AutoSize = true;
+            nhomhanghoaIdLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            nhomhanghoaIdLabel.Location = new System.Drawing.Point(12, 104);
+            nhomhanghoaIdLabel.Name = "nhomhanghoaIdLabel";
+            nhomhanghoaIdLabel.Size = new System.Drawing.Size(100, 13);
+            nhomhanghoaIdLabel.TabIndex = 19;
+            nhomhanghoaIdLabel.Text = "Nhóm hàng hóa:";
+            // 
+            // sDTLabel
+            // 
+            sDTLabel.AutoSize = true;
+            sDTLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            sDTLabel.Location = new System.Drawing.Point(12, 130);
+            sDTLabel.Name = "sDTLabel";
+            sDTLabel.Size = new System.Drawing.Size(87, 13);
+            sDTLabel.TabIndex = 21;
+            sDTLabel.Text = "Số điện thoại:";
+            // 
+            // tenLabel
+            // 
+            tenLabel.AutoSize = true;
+            tenLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            tenLabel.Location = new System.Drawing.Point(12, 52);
+            tenLabel.Name = "tenLabel";
+            tenLabel.Size = new System.Drawing.Size(115, 13);
+            tenLabel.TabIndex = 23;
+            tenLabel.Text = "Tên nhà cung cấp:";
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.dataGridView1);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox2.Location = new System.Drawing.Point(0, 225);
+            this.groupBox2.Location = new System.Drawing.Point(0, 182);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(809, 256);
+            this.groupBox2.Size = new System.Drawing.Size(691, 299);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             // 
             // dataGridView1
             // 
             this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.nhacungcapIdDataGridViewTextBoxColumn,
@@ -96,75 +157,8 @@
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(3, 16);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(803, 237);
+            this.dataGridView1.Size = new System.Drawing.Size(685, 280);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // nhaCungCapBindingSource
-            // 
-            this.nhaCungCapBindingSource.DataSource = typeof(NhaCungCap.Domain.NhaCungCap);
-            // 
-            // btnEdit
-            // 
-            this.btnEdit.Location = new System.Drawing.Point(535, 60);
-            this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(102, 53);
-            this.btnEdit.TabIndex = 13;
-            this.btnEdit.Text = "Sửa";
-            this.btnEdit.UseVisualStyleBackColor = true;
-            // 
-            // btnDel
-            // 
-            this.btnDel.Location = new System.Drawing.Point(427, 60);
-            this.btnDel.Name = "btnDel";
-            this.btnDel.Size = new System.Drawing.Size(102, 53);
-            this.btnDel.TabIndex = 12;
-            this.btnDel.Text = "Xóa";
-            this.btnDel.UseVisualStyleBackColor = true;
-            // 
-            // btnAdd
-            // 
-            this.btnAdd.Location = new System.Drawing.Point(319, 60);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(102, 53);
-            this.btnAdd.TabIndex = 11;
-            this.btnAdd.Text = "Thêm";
-            this.btnAdd.UseVisualStyleBackColor = true;
-            // 
-            // btnLoad
-            // 
-            this.btnLoad.Location = new System.Drawing.Point(569, 150);
-            this.btnLoad.Name = "btnLoad";
-            this.btnLoad.Size = new System.Drawing.Size(118, 44);
-            this.btnLoad.TabIndex = 10;
-            this.btnLoad.Text = "Tải dữ liệu";
-            this.btnLoad.UseVisualStyleBackColor = true;
-            this.btnLoad.Click += new System.EventHandler(this.btnLoad_Click);
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(diachiLabel);
-            this.groupBox1.Controls.Add(this.diachiTextBox);
-            this.groupBox1.Controls.Add(hangHoaCungCapLabel);
-            this.groupBox1.Controls.Add(this.hangHoaCungCapTextBox);
-            this.groupBox1.Controls.Add(nhacungcapIdLabel);
-            this.groupBox1.Controls.Add(this.nhacungcapIdTextBox);
-            this.groupBox1.Controls.Add(nhomhanghoaIdLabel);
-            this.groupBox1.Controls.Add(this.nhomhanghoaIdTextBox);
-            this.groupBox1.Controls.Add(sDTLabel);
-            this.groupBox1.Controls.Add(this.sDTTextBox);
-            this.groupBox1.Controls.Add(tenLabel);
-            this.groupBox1.Controls.Add(this.tenTextBox);
-            this.groupBox1.Controls.Add(this.btnEdit);
-            this.groupBox1.Controls.Add(this.btnDel);
-            this.groupBox1.Controls.Add(this.btnAdd);
-            this.groupBox1.Controls.Add(this.btnLoad);
-            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.groupBox1.Location = new System.Drawing.Point(0, 0);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(809, 225);
-            this.groupBox1.TabIndex = 4;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Nhà cung cấp";
             // 
             // nhacungcapIdDataGridViewTextBoxColumn
             // 
@@ -202,113 +196,126 @@
             this.nhomhanghoaIdDataGridViewTextBoxColumn.HeaderText = "Nhóm hàng hóa";
             this.nhomhanghoaIdDataGridViewTextBoxColumn.Name = "nhomhanghoaIdDataGridViewTextBoxColumn";
             // 
-            // diachiLabel
+            // nhaCungCapBindingSource
             // 
-            diachiLabel.AutoSize = true;
-            diachiLabel.Location = new System.Drawing.Point(25, 37);
-            diachiLabel.Name = "diachiLabel";
-            diachiLabel.Size = new System.Drawing.Size(43, 13);
-            diachiLabel.TabIndex = 13;
-            diachiLabel.Text = "Địa chỉ:";
+            this.nhaCungCapBindingSource.DataSource = typeof(NhaCungCap.Domain.NhaCungCap);
+            // 
+            // btnEdit
+            // 
+            this.btnEdit.Location = new System.Drawing.Point(544, 26);
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.Size = new System.Drawing.Size(102, 53);
+            this.btnEdit.TabIndex = 13;
+            this.btnEdit.Text = "Sửa";
+            this.btnEdit.UseVisualStyleBackColor = true;
+            // 
+            // btnDel
+            // 
+            this.btnDel.Location = new System.Drawing.Point(436, 26);
+            this.btnDel.Name = "btnDel";
+            this.btnDel.Size = new System.Drawing.Size(102, 53);
+            this.btnDel.TabIndex = 12;
+            this.btnDel.Text = "Xóa";
+            this.btnDel.UseVisualStyleBackColor = true;
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.Location = new System.Drawing.Point(328, 26);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(102, 53);
+            this.btnAdd.TabIndex = 11;
+            this.btnAdd.Text = "Thêm";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            // 
+            // btnLoad
+            // 
+            this.btnLoad.Location = new System.Drawing.Point(518, 117);
+            this.btnLoad.Name = "btnLoad";
+            this.btnLoad.Size = new System.Drawing.Size(118, 44);
+            this.btnLoad.TabIndex = 10;
+            this.btnLoad.Text = "Tải dữ liệu";
+            this.btnLoad.UseVisualStyleBackColor = true;
+            this.btnLoad.Click += new System.EventHandler(this.btnLoad_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(diachiLabel);
+            this.groupBox1.Controls.Add(this.diachiTextBox);
+            this.groupBox1.Controls.Add(hangHoaCungCapLabel);
+            this.groupBox1.Controls.Add(this.hangHoaCungCapTextBox);
+            this.groupBox1.Controls.Add(nhacungcapIdLabel);
+            this.groupBox1.Controls.Add(this.nhacungcapIdTextBox);
+            this.groupBox1.Controls.Add(nhomhanghoaIdLabel);
+            this.groupBox1.Controls.Add(this.nhomhanghoaIdTextBox);
+            this.groupBox1.Controls.Add(sDTLabel);
+            this.groupBox1.Controls.Add(this.sDTTextBox);
+            this.groupBox1.Controls.Add(tenLabel);
+            this.groupBox1.Controls.Add(this.tenTextBox);
+            this.groupBox1.Controls.Add(this.btnEdit);
+            this.groupBox1.Controls.Add(this.btnDel);
+            this.groupBox1.Controls.Add(this.btnAdd);
+            this.groupBox1.Controls.Add(this.btnLoad);
+            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.groupBox1.Location = new System.Drawing.Point(0, 0);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(691, 182);
+            this.groupBox1.TabIndex = 4;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Nhà cung cấp";
             // 
             // diachiTextBox
             // 
             this.diachiTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.nhaCungCapBindingSource, "Diachi", true));
-            this.diachiTextBox.Location = new System.Drawing.Point(134, 34);
+            this.diachiTextBox.Location = new System.Drawing.Point(137, 156);
             this.diachiTextBox.Name = "diachiTextBox";
-            this.diachiTextBox.Size = new System.Drawing.Size(100, 20);
+            this.diachiTextBox.Size = new System.Drawing.Size(168, 20);
             this.diachiTextBox.TabIndex = 14;
-            // 
-            // hangHoaCungCapLabel
-            // 
-            hangHoaCungCapLabel.AutoSize = true;
-            hangHoaCungCapLabel.Location = new System.Drawing.Point(25, 63);
-            hangHoaCungCapLabel.Name = "hangHoaCungCapLabel";
-            hangHoaCungCapLabel.Size = new System.Drawing.Size(103, 13);
-            hangHoaCungCapLabel.TabIndex = 15;
-            hangHoaCungCapLabel.Text = "Mặt hàng cung cấp:";
             // 
             // hangHoaCungCapTextBox
             // 
             this.hangHoaCungCapTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.nhaCungCapBindingSource, "HangHoaCungCap", true));
-            this.hangHoaCungCapTextBox.Location = new System.Drawing.Point(134, 60);
+            this.hangHoaCungCapTextBox.Location = new System.Drawing.Point(137, 78);
             this.hangHoaCungCapTextBox.Name = "hangHoaCungCapTextBox";
-            this.hangHoaCungCapTextBox.Size = new System.Drawing.Size(100, 20);
+            this.hangHoaCungCapTextBox.Size = new System.Drawing.Size(168, 20);
             this.hangHoaCungCapTextBox.TabIndex = 16;
-            // 
-            // nhacungcapIdLabel
-            // 
-            nhacungcapIdLabel.AutoSize = true;
-            nhacungcapIdLabel.Location = new System.Drawing.Point(25, 89);
-            nhacungcapIdLabel.Name = "nhacungcapIdLabel";
-            nhacungcapIdLabel.Size = new System.Drawing.Size(94, 13);
-            nhacungcapIdLabel.TabIndex = 17;
-            nhacungcapIdLabel.Text = "Mã nhà cung cấp:";
             // 
             // nhacungcapIdTextBox
             // 
             this.nhacungcapIdTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.nhaCungCapBindingSource, "NhacungcapId", true));
-            this.nhacungcapIdTextBox.Location = new System.Drawing.Point(134, 86);
+            this.nhacungcapIdTextBox.Location = new System.Drawing.Point(137, 26);
             this.nhacungcapIdTextBox.Name = "nhacungcapIdTextBox";
-            this.nhacungcapIdTextBox.Size = new System.Drawing.Size(100, 20);
+            this.nhacungcapIdTextBox.Size = new System.Drawing.Size(168, 20);
             this.nhacungcapIdTextBox.TabIndex = 18;
-            // 
-            // nhomhanghoaIdLabel
-            // 
-            nhomhanghoaIdLabel.AutoSize = true;
-            nhomhanghoaIdLabel.Location = new System.Drawing.Point(25, 115);
-            nhomhanghoaIdLabel.Name = "nhomhanghoaIdLabel";
-            nhomhanghoaIdLabel.Size = new System.Drawing.Size(86, 13);
-            nhomhanghoaIdLabel.TabIndex = 19;
-            nhomhanghoaIdLabel.Text = "Nhóm hàng hóa:";
             // 
             // nhomhanghoaIdTextBox
             // 
             this.nhomhanghoaIdTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.nhaCungCapBindingSource, "NhomhanghoaId", true));
-            this.nhomhanghoaIdTextBox.Location = new System.Drawing.Point(134, 112);
+            this.nhomhanghoaIdTextBox.Location = new System.Drawing.Point(137, 104);
             this.nhomhanghoaIdTextBox.Name = "nhomhanghoaIdTextBox";
-            this.nhomhanghoaIdTextBox.Size = new System.Drawing.Size(100, 20);
+            this.nhomhanghoaIdTextBox.Size = new System.Drawing.Size(168, 20);
             this.nhomhanghoaIdTextBox.TabIndex = 20;
-            // 
-            // sDTLabel
-            // 
-            sDTLabel.AutoSize = true;
-            sDTLabel.Location = new System.Drawing.Point(25, 141);
-            sDTLabel.Name = "sDTLabel";
-            sDTLabel.Size = new System.Drawing.Size(73, 13);
-            sDTLabel.TabIndex = 21;
-            sDTLabel.Text = "Số điện thoại:";
             // 
             // sDTTextBox
             // 
             this.sDTTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.nhaCungCapBindingSource, "SDT", true));
-            this.sDTTextBox.Location = new System.Drawing.Point(134, 138);
+            this.sDTTextBox.Location = new System.Drawing.Point(137, 130);
             this.sDTTextBox.Name = "sDTTextBox";
-            this.sDTTextBox.Size = new System.Drawing.Size(100, 20);
+            this.sDTTextBox.Size = new System.Drawing.Size(168, 20);
             this.sDTTextBox.TabIndex = 22;
-            // 
-            // tenLabel
-            // 
-            tenLabel.AutoSize = true;
-            tenLabel.Location = new System.Drawing.Point(25, 167);
-            tenLabel.Name = "tenLabel";
-            tenLabel.Size = new System.Drawing.Size(98, 13);
-            tenLabel.TabIndex = 23;
-            tenLabel.Text = "Tên nhà cung cấp:";
             // 
             // tenTextBox
             // 
             this.tenTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.nhaCungCapBindingSource, "Ten", true));
-            this.tenTextBox.Location = new System.Drawing.Point(134, 164);
+            this.tenTextBox.Location = new System.Drawing.Point(137, 52);
             this.tenTextBox.Name = "tenTextBox";
-            this.tenTextBox.Size = new System.Drawing.Size(100, 20);
+            this.tenTextBox.Size = new System.Drawing.Size(168, 20);
             this.tenTextBox.TabIndex = 24;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(809, 481);
+            this.ClientSize = new System.Drawing.Size(691, 481);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";

@@ -188,5 +188,10 @@ namespace HangHoaForm
                 }
             }
         }
+
+        private void groupBox5_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -53,7 +53,6 @@
             this.btnLoad = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnPhieuMuaHang = new System.Windows.Forms.Button();
-            this.btnAdd = new System.Windows.Forms.Button();
             this.diachiTextBox = new System.Windows.Forms.TextBox();
             this.emailTextBox = new System.Windows.Forms.TextBox();
             this.gioitinhCheckBox = new System.Windows.Forms.CheckBox();
@@ -81,72 +80,80 @@
             // diachiLabel
             // 
             diachiLabel.AutoSize = true;
-            diachiLabel.Location = new System.Drawing.Point(30, 27);
+            diachiLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            diachiLabel.Location = new System.Drawing.Point(8, 183);
             diachiLabel.Name = "diachiLabel";
-            diachiLabel.Size = new System.Drawing.Size(43, 13);
+            diachiLabel.Size = new System.Drawing.Size(51, 13);
             diachiLabel.TabIndex = 14;
             diachiLabel.Text = "Địa chỉ:";
             // 
             // emailLabel
             // 
             emailLabel.AutoSize = true;
-            emailLabel.Location = new System.Drawing.Point(30, 53);
+            emailLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            emailLabel.Location = new System.Drawing.Point(8, 209);
             emailLabel.Name = "emailLabel";
-            emailLabel.Size = new System.Drawing.Size(35, 13);
+            emailLabel.Size = new System.Drawing.Size(41, 13);
             emailLabel.TabIndex = 16;
             emailLabel.Text = "Email:";
             // 
             // gioitinhLabel
             // 
             gioitinhLabel.AutoSize = true;
-            gioitinhLabel.Location = new System.Drawing.Point(30, 81);
+            gioitinhLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            gioitinhLabel.Location = new System.Drawing.Point(8, 127);
             gioitinhLabel.Name = "gioitinhLabel";
-            gioitinhLabel.Size = new System.Drawing.Size(50, 13);
+            gioitinhLabel.Size = new System.Drawing.Size(60, 13);
             gioitinhLabel.TabIndex = 18;
             gioitinhLabel.Text = "Giới tính:";
             // 
             // hoLabel
             // 
             hoLabel.AutoSize = true;
-            hoLabel.Location = new System.Drawing.Point(30, 109);
+            hoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            hoLabel.Location = new System.Drawing.Point(8, 48);
             hoLabel.Name = "hoLabel";
-            hoLabel.Size = new System.Drawing.Size(24, 13);
+            hoLabel.Size = new System.Drawing.Size(27, 13);
             hoLabel.TabIndex = 20;
             hoLabel.Text = "Họ:";
             // 
             // khachhangIdLabel
             // 
             khachhangIdLabel.AutoSize = true;
-            khachhangIdLabel.Location = new System.Drawing.Point(30, 135);
+            khachhangIdLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            khachhangIdLabel.Location = new System.Drawing.Point(8, 22);
             khachhangIdLabel.Name = "khachhangIdLabel";
-            khachhangIdLabel.Size = new System.Drawing.Size(85, 13);
+            khachhangIdLabel.Size = new System.Drawing.Size(99, 13);
             khachhangIdLabel.TabIndex = 22;
             khachhangIdLabel.Text = "Mã khách hàng:";
             // 
             // sDTLabel
             // 
             sDTLabel.AutoSize = true;
-            sDTLabel.Location = new System.Drawing.Point(30, 161);
+            sDTLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            sDTLabel.Location = new System.Drawing.Point(8, 155);
             sDTLabel.Name = "sDTLabel";
-            sDTLabel.Size = new System.Drawing.Size(73, 13);
+            sDTLabel.Size = new System.Drawing.Size(87, 13);
             sDTLabel.TabIndex = 24;
             sDTLabel.Text = "Số điện thọai:";
             // 
             // tenLabel
             // 
             tenLabel.AutoSize = true;
-            tenLabel.Location = new System.Drawing.Point(30, 187);
+            tenLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            tenLabel.Location = new System.Drawing.Point(8, 99);
             tenLabel.Name = "tenLabel";
-            tenLabel.Size = new System.Drawing.Size(29, 13);
+            tenLabel.Size = new System.Drawing.Size(33, 13);
             tenLabel.TabIndex = 26;
             tenLabel.Text = "Tên:";
             // 
             // tenlotLabel
             // 
             tenlotLabel.AutoSize = true;
-            tenlotLabel.Location = new System.Drawing.Point(30, 213);
+            tenlotLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            tenlotLabel.Location = new System.Drawing.Point(8, 73);
             tenlotLabel.Name = "tenlotLabel";
-            tenlotLabel.Size = new System.Drawing.Size(43, 13);
+            tenlotLabel.Size = new System.Drawing.Size(51, 13);
             tenlotLabel.TabIndex = 28;
             tenlotLabel.Text = "Tên lót:";
             // 
@@ -168,7 +175,7 @@
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(3, 16);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(848, 303);
+            this.dataGridView1.Size = new System.Drawing.Size(848, 323);
             this.dataGridView1.TabIndex = 0;
             // 
             // khachhangIdDataGridViewTextBoxColumn
@@ -227,25 +234,25 @@
             // 
             this.groupBox2.Controls.Add(this.dataGridView1);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox2.Location = new System.Drawing.Point(0, 266);
+            this.groupBox2.Location = new System.Drawing.Point(0, 246);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(854, 322);
+            this.groupBox2.Size = new System.Drawing.Size(854, 342);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(626, 53);
+            this.btnEdit.Location = new System.Drawing.Point(553, 53);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(102, 53);
             this.btnEdit.TabIndex = 13;
-            this.btnEdit.Text = "Sửa";
+            this.btnEdit.Text = "Lưu";
             this.btnEdit.UseVisualStyleBackColor = true;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnDel
             // 
-            this.btnDel.Location = new System.Drawing.Point(518, 53);
+            this.btnDel.Location = new System.Drawing.Point(445, 53);
             this.btnDel.Name = "btnDel";
             this.btnDel.Size = new System.Drawing.Size(102, 53);
             this.btnDel.TabIndex = 12;
@@ -255,7 +262,7 @@
             // 
             // btnLoad
             // 
-            this.btnLoad.Location = new System.Drawing.Point(657, 161);
+            this.btnLoad.Location = new System.Drawing.Point(610, 130);
             this.btnLoad.Name = "btnLoad";
             this.btnLoad.Size = new System.Drawing.Size(153, 70);
             this.btnLoad.TabIndex = 10;
@@ -266,7 +273,6 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.btnPhieuMuaHang);
-            this.groupBox1.Controls.Add(this.btnAdd);
             this.groupBox1.Controls.Add(diachiLabel);
             this.groupBox1.Controls.Add(this.diachiTextBox);
             this.groupBox1.Controls.Add(emailLabel);
@@ -289,14 +295,14 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(854, 266);
+            this.groupBox1.Size = new System.Drawing.Size(854, 246);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Khách Hàng";
             // 
             // btnPhieuMuaHang
             // 
-            this.btnPhieuMuaHang.Location = new System.Drawing.Point(734, 53);
+            this.btnPhieuMuaHang.Location = new System.Drawing.Point(661, 53);
             this.btnPhieuMuaHang.Name = "btnPhieuMuaHang";
             this.btnPhieuMuaHang.Size = new System.Drawing.Size(102, 53);
             this.btnPhieuMuaHang.TabIndex = 31;
@@ -304,20 +310,10 @@
             this.btnPhieuMuaHang.UseVisualStyleBackColor = true;
             this.btnPhieuMuaHang.Click += new System.EventHandler(this.btnPhieuMuaHang_Click);
             // 
-            // btnAdd
-            // 
-            this.btnAdd.Location = new System.Drawing.Point(410, 53);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(102, 53);
-            this.btnAdd.TabIndex = 30;
-            this.btnAdd.Text = "Thêm";
-            this.btnAdd.UseVisualStyleBackColor = true;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click_1);
-            // 
             // diachiTextBox
             // 
             this.diachiTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.khachHangBindingSource, "Diachi", true));
-            this.diachiTextBox.Location = new System.Drawing.Point(121, 24);
+            this.diachiTextBox.Location = new System.Drawing.Point(130, 180);
             this.diachiTextBox.Name = "diachiTextBox";
             this.diachiTextBox.Size = new System.Drawing.Size(261, 20);
             this.diachiTextBox.TabIndex = 15;
@@ -325,7 +321,7 @@
             // emailTextBox
             // 
             this.emailTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.khachHangBindingSource, "Email", true));
-            this.emailTextBox.Location = new System.Drawing.Point(121, 50);
+            this.emailTextBox.Location = new System.Drawing.Point(130, 206);
             this.emailTextBox.Name = "emailTextBox";
             this.emailTextBox.Size = new System.Drawing.Size(261, 20);
             this.emailTextBox.TabIndex = 17;
@@ -333,7 +329,7 @@
             // gioitinhCheckBox
             // 
             this.gioitinhCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.khachHangBindingSource, "Gioitinh", true));
-            this.gioitinhCheckBox.Location = new System.Drawing.Point(121, 76);
+            this.gioitinhCheckBox.Location = new System.Drawing.Point(130, 122);
             this.gioitinhCheckBox.Name = "gioitinhCheckBox";
             this.gioitinhCheckBox.Size = new System.Drawing.Size(261, 24);
             this.gioitinhCheckBox.TabIndex = 19;
@@ -343,7 +339,7 @@
             // hoTextBox
             // 
             this.hoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.khachHangBindingSource, "Ho", true));
-            this.hoTextBox.Location = new System.Drawing.Point(121, 106);
+            this.hoTextBox.Location = new System.Drawing.Point(130, 45);
             this.hoTextBox.Name = "hoTextBox";
             this.hoTextBox.Size = new System.Drawing.Size(261, 20);
             this.hoTextBox.TabIndex = 21;
@@ -351,7 +347,7 @@
             // khachhangIdTextBox
             // 
             this.khachhangIdTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.khachHangBindingSource, "KhachhangId", true));
-            this.khachhangIdTextBox.Location = new System.Drawing.Point(121, 132);
+            this.khachhangIdTextBox.Location = new System.Drawing.Point(130, 19);
             this.khachhangIdTextBox.Name = "khachhangIdTextBox";
             this.khachhangIdTextBox.Size = new System.Drawing.Size(261, 20);
             this.khachhangIdTextBox.TabIndex = 23;
@@ -359,7 +355,7 @@
             // sDTTextBox
             // 
             this.sDTTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.khachHangBindingSource, "SDT", true));
-            this.sDTTextBox.Location = new System.Drawing.Point(121, 158);
+            this.sDTTextBox.Location = new System.Drawing.Point(130, 152);
             this.sDTTextBox.Name = "sDTTextBox";
             this.sDTTextBox.Size = new System.Drawing.Size(261, 20);
             this.sDTTextBox.TabIndex = 25;
@@ -367,7 +363,7 @@
             // tenTextBox
             // 
             this.tenTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.khachHangBindingSource, "Ten", true));
-            this.tenTextBox.Location = new System.Drawing.Point(121, 184);
+            this.tenTextBox.Location = new System.Drawing.Point(130, 96);
             this.tenTextBox.Name = "tenTextBox";
             this.tenTextBox.Size = new System.Drawing.Size(261, 20);
             this.tenTextBox.TabIndex = 27;
@@ -375,7 +371,7 @@
             // tenlotTextBox
             // 
             this.tenlotTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.khachHangBindingSource, "Tenlot", true));
-            this.tenlotTextBox.Location = new System.Drawing.Point(121, 210);
+            this.tenlotTextBox.Location = new System.Drawing.Point(130, 70);
             this.tenlotTextBox.Name = "tenlotTextBox";
             this.tenlotTextBox.Size = new System.Drawing.Size(261, 20);
             this.tenlotTextBox.TabIndex = 29;
@@ -429,7 +425,6 @@
         private System.Windows.Forms.TextBox sDTTextBox;
         private System.Windows.Forms.TextBox tenTextBox;
         private System.Windows.Forms.TextBox tenlotTextBox;
-        private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnPhieuMuaHang;
     }
 }

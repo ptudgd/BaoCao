@@ -151,30 +151,30 @@
             // ghiChuLabel
             // 
             ghiChuLabel.AutoSize = true;
-            ghiChuLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            ghiChuLabel.Location = new System.Drawing.Point(39, 116);
+            ghiChuLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            ghiChuLabel.Location = new System.Drawing.Point(9, 116);
             ghiChuLabel.Name = "ghiChuLabel";
-            ghiChuLabel.Size = new System.Drawing.Size(55, 16);
+            ghiChuLabel.Size = new System.Drawing.Size(63, 16);
             ghiChuLabel.TabIndex = 5;
             ghiChuLabel.Text = "Ghi chú:";
             // 
             // nhomHanghoaIdLabel1
             // 
             nhomHanghoaIdLabel1.AutoSize = true;
-            nhomHanghoaIdLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            nhomHanghoaIdLabel1.Location = new System.Drawing.Point(39, 62);
+            nhomHanghoaIdLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            nhomHanghoaIdLabel1.Location = new System.Drawing.Point(9, 62);
             nhomHanghoaIdLabel1.Name = "nhomHanghoaIdLabel1";
-            nhomHanghoaIdLabel1.Size = new System.Drawing.Size(125, 16);
+            nhomHanghoaIdLabel1.Size = new System.Drawing.Size(142, 16);
             nhomHanghoaIdLabel1.TabIndex = 7;
             nhomHanghoaIdLabel1.Text = "Mã nhóm hàng hóa:";
             // 
             // tenNhomHanghoaLabel
             // 
             tenNhomHanghoaLabel.AutoSize = true;
-            tenNhomHanghoaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            tenNhomHanghoaLabel.Location = new System.Drawing.Point(39, 88);
+            tenNhomHanghoaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            tenNhomHanghoaLabel.Location = new System.Drawing.Point(9, 88);
             tenNhomHanghoaLabel.Name = "tenNhomHanghoaLabel";
-            tenNhomHanghoaLabel.Size = new System.Drawing.Size(130, 16);
+            tenNhomHanghoaLabel.Size = new System.Drawing.Size(148, 16);
             tenNhomHanghoaLabel.TabIndex = 9;
             tenNhomHanghoaLabel.Text = "Tên nhóm hàng hóa:";
             // 
@@ -440,6 +440,7 @@
             this.groupBox5.Size = new System.Drawing.Size(443, 149);
             this.groupBox5.TabIndex = 0;
             this.groupBox5.TabStop = false;
+            this.groupBox5.Enter += new System.EventHandler(this.groupBox5_Enter);
             // 
             // ghiChuTextBox
             // 
