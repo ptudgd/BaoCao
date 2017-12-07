@@ -1,4 +1,6 @@
-﻿using System;
+﻿using HangHoa.Business;
+using NhanVien.Repository;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -75,12 +77,39 @@ namespace NhanVienForm
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-
+            var listcur = this.nhanVienBindingSource.DataSource as List<NhanVien.Domain.NhanVien>;
+            if(listcur != null)
+            {
+                using(var cmd = new NhanVienSaveBusiness())
+                {
+                    foreach (var item in listcur)
+                    {
+                        cmd.item = item;
+                        cmd.Execute();
+                    }
+                }
+                using(var cmd = new NhanVienListRepository())
+                {
+                    this.nhanVienBindingSource.DataSource = cmd.Execute();
+                }
+            }
         }
 
         private void btnDel_Click(object sender, EventArgs e)
         {
-
+            var cur = this.nhanVienBindingSource.Current as NhanVien.Domain.NhanVien;
+            if(cur != null && !string.IsNullOrWhiteSpace(cur.NhanvienId))
+            {
+                using(var cmd = new NhanVienDeleteRepository())
+                {
+                    cmd.NhanvienId = cur.NhanvienId;
+                    cmd.Execute();
+                }
+                using(var cmd = new NhanVienListRepository())
+                {
+                    this.nhanVienBindingSource.DataSource = cmd.Execute();
+                }
+            }
         }
 
         private void btnAdd_Click(object sender, EventArgs e)

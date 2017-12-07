@@ -57,3 +57,7 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\NhanVienForm\obj\Debug\NhanVienForm.csp
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhanVienForm\obj\Debug\NhanVienForm.csproj.CoreCompileInputs.cache
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhanVienForm\obj\Debug\NhanVienForm.exe
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhanVienForm\obj\Debug\NhanVienForm.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\NhanVienForm\bin\Debug\NhanVien.Repository.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\NhanVienForm\bin\Debug\NhanVienBusiness.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\NhanVienForm\bin\Debug\NhanVien.Repository.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\NhanVienForm\bin\Debug\NhanVienBusiness.pdb

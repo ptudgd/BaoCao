@@ -157,3 +157,7 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\mainForm\bin\Debug\Login.Domain.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\mainForm\bin\Debug\LoginRepository.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\mainForm\bin\Debug\Login.Domain.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\mainForm\bin\Debug\LoginRepository.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\mainForm\bin\Debug\NhanVienBusiness.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\mainForm\bin\Debug\NhanVien.Repository.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\mainForm\bin\Debug\NhanVienBusiness.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\mainForm\bin\Debug\NhanVien.Repository.pdb

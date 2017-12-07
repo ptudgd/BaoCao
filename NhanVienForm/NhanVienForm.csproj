@@ -81,9 +81,21 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BaoCao.Library\BaoCao.Library.csproj">
+      <Project>{5390FB3E-D6F2-4742-AA52-27A65FE71210}</Project>
+      <Name>BaoCao.Library</Name>
+    </ProjectReference>
     <ProjectReference Include="..\NhanVien.Libary\NhanVien.Domain.csproj">
       <Project>{8e1283e9-1490-446e-8972-fee6cb9995f8}</Project>
       <Name>NhanVien.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NhanVien.Repository\NhanVien.Repository.csproj">
+      <Project>{B51F2B1A-BFD2-411C-97DE-66C46C96131F}</Project>
+      <Name>NhanVien.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NhanVienBusiness\NhanVienBusiness.csproj">
+      <Project>{e1a9feeb-9f04-46a2-89d8-e0358461c26a}</Project>
+      <Name>NhanVienBusiness</Name>
     </ProjectReference>
     <ProjectReference Include="..\PhieuBanHangForm\PhieuBanHangForm.csproj">
       <Project>{0f6c5974-45dd-4456-b84d-941517e97341}</Project>
