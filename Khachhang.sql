@@ -11,6 +11,11 @@ CREATE TABLE KhachHang
 	SDT VARCHAR(100),
 	Diachi NVARCHAR(100)
 )
+CREATE TABLE Login
+(
+	username VARCHAR(100) NOT NULL PRIMARY KEY,
+	password VARCHAR(100)
+)
 GO
 CREATE TABLE NhaCungCap
 (
@@ -67,6 +72,9 @@ CREATE TABLE ThuChi
 )
 ALTER TABLE KhachHang
 ALTER COLUMN Gioitinh bit
+GO
+INSERT INTO Login
+VALUES('admin','admin')
 GO
 INSERT INTO KhachHang
 VALUES('kh01',N'Nguyễn',N'Hoàng',N'Duy','1','nguyenhoangduy1997@gmail.com','01674404746','Q8')
