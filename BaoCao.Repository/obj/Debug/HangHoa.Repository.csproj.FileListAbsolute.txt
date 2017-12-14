@@ -43,8 +43,8 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\BaoCao.Repository\bin\Debug\NhanVien.Li
 C:\Users\Admiral\Documents\GitHub\BaoCao\BaoCao.Repository\bin\Debug\PhieuBanHang.Library.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\BaoCao.Repository\bin\Debug\PhieuMuaHang.Library.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\BaoCao.Repository\obj\Debug\HangHoa.Repository.csprojResolveAssemblyReference.cache
-C:\Users\Admiral\Documents\GitHub\BaoCao\BaoCao.Repository\obj\Debug\HangHoa.Repository.csproj.CoreCompileInputs.cache
 C:\Users\Admiral\Documents\GitHub\BaoCao\BaoCao.Repository\obj\Debug\BaoCao.Repository.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\BaoCao.Repository\obj\Debug\BaoCao.Repository.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\BaoCao.Repository\bin\Debug\NhomHangHoa.Domain.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\BaoCao.Repository\bin\Debug\NhomHangHoa.Domain.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\BaoCao.Repository\obj\Debug\HangHoa.Repository.csproj.CoreCompileInputs.cache

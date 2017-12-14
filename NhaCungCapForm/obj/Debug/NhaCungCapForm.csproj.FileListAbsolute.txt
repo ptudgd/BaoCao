@@ -30,8 +30,6 @@ C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhaCungCapForm\bi
 C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhaCungCapForm\bin\Debug\HangHoa.Library.pdb
 C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhaCungCapForm\bin\Debug\NhaCungCap.Repository.dll
 C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhaCungCapForm\bin\Debug\NhaCungCap.Repository.pdb
-C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapForm\bin\Debug\NhaCungCapForm.exe.config
-C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapForm\bin\Debug\NhaCungCapForm.exe
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapForm\bin\Debug\NhaCungCapForm.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapForm\bin\Debug\BaoCao.Library.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapForm\bin\Debug\BaoCao.Repository.dll
@@ -47,10 +45,12 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapForm\obj\Debug\NhaCungCapForm
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapForm\obj\Debug\NhaCungCapForm.Form1.resources
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapForm\obj\Debug\NhaCungCapForm.Properties.Resources.resources
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapForm\obj\Debug\NhaCungCapForm.csproj.GenerateResource.Cache
-C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapForm\obj\Debug\NhaCungCapForm.csproj.CoreCompileInputs.cache
-C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapForm\obj\Debug\NhaCungCapForm.exe
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapForm\obj\Debug\NhaCungCapForm.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapForm\bin\Debug\NhomHangHoa.Domain.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapForm\bin\Debug\NhomHangHoa.Domain.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapForm\bin\Debug\NhaCungCapSaveBusiness.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapForm\bin\Debug\NhaCungCapSaveBusiness.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapForm\bin\Debug\NhaCungCapForm.dll.config
+C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapForm\bin\Debug\NhaCungCapForm.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapForm\obj\Debug\NhaCungCapForm.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapForm\obj\Debug\NhaCungCapForm.csproj.CoreCompileInputs.cache

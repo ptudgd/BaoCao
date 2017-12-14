@@ -7,6 +7,6 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\NhanVienBusiness\bin\Debug\BaoCao.Libra
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhanVienBusiness\bin\Debug\NhanVien.Libary.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhanVienBusiness\bin\Debug\NhanVien.Repository.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhanVienBusiness\obj\Debug\NhanVienBusiness.csprojResolveAssemblyReference.cache
-C:\Users\Admiral\Documents\GitHub\BaoCao\NhanVienBusiness\obj\Debug\NhanVienBusiness.csproj.CoreCompileInputs.cache
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhanVienBusiness\obj\Debug\NhanVienBusiness.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhanVienBusiness\obj\Debug\NhanVienBusiness.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\NhanVienBusiness\obj\Debug\NhanVienBusiness.csproj.CoreCompileInputs.cache

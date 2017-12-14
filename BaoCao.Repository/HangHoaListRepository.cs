@@ -11,6 +11,7 @@ namespace BaoCao.Repository
     public class HangHoaListRepository : ConnectDatabase
     {
         public string NhomHanghoaId { get; set; }
+        public string HanghoaId { get; set; }
         public List<HangHoa.Domain.HangHoa> Execute()
         {
             var data = new List<HangHoa.Domain.HangHoa>(); 
@@ -25,6 +26,16 @@ namespace BaoCao.Repository
                     if (!string.IsNullOrWhiteSpace(NhomHanghoaId))
                     {
                         cmd.CommandText = "SELECT * FROM HangHoa WHERE NhomHanghoaId='" + NhomHanghoaId + "'";
+                    }
+                    if (!string.IsNullOrWhiteSpace(HanghoaId))
+                    {
+                        cmd.CommandText = "SELECT * FROM HangHoa WHERE HanghoaId=@HanghoaId";
+                        cmd.Parameters.Add(new SqlParameter
+                        {
+                            ParameterName = "@HanghoaId",
+                            Value = HanghoaId,
+                            SqlDbType = System.Data.SqlDbType.NVarChar
+                        });
                     }
                     using (var reader = cmd.ExecuteReader())
                     {

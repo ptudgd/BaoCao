@@ -29,5 +29,22 @@ namespace ThuChiForm
                 this.thuChiBindingSource.DataSource = cmd.Execute();
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var f = new frmChart();
+            f.ShowDialog();
+            
+        }
+
+        private void frmThuChi_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

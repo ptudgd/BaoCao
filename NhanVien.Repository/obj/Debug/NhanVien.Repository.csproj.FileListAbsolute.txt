@@ -15,6 +15,6 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\NhanVien.Repository\bin\Debug\NhanVien.
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhanVien.Repository\bin\Debug\BaoCao.Library.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhanVien.Repository\bin\Debug\NhanVien.Libary.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhanVien.Repository\obj\Debug\NhanVien.Repository.csprojResolveAssemblyReference.cache
-C:\Users\Admiral\Documents\GitHub\BaoCao\NhanVien.Repository\obj\Debug\NhanVien.Repository.csproj.CoreCompileInputs.cache
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhanVien.Repository\obj\Debug\NhanVien.Repository.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhanVien.Repository\obj\Debug\NhanVien.Repository.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\NhanVien.Repository\obj\Debug\NhanVien.Repository.csproj.CoreCompileInputs.cache

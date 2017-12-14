@@ -15,6 +15,6 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuMuaHang.Repository\bin\Debug\Phieu
 C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuMuaHang.Repository\bin\Debug\BaoCao.Library.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuMuaHang.Repository\bin\Debug\PhieuMuaHang.Library.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuMuaHang.Repository\obj\Debug\PhieuMuaHang.Repository.csprojResolveAssemblyReference.cache
-C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuMuaHang.Repository\obj\Debug\PhieuMuaHang.Repository.csproj.CoreCompileInputs.cache
 C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuMuaHang.Repository\obj\Debug\PhieuMuaHang.Repository.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuMuaHang.Repository\obj\Debug\PhieuMuaHang.Repository.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuMuaHang.Repository\obj\Debug\PhieuMuaHang.Repository.csproj.CoreCompileInputs.cache

@@ -5,7 +5,6 @@ C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhaCungCap.Librar
 C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\NhaCungCap.Library\obj\Debug\NhaCungCap.Library.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCap.Library\bin\Debug\NhaCungCap.Library.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCap.Library\bin\Debug\NhaCungCap.Library.pdb
-C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCap.Library\obj\Debug\NhaCungCap.Domain.csprojResolveAssemblyReference.cache
-C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCap.Library\obj\Debug\NhaCungCap.Domain.csproj.CoreCompileInputs.cache
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCap.Library\obj\Debug\NhaCungCap.Library.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCap.Library\obj\Debug\NhaCungCap.Library.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCap.Library\obj\Debug\NhaCungCap.Domain.csproj.CoreCompileInputs.cache

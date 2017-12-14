@@ -26,8 +26,6 @@ C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\PhieuBanHangForm\
 C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\PhieuBanHangForm\bin\Debug\BaoCao.Library.pdb
 C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\PhieuBanHangForm\bin\Debug\PhieuBanHang.Repository.pdb
 C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\PhieuBanHangForm\obj\Debug\PhieuBanHangForm.frmPhieuBanHang.resources
-C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangForm\bin\Debug\PhieuBanHangForm.exe.config
-C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangForm\bin\Debug\PhieuBanHangForm.exe
 C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangForm\bin\Debug\PhieuBanHangForm.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangForm\bin\Debug\BaoCao.Library.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangForm\bin\Debug\PhieuBanHang.Library.dll
@@ -39,6 +37,8 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangForm\obj\Debug\PhieuBanHang
 C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangForm\obj\Debug\PhieuBanHangForm.frmPhieuBanHang.resources
 C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangForm\obj\Debug\PhieuBanHangForm.Properties.Resources.resources
 C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangForm\obj\Debug\PhieuBanHangForm.csproj.GenerateResource.Cache
-C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangForm\obj\Debug\PhieuBanHangForm.csproj.CoreCompileInputs.cache
-C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangForm\obj\Debug\PhieuBanHangForm.exe
 C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangForm\obj\Debug\PhieuBanHangForm.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangForm\bin\Debug\PhieuBanHangForm.dll.config
+C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangForm\bin\Debug\PhieuBanHangForm.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangForm\obj\Debug\PhieuBanHangForm.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangForm\obj\Debug\PhieuBanHangForm.csproj.CoreCompileInputs.cache

@@ -5,8 +5,8 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\LoginRepository\bin\Debug\Login.Domain.
 C:\Users\Admiral\Documents\GitHub\BaoCao\LoginRepository\bin\Debug\BaoCao.Library.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\LoginRepository\bin\Debug\Login.Domain.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\LoginRepository\obj\Debug\LoginRepository.csprojResolveAssemblyReference.cache
-C:\Users\Admiral\Documents\GitHub\BaoCao\LoginRepository\obj\Debug\LoginRepository.csproj.CoreCompileInputs.cache
 C:\Users\Admiral\Documents\GitHub\BaoCao\LoginRepository\obj\Debug\LoginRepository.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\LoginRepository\obj\Debug\LoginRepository.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\LoginRepository\bin\Debug\Banhang.Library.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\LoginRepository\bin\Debug\Banhang.Library.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\LoginRepository\obj\Debug\LoginRepository.csproj.CoreCompileInputs.cache

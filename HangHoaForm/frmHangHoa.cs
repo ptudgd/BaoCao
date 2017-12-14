@@ -175,9 +175,9 @@ namespace HangHoaForm
         private void button1_Click(object sender, EventArgs e)
         {
             var cur = this.nhomHangHoaBindingSource.Current as NhomHangHoa.Domain.NhomHangHoa;
-            if(cur != null && !string.IsNullOrWhiteSpace(cur.NhomHanghoaId))
+            if(cur != null && !string.IsNullOrWhiteSpace(cur.NhomHanghoaId) && cur.NhomHanghoaId != "")
             {
-                using(var cmd = new NhomHangHoaDeleteRepository())
+                using (var cmd = new NhomHangHoaDeleteRepository())
                 {
                     cmd.NhomHanghoaId = cur.NhomHanghoaId;
                     cmd.Execute();
@@ -187,9 +187,19 @@ namespace HangHoaForm
                     this.nhomHangHoaBindingSource.DataSource = cmd.Execute();
                 }
             }
+            else
+            {
+                MessageBox.Show("Mã nhóm hàng hóa không tồn tại!", "THÔNG BÁO!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
         }
 
         private void groupBox5_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmHangHoa_Load(object sender, EventArgs e)
         {
 
         }

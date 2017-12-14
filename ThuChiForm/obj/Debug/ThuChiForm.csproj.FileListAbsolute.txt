@@ -26,8 +26,6 @@ C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\ThuChiForm\bin\De
 C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\ThuChiForm\bin\Debug\BaoCao.Library.pdb
 C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\ThuChiForm\bin\Debug\ThuChi.Repository.pdb
 C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\ThuChiForm\obj\Debug\ThuChiForm.frmThuChi.resources
-C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiForm\bin\Debug\ThuChiForm.exe.config
-C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiForm\bin\Debug\ThuChiForm.exe
 C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiForm\bin\Debug\ThuChiForm.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiForm\bin\Debug\BaoCao.Library.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiForm\bin\Debug\ThuChi.Library.dll
@@ -39,6 +37,11 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiForm\obj\Debug\ThuChiForm.csprojR
 C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiForm\obj\Debug\ThuChiForm.frmThuChi.resources
 C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiForm\obj\Debug\ThuChiForm.Properties.Resources.resources
 C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiForm\obj\Debug\ThuChiForm.csproj.GenerateResource.Cache
-C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiForm\obj\Debug\ThuChiForm.csproj.CoreCompileInputs.cache
-C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiForm\obj\Debug\ThuChiForm.exe
 C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiForm\obj\Debug\ThuChiForm.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiForm\bin\Debug\ThuChiForm.dll.config
+C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiForm\bin\Debug\ThuChiForm.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiForm\obj\Debug\ThuChiForm.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiForm\obj\Debug\ThuChiForm.csproj.CoreCompileInputs.cache
+C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiForm\obj\Debug\ThuChiForm.frmChart.resources
+C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiForm\bin\Debug\ThuChiChart.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiForm\bin\Debug\ThuChiChart.pdb

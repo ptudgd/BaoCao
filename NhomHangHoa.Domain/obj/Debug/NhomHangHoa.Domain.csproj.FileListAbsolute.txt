@@ -1,6 +1,6 @@
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhomHangHoa.Domain\bin\Debug\NhomHangHoa.Domain.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhomHangHoa.Domain\bin\Debug\NhomHangHoa.Domain.pdb
-C:\Users\Admiral\Documents\GitHub\BaoCao\NhomHangHoa.Domain\obj\Debug\NhomHangHoa.Domain.csproj.CoreCompileInputs.cache
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhomHangHoa.Domain\obj\Debug\NhomHangHoa.Domain.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhomHangHoa.Domain\obj\Debug\NhomHangHoa.Domain.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhomHangHoa.Domain\obj\Debug\NhomHangHoa.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Admiral\Documents\GitHub\BaoCao\NhomHangHoa.Domain\obj\Debug\NhomHangHoa.Domain.csproj.CoreCompileInputs.cache

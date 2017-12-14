@@ -15,6 +15,6 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChi.Repository\bin\Debug\ThuChi.Libr
 C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChi.Repository\bin\Debug\BaoCao.Library.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChi.Repository\bin\Debug\ThuChi.Library.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChi.Repository\obj\Debug\ThuChi.Repository.csprojResolveAssemblyReference.cache
-C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChi.Repository\obj\Debug\ThuChi.Repository.csproj.CoreCompileInputs.cache
 C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChi.Repository\obj\Debug\ThuChi.Repository.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChi.Repository\obj\Debug\ThuChi.Repository.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChi.Repository\obj\Debug\ThuChi.Repository.csproj.CoreCompileInputs.cache

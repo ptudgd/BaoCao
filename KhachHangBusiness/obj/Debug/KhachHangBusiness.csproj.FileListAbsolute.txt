@@ -7,6 +7,6 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangBusiness\bin\Debug\BaoCao.Libr
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangBusiness\bin\Debug\KhachHang.Library.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangBusiness\bin\Debug\KhachHang.Repository.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangBusiness\obj\Debug\KhachHangBusiness.csprojResolveAssemblyReference.cache
-C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangBusiness\obj\Debug\KhachHangBusiness.csproj.CoreCompileInputs.cache
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangBusiness\obj\Debug\KhachHangBusiness.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangBusiness\obj\Debug\KhachHangBusiness.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangBusiness\obj\Debug\KhachHangBusiness.csproj.CoreCompileInputs.cache

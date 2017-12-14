@@ -1,5 +1,4 @@
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapSaveBusiness\obj\Debug\NhaCungCapBusiness.csprojResolveAssemblyReference.cache
-C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapSaveBusiness\obj\Debug\NhaCungCapBusiness.csproj.CoreCompileInputs.cache
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapSaveBusiness\bin\Debug\NhaCungCapSaveBusiness.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapSaveBusiness\bin\Debug\NhaCungCapSaveBusiness.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapSaveBusiness\bin\Debug\BaoCao.Library.dll
@@ -10,3 +9,4 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapSaveBusiness\bin\Debug\NhaCun
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapSaveBusiness\bin\Debug\NhaCungCap.Repository.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapSaveBusiness\obj\Debug\NhaCungCapSaveBusiness.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapSaveBusiness\obj\Debug\NhaCungCapSaveBusiness.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\NhaCungCapSaveBusiness\obj\Debug\NhaCungCapBusiness.csproj.CoreCompileInputs.cache

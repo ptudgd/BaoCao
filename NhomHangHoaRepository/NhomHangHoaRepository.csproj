@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="NhomHangHoaDeleteRepository.cs" />
     <Compile Include="NhomHangHoaListRepository.cs" />
+    <Compile Include="NhomHangHoaLoadRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

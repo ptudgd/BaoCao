@@ -12,6 +12,7 @@ namespace NhomHangHoaBusiness
         public NhomHangHoa.Domain.NhomHangHoa item { get; set; }
         public void Execute()
         {
+            
             using (var conn = new SqlConnection(ConnectionString))
             {
                 using (var cmd = conn.CreateCommand())

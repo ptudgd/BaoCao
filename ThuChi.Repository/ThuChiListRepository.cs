@@ -21,6 +21,7 @@ namespace ThuChi.Repository
                 {
                     conn.Open();
                     cmd.CommandText = "SELECT * FROM ThuChi WHERE Ngay BETWEEN '" + datetimepicker1 + "' AND '" + datetimepicker2 + "'";
+                    
                     using (var reader = cmd.ExecuteReader())
                     {
                         while (reader.Read())
@@ -33,6 +34,7 @@ namespace ThuChi.Repository
                             });
                         }
                     }
+                    conn.Close();
                 }
             }
             return data;

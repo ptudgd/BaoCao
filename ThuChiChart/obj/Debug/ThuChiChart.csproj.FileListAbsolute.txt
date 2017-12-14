@@ -1,0 +1,12 @@
+C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiChart\bin\Debug\ThuChiChart.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiChart\bin\Debug\ThuChiChart.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiChart\bin\Debug\BaoCao.Library.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiChart\bin\Debug\ThuChi.Library.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiChart\bin\Debug\ThuChi.Repository.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiChart\bin\Debug\BaoCao.Library.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiChart\bin\Debug\ThuChi.Library.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiChart\bin\Debug\ThuChi.Repository.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiChart\obj\Debug\ThuChiChart.csproj.CoreCompileInputs.cache
+C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiChart\obj\Debug\ThuChiChart.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiChart\obj\Debug\ThuChiChart.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiChart\obj\Debug\ThuChiChart.csprojResolveAssemblyReference.cache

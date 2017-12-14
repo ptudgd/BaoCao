@@ -1,5 +1,4 @@
 C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuMuaHangBusiness\obj\Debug\PhieuMuaHangBusiness.csprojResolveAssemblyReference.cache
-C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuMuaHangBusiness\obj\Debug\PhieuMuaHangBusiness.csproj.CoreCompileInputs.cache
 C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuMuaHangBusiness\bin\Debug\PhieuMuaHangBusiness.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuMuaHangBusiness\bin\Debug\PhieuMuaHangBusiness.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuMuaHangBusiness\bin\Debug\BaoCao.Library.dll
@@ -10,3 +9,4 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuMuaHangBusiness\bin\Debug\PhieuMua
 C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuMuaHangBusiness\bin\Debug\PhieuMuaHang.Repository.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuMuaHangBusiness\obj\Debug\PhieuMuaHangBusiness.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuMuaHangBusiness\obj\Debug\PhieuMuaHangBusiness.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuMuaHangBusiness\obj\Debug\PhieuMuaHangBusiness.csproj.CoreCompileInputs.cache

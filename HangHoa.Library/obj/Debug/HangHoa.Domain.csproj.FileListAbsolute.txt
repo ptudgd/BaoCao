@@ -5,6 +5,6 @@ C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\HangHoa.Library\o
 C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\HangHoa.Library\obj\Debug\HangHoa.Library.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoa.Library\bin\Debug\HangHoa.Library.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoa.Library\bin\Debug\HangHoa.Library.pdb
-C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoa.Library\obj\Debug\HangHoa.Domain.csproj.CoreCompileInputs.cache
 C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoa.Library\obj\Debug\HangHoa.Library.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoa.Library\obj\Debug\HangHoa.Library.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\HangHoa.Library\obj\Debug\HangHoa.Domain.csproj.CoreCompileInputs.cache

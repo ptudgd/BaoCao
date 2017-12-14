@@ -21,8 +21,6 @@ C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\KhachHangForm\bin
 C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\KhachHangForm\bin\Debug\PhieuMuaHangForm.exe.config
 C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\KhachHangForm\bin\Debug\PhieuMuaHang.Repository.pdb
 C:\Users\Admiral\Documents\GitHub\GetStory\C#\Banhang.Solution\KhachHangForm\bin\Debug\PhieuMuaHang.Library.pdb
-C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\bin\Debug\KhachHangForm.exe.config
-C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\bin\Debug\KhachHangForm.exe
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\bin\Debug\KhachHangForm.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\bin\Debug\BaoCao.Library.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\bin\Debug\KhachHang.Library.dll
@@ -38,8 +36,6 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\obj\Debug\KhachHangForm.c
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\obj\Debug\KhachHangForm.frmKhachHang.resources
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\obj\Debug\KhachHangForm.Properties.Resources.resources
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\obj\Debug\KhachHangForm.csproj.GenerateResource.Cache
-C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\obj\Debug\KhachHangForm.csproj.CoreCompileInputs.cache
-C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\obj\Debug\KhachHangForm.exe
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\obj\Debug\KhachHangForm.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\obj\Debug\KhachHangForm.frmAdd.resources
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\obj\Debug\KhachHangForm.frmPhieuMuaHang.resources
@@ -47,3 +43,7 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\bin\Debug\KhachHangBusine
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\bin\Debug\KhachHangBusiness.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\bin\Debug\PhieuMuaHangBusiness.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\bin\Debug\PhieuMuaHangBusiness.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\bin\Debug\KhachHangForm.dll.config
+C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\bin\Debug\KhachHangForm.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\obj\Debug\KhachHangForm.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\KhachHangForm\obj\Debug\KhachHangForm.csproj.CoreCompileInputs.cache
