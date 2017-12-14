@@ -1,0 +1,12 @@
+C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangSaveBusiness\bin\Debug\PhieuBanHangSaveBusiness.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangSaveBusiness\bin\Debug\PhieuBanHangSaveBusiness.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangSaveBusiness\bin\Debug\BaoCao.Library.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangSaveBusiness\bin\Debug\PhieuBanHang.Library.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangSaveBusiness\bin\Debug\PhieuBanHang.Repository.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangSaveBusiness\bin\Debug\BaoCao.Library.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangSaveBusiness\bin\Debug\PhieuBanHang.Library.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangSaveBusiness\bin\Debug\PhieuBanHang.Repository.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangSaveBusiness\obj\Debug\PhieuBanHangSaveBusiness.csprojResolveAssemblyReference.cache
+C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangSaveBusiness\obj\Debug\PhieuBanHangSaveBusiness.csproj.CoreCompileInputs.cache
+C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangSaveBusiness\obj\Debug\PhieuBanHangSaveBusiness.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangSaveBusiness\obj\Debug\PhieuBanHangSaveBusiness.pdb

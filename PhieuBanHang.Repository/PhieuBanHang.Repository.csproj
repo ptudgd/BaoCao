@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BanHangAddRepository.cs" />
+    <Compile Include="BanHangListRepository.cs" />
     <Compile Include="PhieuBanHangListRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

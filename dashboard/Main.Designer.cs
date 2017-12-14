@@ -29,10 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
-            DevExpress.XtraCharts.XYDiagram xyDiagram1 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series1 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.LineSeriesView lineSeriesView1 = new DevExpress.XtraCharts.LineSeriesView();
-            DevExpress.XtraCharts.ChartTitle chartTitle1 = new DevExpress.XtraCharts.ChartTitle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.SlidePanel = new System.Windows.Forms.Panel();
@@ -42,13 +38,7 @@
             this.btnHangHoa = new System.Windows.Forms.Button();
             this.btnMain = new System.Windows.Forms.Button();
             this.PanelRight = new System.Windows.Forms.Panel();
-            this.chartControl1 = new DevExpress.XtraCharts.ChartControl();
             this.panel1.SuspendLayout();
-            this.PanelRight.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(lineSeriesView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -179,34 +169,11 @@
             // 
             // PanelRight
             // 
-            this.PanelRight.Controls.Add(this.chartControl1);
             this.PanelRight.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelRight.Location = new System.Drawing.Point(214, 0);
             this.PanelRight.Name = "PanelRight";
             this.PanelRight.Size = new System.Drawing.Size(883, 543);
             this.PanelRight.TabIndex = 1;
-            // 
-            // chartControl1
-            // 
-            xyDiagram1.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram1.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl1.Diagram = xyDiagram1;
-            this.chartControl1.Legend.AlignmentVertical = DevExpress.XtraCharts.LegendAlignmentVertical.TopOutside;
-            this.chartControl1.Legend.MarkerMode = DevExpress.XtraCharts.LegendMarkerMode.None;
-            this.chartControl1.Legend.Name = "Default Legend";
-            this.chartControl1.Legend.Visibility = DevExpress.Utils.DefaultBoolean.True;
-            this.chartControl1.Location = new System.Drawing.Point(2, 0);
-            this.chartControl1.Name = "chartControl1";
-            series1.Name = "Series 1";
-            series1.View = lineSeriesView1;
-            this.chartControl1.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series1};
-            this.chartControl1.Size = new System.Drawing.Size(883, 543);
-            this.chartControl1.TabIndex = 0;
-            chartTitle1.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartTitle1.Text = "BẢNG THỐNG KÊ SỐ LƯỢNG TỒN KHO";
-            this.chartControl1.Titles.AddRange(new DevExpress.XtraCharts.ChartTitle[] {
-            chartTitle1});
             // 
             // Main
             // 
@@ -220,11 +187,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
-            this.PanelRight.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(lineSeriesView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -240,7 +202,6 @@
         private System.Windows.Forms.Button btnMain;
         private System.Windows.Forms.Panel PanelRight;
         private System.Windows.Forms.Button button1;
-        private DevExpress.XtraCharts.ChartControl chartControl1;
     }
 }
 

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using BaoCao.Library;
 using System.Data.SqlClient;
-namespace PhieuBanHangBusiness
+namespace PhieuBanHangSaveBusiness111
 {
     public class PhieuBanHangSaveBusiness : ConnectDatabase
     {
