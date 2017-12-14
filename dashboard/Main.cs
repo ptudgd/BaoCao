@@ -44,6 +44,8 @@ namespace dashboard
         {
             this.SlidePanel.Height = btnKhachHang.Height;
             this.SlidePanel.Top = btnKhachHang.Top;
+            this.PanelRight.Controls.Clear();
+            this.PanelRight.Controls.Add(new KhachHangControl());
         }
 
         private void btnThuChi_Click(object sender, EventArgs e)

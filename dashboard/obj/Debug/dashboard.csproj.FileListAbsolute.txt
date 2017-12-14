@@ -273,3 +273,4 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\dashboard\bin\Debug\PhieuBanHangBusines
 C:\Users\Admiral\Documents\GitHub\BaoCao\dashboard\bin\Debug\PhieuBanHangSaveBusiness.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\dashboard\bin\Debug\PhieuBanHangBusiness.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\dashboard\bin\Debug\PhieuBanHangSaveBusiness.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\dashboard\obj\Debug\dashboard.KhachHangControl.resources
