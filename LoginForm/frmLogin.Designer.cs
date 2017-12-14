@@ -28,21 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.panelLeft = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lblInfo = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.btnLogin = new System.Windows.Forms.Button();
             this.txtPassword = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.txtUsername = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.label5 = new System.Windows.Forms.Label();
-            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
-            this.lblInfo = new System.Windows.Forms.Label();
+            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse();
+            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl();
             this.panelLeft.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -68,9 +67,9 @@
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(81, 288);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(135, 46);
+            this.label4.Size = new System.Drawing.Size(124, 46);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Ngô Vũ Linh\r\n41.01.104.023";
+            this.label4.Text = "Ngô Vũ Linh\r40.103.036";
             // 
             // label3
             // 
@@ -81,7 +80,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(162, 46);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Trần Quang Tiến\r\n   41.01.104.023";
+            this.label3.Text = "Trần Quang Tiến\r\n   41.01.104.132";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
@@ -119,6 +118,15 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(342, 491);
             this.panel1.TabIndex = 1;
+            // 
+            // lblInfo
+            // 
+            this.lblInfo.AutoSize = true;
+            this.lblInfo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInfo.Location = new System.Drawing.Point(24, 407);
+            this.lblInfo.Name = "lblInfo";
+            this.lblInfo.Size = new System.Drawing.Size(0, 21);
+            this.lblInfo.TabIndex = 5;
             // 
             // label6
             // 
@@ -209,15 +217,6 @@
             this.bunifuDragControl1.Horizontal = true;
             this.bunifuDragControl1.TargetControl = this.panelLeft;
             this.bunifuDragControl1.Vertical = true;
-            // 
-            // lblInfo
-            // 
-            this.lblInfo.AutoSize = true;
-            this.lblInfo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblInfo.Location = new System.Drawing.Point(24, 407);
-            this.lblInfo.Name = "lblInfo";
-            this.lblInfo.Size = new System.Drawing.Size(0, 21);
-            this.lblInfo.TabIndex = 5;
             // 
             // frmLogin
             // 
