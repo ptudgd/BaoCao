@@ -34,15 +34,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(KhachHangControl));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.bunifuCustomDataGrid1 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
-            this.nhanVienBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.btnSave = new System.Windows.Forms.Button();
-            this.btnLoad = new System.Windows.Forms.Button();
-            this.btnSearchStaff = new Bunifu.Framework.UI.BunifuImageButton();
-            this.txtSearchStaff = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.khachHangBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.khachhangIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.hoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tenlotDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -51,13 +42,20 @@
             this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sDTDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.diachiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.khachHangBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.nhanVienBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.btnLoad = new System.Windows.Forms.Button();
+            this.btnSearchStaff = new Bunifu.Framework.UI.BunifuImageButton();
+            this.txtSearchCustomer = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.khachHangBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nhanVienBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSearchStaff)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.khachHangBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -109,112 +107,6 @@
             this.bunifuCustomDataGrid1.Size = new System.Drawing.Size(877, 365);
             this.bunifuCustomDataGrid1.TabIndex = 0;
             // 
-            // nhanVienBindingSource
-            // 
-            this.nhanVienBindingSource.DataSource = typeof(NhanVien.Domain.NhanVien);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(152, 1);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(140, 138);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 26;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(6, 1);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(140, 138);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 25;
-            this.pictureBox1.TabStop = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(60)))), ((int)(((byte)(85)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(731, 101);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(141, 41);
-            this.button3.TabIndex = 24;
-            this.button3.Text = "Xóa";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // btnSave
-            // 
-            this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(60)))), ((int)(((byte)(85)))));
-            this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSave.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.ForeColor = System.Drawing.Color.White;
-            this.btnSave.Image = ((System.Drawing.Image)(resources.GetObject("btnSave.Image")));
-            this.btnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSave.Location = new System.Drawing.Point(731, 52);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(141, 38);
-            this.btnSave.TabIndex = 23;
-            this.btnSave.Text = "Lưu";
-            this.btnSave.UseVisualStyleBackColor = false;
-            // 
-            // btnLoad
-            // 
-            this.btnLoad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(60)))), ((int)(((byte)(85)))));
-            this.btnLoad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLoad.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLoad.ForeColor = System.Drawing.Color.White;
-            this.btnLoad.Image = ((System.Drawing.Image)(resources.GetObject("btnLoad.Image")));
-            this.btnLoad.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLoad.Location = new System.Drawing.Point(731, 9);
-            this.btnLoad.Name = "btnLoad";
-            this.btnLoad.Size = new System.Drawing.Size(141, 37);
-            this.btnLoad.TabIndex = 22;
-            this.btnLoad.Text = "Tải dữ liệu";
-            this.btnLoad.UseVisualStyleBackColor = false;
-            // 
-            // btnSearchStaff
-            // 
-            this.btnSearchStaff.BackColor = System.Drawing.Color.White;
-            this.btnSearchStaff.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSearchStaff.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchStaff.Image")));
-            this.btnSearchStaff.ImageActive = null;
-            this.btnSearchStaff.Location = new System.Drawing.Point(566, 13);
-            this.btnSearchStaff.Name = "btnSearchStaff";
-            this.btnSearchStaff.Size = new System.Drawing.Size(29, 33);
-            this.btnSearchStaff.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnSearchStaff.TabIndex = 21;
-            this.btnSearchStaff.TabStop = false;
-            this.btnSearchStaff.Zoom = 10;
-            // 
-            // txtSearchStaff
-            // 
-            this.txtSearchStaff.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtSearchStaff.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.txtSearchStaff.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtSearchStaff.HintForeColor = System.Drawing.Color.Empty;
-            this.txtSearchStaff.HintText = "Nhập tên khách hàng";
-            this.txtSearchStaff.isPassword = false;
-            this.txtSearchStaff.LineFocusedColor = System.Drawing.Color.Blue;
-            this.txtSearchStaff.LineIdleColor = System.Drawing.Color.Gray;
-            this.txtSearchStaff.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.txtSearchStaff.LineThickness = 3;
-            this.txtSearchStaff.Location = new System.Drawing.Point(373, 13);
-            this.txtSearchStaff.Margin = new System.Windows.Forms.Padding(4);
-            this.txtSearchStaff.Name = "txtSearchStaff";
-            this.txtSearchStaff.Size = new System.Drawing.Size(196, 33);
-            this.txtSearchStaff.TabIndex = 20;
-            this.txtSearchStaff.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // khachHangBindingSource
-            // 
-            this.khachHangBindingSource.DataSource = typeof(KhachHang.Domain.KhachHang);
-            // 
             // khachhangIdDataGridViewTextBoxColumn
             // 
             this.khachhangIdDataGridViewTextBoxColumn.DataPropertyName = "KhachhangId";
@@ -263,28 +155,126 @@
             this.diachiDataGridViewTextBoxColumn.HeaderText = "Địa chỉ";
             this.diachiDataGridViewTextBoxColumn.Name = "diachiDataGridViewTextBoxColumn";
             // 
+            // khachHangBindingSource
+            // 
+            this.khachHangBindingSource.DataSource = typeof(KhachHang.Domain.KhachHang);
+            // 
+            // nhanVienBindingSource
+            // 
+            this.nhanVienBindingSource.DataSource = typeof(NhanVien.Domain.NhanVien);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(44, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(140, 138);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 25;
+            this.pictureBox1.TabStop = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(60)))), ((int)(((byte)(85)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(731, 101);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(141, 41);
+            this.button3.TabIndex = 24;
+            this.button3.Text = "Xóa";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // btnSave
+            // 
+            this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(60)))), ((int)(((byte)(85)))));
+            this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSave.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.ForeColor = System.Drawing.Color.White;
+            this.btnSave.Image = ((System.Drawing.Image)(resources.GetObject("btnSave.Image")));
+            this.btnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSave.Location = new System.Drawing.Point(731, 52);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(141, 38);
+            this.btnSave.TabIndex = 23;
+            this.btnSave.Text = "Lưu";
+            this.btnSave.UseVisualStyleBackColor = false;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
+            // btnLoad
+            // 
+            this.btnLoad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(60)))), ((int)(((byte)(85)))));
+            this.btnLoad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLoad.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLoad.ForeColor = System.Drawing.Color.White;
+            this.btnLoad.Image = ((System.Drawing.Image)(resources.GetObject("btnLoad.Image")));
+            this.btnLoad.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLoad.Location = new System.Drawing.Point(731, 9);
+            this.btnLoad.Name = "btnLoad";
+            this.btnLoad.Size = new System.Drawing.Size(141, 37);
+            this.btnLoad.TabIndex = 22;
+            this.btnLoad.Text = "Tải dữ liệu";
+            this.btnLoad.UseVisualStyleBackColor = false;
+            this.btnLoad.Click += new System.EventHandler(this.btnLoad_Click);
+            // 
+            // btnSearchStaff
+            // 
+            this.btnSearchStaff.BackColor = System.Drawing.Color.White;
+            this.btnSearchStaff.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSearchStaff.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchStaff.Image")));
+            this.btnSearchStaff.ImageActive = null;
+            this.btnSearchStaff.Location = new System.Drawing.Point(566, 13);
+            this.btnSearchStaff.Name = "btnSearchStaff";
+            this.btnSearchStaff.Size = new System.Drawing.Size(29, 33);
+            this.btnSearchStaff.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnSearchStaff.TabIndex = 21;
+            this.btnSearchStaff.TabStop = false;
+            this.btnSearchStaff.Zoom = 10;
+            this.btnSearchStaff.Click += new System.EventHandler(this.btnSearchStaff_Click);
+            // 
+            // txtSearchCustomer
+            // 
+            this.txtSearchCustomer.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtSearchCustomer.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txtSearchCustomer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtSearchCustomer.HintForeColor = System.Drawing.Color.Empty;
+            this.txtSearchCustomer.HintText = "Nhập tên khách hàng";
+            this.txtSearchCustomer.isPassword = false;
+            this.txtSearchCustomer.LineFocusedColor = System.Drawing.Color.Blue;
+            this.txtSearchCustomer.LineIdleColor = System.Drawing.Color.Gray;
+            this.txtSearchCustomer.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.txtSearchCustomer.LineThickness = 3;
+            this.txtSearchCustomer.Location = new System.Drawing.Point(373, 13);
+            this.txtSearchCustomer.Margin = new System.Windows.Forms.Padding(4);
+            this.txtSearchCustomer.Name = "txtSearchCustomer";
+            this.txtSearchCustomer.Size = new System.Drawing.Size(196, 33);
+            this.txtSearchCustomer.TabIndex = 20;
+            this.txtSearchCustomer.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
             // KhachHangControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnLoad);
             this.Controls.Add(this.btnSearchStaff);
-            this.Controls.Add(this.txtSearchStaff);
+            this.Controls.Add(this.txtSearchCustomer);
             this.Name = "KhachHangControl";
             this.Size = new System.Drawing.Size(883, 543);
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.khachHangBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nhanVienBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSearchStaff)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.khachHangBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -303,12 +293,11 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn diachiDataGridViewTextBoxColumn;
         private System.Windows.Forms.BindingSource khachHangBindingSource;
         private System.Windows.Forms.BindingSource nhanVienBindingSource;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnLoad;
         private Bunifu.Framework.UI.BunifuImageButton btnSearchStaff;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox txtSearchStaff;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox txtSearchCustomer;
     }
 }

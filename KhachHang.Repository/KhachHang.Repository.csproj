@@ -44,6 +44,7 @@
     <Compile Include="KhachHangAddRepository.cs" />
     <Compile Include="KhachHangDeleteRepository.cs" />
     <Compile Include="KhachHangListRepository.cs" />
+    <Compile Include="KhachHangSearchRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

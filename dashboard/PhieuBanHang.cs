@@ -60,7 +60,7 @@ namespace dashboard
             data.TenSanPham = this.cbbHangHoa.Text;
             data.NgayBan = DateTime.Now.ToString();
             data.SoLuong = Convert.ToInt32(this.txtSoLuong.Text);
-            data.Giaban = Convert.ToInt32(this.txtGiaBan.Text);
+            data.Giaban = Convert.ToInt32(this.txtSoLuong.Text) * Convert.ToInt32(this.txtGiaBan.Text);
             data.ID = rand;
             using (var cmd = new BanHangAddRepository())
             {

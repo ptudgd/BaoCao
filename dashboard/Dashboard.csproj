@@ -215,6 +215,7 @@
     <Content Include="Icons\staff.png" />
     <Content Include="Icons\staff512px.png" />
     <Content Include="Icons\staff512pxmale.png" />
+    <Content Include="Icons\users-group.png" />
     <Content Include="Icons\wallet-with-bill.png" />
   </ItemGroup>
   <ItemGroup>
