@@ -103,10 +103,16 @@ namespace dashboard
         
         private void bunifuTileButton1_Click(object sender, EventArgs e)
         {
-            var listcur = this.PhieuBanHangDataGridView.DataSource as List<BanHang.Domain.BanHang>;
-            foreach (var item in listcur)
+            var listcur = this.banHangBindingSource.DataSource as List<BanHang.Domain.BanHang>;
+            if(listcur != null)
             {
-                MessageBox.Show(item.TenSanPham);
+                using(var cmd = new PhieuBanHangViewBusiness())
+                {
+                    cmd.ID = listcur[0].ID;
+                    var rp = new InHoaDonPhieuBanHang();
+                    rp.DataSource = cmd.Execute();
+                    rp.ShowPreviewDialog();
+                }
             }
         }
     }
