@@ -42,3 +42,5 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangForm\bin\Debug\PhieuBanHang
 C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangForm\bin\Debug\PhieuBanHangForm.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangForm\obj\Debug\PhieuBanHangForm.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangForm\obj\Debug\PhieuBanHangForm.csproj.CoreCompileInputs.cache
+C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangForm\bin\Debug\BanHangBusiness.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHangForm\bin\Debug\BanHangBusiness.pdb

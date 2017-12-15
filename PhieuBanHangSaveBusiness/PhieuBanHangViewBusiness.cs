@@ -8,9 +8,10 @@ using System.Data.SqlClient;
 
 namespace PhieuBanHangSaveBusiness
 {
-    public class PhieuBanHangViewBusiness:ConnectDatabase
+    public class BanHangViewBusiness:ConnectDatabase
     {
         public int ID { get; set; }
+        public string HanghoaId { get; set; }
         public List<BanHang.Domain.BanHang> Execute()
         {
             var data = new List<BanHang.Domain.BanHang>();
@@ -20,6 +21,16 @@ namespace PhieuBanHangSaveBusiness
                 {
                     conn.Open();
                     cmd.CommandText = "SELECT * FROM BanHang WHERE ID=@ID";
+                    if (!string.IsNullOrWhiteSpace(HanghoaId))
+                    {
+                        cmd.CommandText = "SELECT * FROM BanHang WHERE ID=@ID AND HanghoaId=@HanghoaId";
+                        cmd.Parameters.Add(new SqlParameter
+                        {
+                            ParameterName = "@HanghoaId",
+                            Value = HanghoaId,
+                            SqlDbType = System.Data.SqlDbType.NVarChar
+                        });
+                    }
                     cmd.Parameters.Add(new SqlParameter
                     {
                         ParameterName = "@ID",

@@ -13,5 +13,4 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\BaoCao.Library\bin\Debug\BaoCao.Library
 C:\Users\Admiral\Documents\GitHub\BaoCao\BaoCao.Library\bin\Debug\BaoCao.Library.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\BaoCao.Library\obj\Debug\BaoCao.Library.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\BaoCao.Library\obj\Debug\BaoCao.Library.pdb
-C:\Users\Admiral\Documents\GitHub\BaoCao\BaoCao.Library\obj\Debug\BaoCao.Library.csprojResolveAssemblyReference.cache
 C:\Users\Admiral\Documents\GitHub\BaoCao\BaoCao.Library\obj\Debug\BaoCao.Library.csproj.CoreCompileInputs.cache

@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PhieuBanHang));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PhieuBanHang));
             this.cbbNhomHangHoa = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtSoLuong = new Bunifu.Framework.UI.BunifuMaterialTextbox();
@@ -42,20 +42,21 @@
             this.cbbHangHoa = new System.Windows.Forms.ComboBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.PhieuBanHangDataGridView = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.banHangBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.PanelPhieuBanHang = new System.Windows.Forms.Panel();
-            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.hangHoaBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bunifuTileButton3 = new Bunifu.Framework.UI.BunifuTileButton();
+            this.bunifuTileButton4 = new Bunifu.Framework.UI.BunifuTileButton();
             this.tenSanPhamDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.soLuongDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.giabanDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ngayBanDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nhomHanghoaIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.hanghoaIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.banHangBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.hangHoaBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PhieuBanHangDataGridView)).BeginInit();
-            this.PanelPhieuBanHang.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.banHangBindingSource)).BeginInit();
+            this.PanelPhieuBanHang.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.hangHoaBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
@@ -72,6 +73,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.bunifuTileButton4);
+            this.groupBox1.Controls.Add(this.bunifuTileButton3);
             this.groupBox1.Controls.Add(this.txtSoLuong);
             this.groupBox1.Controls.Add(this.txtGiaBan);
             this.groupBox1.Controls.Add(this.bunifuTileButton2);
@@ -98,7 +101,7 @@
             this.txtSoLuong.LineIdleColor = System.Drawing.Color.Gray;
             this.txtSoLuong.LineMouseHoverColor = System.Drawing.Color.Blue;
             this.txtSoLuong.LineThickness = 3;
-            this.txtSoLuong.Location = new System.Drawing.Point(379, 21);
+            this.txtSoLuong.Location = new System.Drawing.Point(111, 91);
             this.txtSoLuong.Margin = new System.Windows.Forms.Padding(4);
             this.txtSoLuong.Name = "txtSoLuong";
             this.txtSoLuong.Size = new System.Drawing.Size(186, 30);
@@ -107,7 +110,7 @@
             // 
             // txtGiaBan
             // 
-            this.txtGiaBan.Location = new System.Drawing.Point(19, 101);
+            this.txtGiaBan.Location = new System.Drawing.Point(19, 128);
             this.txtGiaBan.Name = "txtGiaBan";
             this.txtGiaBan.Size = new System.Drawing.Size(168, 20);
             this.txtGiaBan.TabIndex = 6;
@@ -159,7 +162,7 @@
             this.bunifuCustomLabel1.BackColor = System.Drawing.Color.White;
             this.bunifuCustomLabel1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.Brown;
-            this.bunifuCustomLabel1.Location = new System.Drawing.Point(285, 27);
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(17, 97);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
             this.bunifuCustomLabel1.Size = new System.Drawing.Size(87, 22);
             this.bunifuCustomLabel1.TabIndex = 3;
@@ -203,7 +206,6 @@
             this.PhieuBanHangDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.PhieuBanHangDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.PhieuBanHangDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.iDDataGridViewTextBoxColumn,
             this.tenSanPhamDataGridViewTextBoxColumn,
             this.soLuongDataGridViewTextBoxColumn,
             this.giabanDataGridViewTextBoxColumn,
@@ -222,6 +224,10 @@
             this.PhieuBanHangDataGridView.Size = new System.Drawing.Size(883, 320);
             this.PhieuBanHangDataGridView.TabIndex = 0;
             // 
+            // banHangBindingSource
+            // 
+            this.banHangBindingSource.DataSource = typeof(BanHang.Domain.BanHang);
+            // 
             // PanelPhieuBanHang
             // 
             this.PanelPhieuBanHang.Controls.Add(this.groupBox1);
@@ -232,11 +238,49 @@
             this.PanelPhieuBanHang.Size = new System.Drawing.Size(883, 488);
             this.PanelPhieuBanHang.TabIndex = 3;
             // 
-            // iDDataGridViewTextBoxColumn
+            // hangHoaBindingSource
             // 
-            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
-            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
-            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
+            this.hangHoaBindingSource.DataSource = typeof(HangHoa.Domain.HangHoa);
+            // 
+            // bunifuTileButton3
+            // 
+            this.bunifuTileButton3.BackColor = System.Drawing.Color.SeaGreen;
+            this.bunifuTileButton3.color = System.Drawing.Color.SeaGreen;
+            this.bunifuTileButton3.colorActive = System.Drawing.Color.MediumSeaGreen;
+            this.bunifuTileButton3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTileButton3.Font = new System.Drawing.Font("Century Gothic", 15.75F);
+            this.bunifuTileButton3.ForeColor = System.Drawing.Color.White;
+            this.bunifuTileButton3.Image = ((System.Drawing.Image)(resources.GetObject("bunifuTileButton3.Image")));
+            this.bunifuTileButton3.ImagePosition = 20;
+            this.bunifuTileButton3.ImageZoom = 50;
+            this.bunifuTileButton3.LabelPosition = 41;
+            this.bunifuTileButton3.LabelText = "Hủy";
+            this.bunifuTileButton3.Location = new System.Drawing.Point(305, 6);
+            this.bunifuTileButton3.Margin = new System.Windows.Forms.Padding(6);
+            this.bunifuTileButton3.Name = "bunifuTileButton3";
+            this.bunifuTileButton3.Size = new System.Drawing.Size(134, 153);
+            this.bunifuTileButton3.TabIndex = 8;
+            this.bunifuTileButton3.Click += new System.EventHandler(this.bunifuTileButton3_Click);
+            // 
+            // bunifuTileButton4
+            // 
+            this.bunifuTileButton4.BackColor = System.Drawing.Color.SeaGreen;
+            this.bunifuTileButton4.color = System.Drawing.Color.SeaGreen;
+            this.bunifuTileButton4.colorActive = System.Drawing.Color.MediumSeaGreen;
+            this.bunifuTileButton4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTileButton4.Font = new System.Drawing.Font("Century Gothic", 15.75F);
+            this.bunifuTileButton4.ForeColor = System.Drawing.Color.White;
+            this.bunifuTileButton4.Image = ((System.Drawing.Image)(resources.GetObject("bunifuTileButton4.Image")));
+            this.bunifuTileButton4.ImagePosition = 20;
+            this.bunifuTileButton4.ImageZoom = 50;
+            this.bunifuTileButton4.LabelPosition = 41;
+            this.bunifuTileButton4.LabelText = "Xóa";
+            this.bunifuTileButton4.Location = new System.Drawing.Point(451, 6);
+            this.bunifuTileButton4.Margin = new System.Windows.Forms.Padding(6);
+            this.bunifuTileButton4.Name = "bunifuTileButton4";
+            this.bunifuTileButton4.Size = new System.Drawing.Size(134, 153);
+            this.bunifuTileButton4.TabIndex = 9;
+            this.bunifuTileButton4.Click += new System.EventHandler(this.bunifuTileButton4_Click);
             // 
             // tenSanPhamDataGridViewTextBoxColumn
             // 
@@ -274,14 +318,6 @@
             this.hanghoaIdDataGridViewTextBoxColumn.HeaderText = "Mã hàng hóa";
             this.hanghoaIdDataGridViewTextBoxColumn.Name = "hanghoaIdDataGridViewTextBoxColumn";
             // 
-            // banHangBindingSource
-            // 
-            this.banHangBindingSource.DataSource = typeof(BanHang.Domain.BanHang);
-            // 
-            // hangHoaBindingSource
-            // 
-            this.hangHoaBindingSource.DataSource = typeof(HangHoa.Domain.HangHoa);
-            // 
             // PhieuBanHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -295,8 +331,8 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PhieuBanHangDataGridView)).EndInit();
-            this.PanelPhieuBanHang.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.banHangBindingSource)).EndInit();
+            this.PanelPhieuBanHang.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.hangHoaBindingSource)).EndInit();
             this.ResumeLayout(false);
 
@@ -317,7 +353,8 @@
         private System.Windows.Forms.TextBox txtGiaBan;
         private Bunifu.Framework.UI.BunifuMaterialTextbox txtSoLuong;
         private System.Windows.Forms.Panel PanelPhieuBanHang;
-        private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn;
+        private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton3;
+        private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton4;
         private System.Windows.Forms.DataGridViewTextBoxColumn tenSanPhamDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn soLuongDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn giabanDataGridViewTextBoxColumn;

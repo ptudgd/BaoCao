@@ -83,6 +83,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BanHangBusiness\BanHangBusiness.csproj">
+      <Project>{32BE97C1-F517-43D0-BA12-410BB5D1BC85}</Project>
+      <Name>BanHangBusiness</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BaoCao.Library\BaoCao.Library.csproj">
       <Project>{5390fb3e-d6f2-4742-aa52-27a65fe71210}</Project>
       <Name>BaoCao.Library</Name>

@@ -31,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bunifu_UI_v1.5.3">
       <HintPath>..\Bunifu_UI_v1.5.3.dll</HintPath>
@@ -93,6 +96,12 @@
     <Compile Include="DanhSachBanHang.Designer.cs">
       <DependentUpon>DanhSachBanHang.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="HangHoaControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -139,6 +148,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="DanhSachBanHang.resx">
       <DependentUpon>DanhSachBanHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HangHoaControl.resx">
       <DependentUpon>HangHoaControl.cs</DependentUpon>
@@ -194,20 +206,26 @@
     <Content Include="Icons\bars-chart.png" />
     <Content Include="Icons\cancel-mark %281%29.png" />
     <Content Include="Icons\cancel-mark.png" />
+    <Content Include="Icons\cancel.png" />
     <Content Include="Icons\clipboards.png" />
     <Content Include="Icons\cloud-staff-interface-symbol.png" />
     <Content Include="Icons\collaboration.png" />
     <Content Include="Icons\delete-button.png" />
+    <Content Include="Icons\disquette.png" />
     <Content Include="Icons\garbage.png" />
     <Content Include="Icons\invoice %281%29.png" />
     <Content Include="Icons\list.png" />
     <Content Include="Icons\list1.png" />
     <Content Include="Icons\loading.png" />
     <Content Include="Icons\packing.png" />
+    <Content Include="Icons\recycling-bin.png" />
     <Content Include="Icons\refresh-round-symbol %281%29.png" />
     <Content Include="Icons\refresh-round-symbol.png" />
+    <Content Include="Icons\remove-symbol.png" />
     <Content Include="Icons\save.png" />
     <Content Include="Icons\search %281%29.png" />
+    <Content Include="Icons\search %282%29.png" />
+    <Content Include="Icons\search %283%29.png" />
     <Content Include="Icons\search.png" />
     <Content Include="Icons\sell-product.png" />
     <Content Include="Icons\sell-product128px.png" />
@@ -215,10 +233,20 @@
     <Content Include="Icons\staff.png" />
     <Content Include="Icons\staff512px.png" />
     <Content Include="Icons\staff512pxmale.png" />
+    <Content Include="Icons\trucking.png" />
     <Content Include="Icons\users-group.png" />
     <Content Include="Icons\wallet-with-bill.png" />
+    <Content Include="Icons\waste-bin.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Banhang.Repository\Banhang.Repository.csproj">
+      <Project>{2df80d9b-dff4-41c7-bf81-73ab5dce931d}</Project>
+      <Name>Banhang.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BanHangBusiness\BanHangBusiness.csproj">
+      <Project>{32be97c1-f517-43d0-ba12-410bb5d1bc85}</Project>
+      <Name>BanHangBusiness</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BaoCao.Library\BaoCao.Library.csproj">
       <Project>{5390fb3e-d6f2-4742-aa52-27a65fe71210}</Project>
       <Name>BaoCao.Library</Name>
@@ -227,10 +255,6 @@
       <Project>{1d212168-d100-46e0-aec5-4e98cda74859}</Project>
       <Name>HangHoa.Repository</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DangNhapForm\DangNhapForm.csproj">
-      <Project>{65c109bb-f426-49bf-b652-75ee46d61512}</Project>
-      <Name>DangNhapForm</Name>
-    </ProjectReference>
     <ProjectReference Include="..\HangHoa.Business\HangHoa.Business.csproj">
       <Project>{7968b5c9-8906-4f36-ae25-6f32e03237a6}</Project>
       <Name>HangHoa.Business</Name>
@@ -238,10 +262,6 @@
     <ProjectReference Include="..\HangHoa.Library\HangHoa.Domain.csproj">
       <Project>{1057ae9b-9366-4b29-8933-5734c63f5d0d}</Project>
       <Name>HangHoa.Domain</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\HangHoaForm\HangHoaForm.csproj">
-      <Project>{c17c8125-0fed-44df-9092-710b8fd67c28}</Project>
-      <Name>HangHoaForm</Name>
     </ProjectReference>
     <ProjectReference Include="..\KhachHang.Library\KhachHang.Domain.csproj">
       <Project>{441bb1ca-f4a7-47e9-97dd-1752987f4b5d}</Project>
@@ -296,24 +316,12 @@
       <Name>PhieuBanHang.Domain</Name>
     </ProjectReference>
     <ProjectReference Include="..\PhieuBanHang.Repository\PhieuBanHang.Repository.csproj">
-      <Project>{bef7c846-3037-4331-b239-ba8b3f7450f0}</Project>
+      <Project>{BEF7C846-3037-4331-B239-BA8B3F7450F0}</Project>
       <Name>PhieuBanHang.Repository</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PhieuBanHangBusiness\PhieuBanHangBusiness.csproj">
-      <Project>{60F939F9-D234-4E21-B4B7-3732C6F43F74}</Project>
-      <Name>PhieuBanHangBusiness</Name>
     </ProjectReference>
     <ProjectReference Include="..\PhieuBanHangSaveBusiness\PhieuBanHangSaveBusiness.csproj">
       <Project>{5B5DE1CB-0141-411A-9126-A9523999F649}</Project>
       <Name>PhieuBanHangSaveBusiness</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PhieuMuaHang.Library\PhieuMuaHang.Domain.csproj">
-      <Project>{262e9b2b-c9a5-4548-ba22-106ea195cbc6}</Project>
-      <Name>PhieuMuaHang.Domain</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PhieuMuaHang.Repository\PhieuMuaHang.Repository.csproj">
-      <Project>{966a3f25-cba1-4ff3-9b47-cd75fe320745}</Project>
-      <Name>PhieuMuaHang.Repository</Name>
     </ProjectReference>
     <ProjectReference Include="..\ThuChi.Library\ThuChi.Domain.csproj">
       <Project>{328e8840-693b-4adf-a3e7-a961ecac6bf5}</Project>

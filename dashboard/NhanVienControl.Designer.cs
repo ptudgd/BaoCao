@@ -34,13 +34,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NhanVienControl));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.bunifuCustomDataGrid1 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
-            this.txtSearchStaff = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.btnSearchStaff = new Bunifu.Framework.UI.BunifuImageButton();
-            this.btnLoad = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.btnSave = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.nhanvienIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.holotDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tenDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -48,12 +41,19 @@
             this.ngaysinhDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ngayVaolamDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nhanVienBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.txtSearchStaff = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.btnSearchStaff = new Bunifu.Framework.UI.BunifuImageButton();
+            this.btnLoad = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nhanVienBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSearchStaff)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nhanVienBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -102,6 +102,46 @@
             this.bunifuCustomDataGrid1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.bunifuCustomDataGrid1.Size = new System.Drawing.Size(877, 319);
             this.bunifuCustomDataGrid1.TabIndex = 0;
+            // 
+            // nhanvienIdDataGridViewTextBoxColumn
+            // 
+            this.nhanvienIdDataGridViewTextBoxColumn.DataPropertyName = "NhanvienId";
+            this.nhanvienIdDataGridViewTextBoxColumn.HeaderText = "Mã nhân viên";
+            this.nhanvienIdDataGridViewTextBoxColumn.Name = "nhanvienIdDataGridViewTextBoxColumn";
+            // 
+            // holotDataGridViewTextBoxColumn
+            // 
+            this.holotDataGridViewTextBoxColumn.DataPropertyName = "Holot";
+            this.holotDataGridViewTextBoxColumn.HeaderText = "Họ lót";
+            this.holotDataGridViewTextBoxColumn.Name = "holotDataGridViewTextBoxColumn";
+            // 
+            // tenDataGridViewTextBoxColumn
+            // 
+            this.tenDataGridViewTextBoxColumn.DataPropertyName = "Ten";
+            this.tenDataGridViewTextBoxColumn.HeaderText = "Tên nhân viên";
+            this.tenDataGridViewTextBoxColumn.Name = "tenDataGridViewTextBoxColumn";
+            // 
+            // gioitinhDataGridViewCheckBoxColumn
+            // 
+            this.gioitinhDataGridViewCheckBoxColumn.DataPropertyName = "Gioitinh";
+            this.gioitinhDataGridViewCheckBoxColumn.HeaderText = "Giới tính(Nam)";
+            this.gioitinhDataGridViewCheckBoxColumn.Name = "gioitinhDataGridViewCheckBoxColumn";
+            // 
+            // ngaysinhDataGridViewTextBoxColumn
+            // 
+            this.ngaysinhDataGridViewTextBoxColumn.DataPropertyName = "Ngaysinh";
+            this.ngaysinhDataGridViewTextBoxColumn.HeaderText = "Ngày sinh";
+            this.ngaysinhDataGridViewTextBoxColumn.Name = "ngaysinhDataGridViewTextBoxColumn";
+            // 
+            // ngayVaolamDataGridViewTextBoxColumn
+            // 
+            this.ngayVaolamDataGridViewTextBoxColumn.DataPropertyName = "NgayVaolam";
+            this.ngayVaolamDataGridViewTextBoxColumn.HeaderText = "Ngày vào làm";
+            this.ngayVaolamDataGridViewTextBoxColumn.Name = "ngayVaolamDataGridViewTextBoxColumn";
+            // 
+            // nhanVienBindingSource
+            // 
+            this.nhanVienBindingSource.DataSource = typeof(NhanVien.Domain.NhanVien);
             // 
             // txtSearchStaff
             // 
@@ -198,52 +238,12 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(152, 3);
+            this.pictureBox2.Location = new System.Drawing.Point(142, 3);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(140, 138);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 18;
             this.pictureBox2.TabStop = false;
-            // 
-            // nhanvienIdDataGridViewTextBoxColumn
-            // 
-            this.nhanvienIdDataGridViewTextBoxColumn.DataPropertyName = "NhanvienId";
-            this.nhanvienIdDataGridViewTextBoxColumn.HeaderText = "Mã nhân viên";
-            this.nhanvienIdDataGridViewTextBoxColumn.Name = "nhanvienIdDataGridViewTextBoxColumn";
-            // 
-            // holotDataGridViewTextBoxColumn
-            // 
-            this.holotDataGridViewTextBoxColumn.DataPropertyName = "Holot";
-            this.holotDataGridViewTextBoxColumn.HeaderText = "Họ lót";
-            this.holotDataGridViewTextBoxColumn.Name = "holotDataGridViewTextBoxColumn";
-            // 
-            // tenDataGridViewTextBoxColumn
-            // 
-            this.tenDataGridViewTextBoxColumn.DataPropertyName = "Ten";
-            this.tenDataGridViewTextBoxColumn.HeaderText = "Tên nhân viên";
-            this.tenDataGridViewTextBoxColumn.Name = "tenDataGridViewTextBoxColumn";
-            // 
-            // gioitinhDataGridViewCheckBoxColumn
-            // 
-            this.gioitinhDataGridViewCheckBoxColumn.DataPropertyName = "Gioitinh";
-            this.gioitinhDataGridViewCheckBoxColumn.HeaderText = "Giới tính(Nam)";
-            this.gioitinhDataGridViewCheckBoxColumn.Name = "gioitinhDataGridViewCheckBoxColumn";
-            // 
-            // ngaysinhDataGridViewTextBoxColumn
-            // 
-            this.ngaysinhDataGridViewTextBoxColumn.DataPropertyName = "Ngaysinh";
-            this.ngaysinhDataGridViewTextBoxColumn.HeaderText = "Ngày sinh";
-            this.ngaysinhDataGridViewTextBoxColumn.Name = "ngaysinhDataGridViewTextBoxColumn";
-            // 
-            // ngayVaolamDataGridViewTextBoxColumn
-            // 
-            this.ngayVaolamDataGridViewTextBoxColumn.DataPropertyName = "NgayVaolam";
-            this.ngayVaolamDataGridViewTextBoxColumn.HeaderText = "Ngày vào làm";
-            this.ngayVaolamDataGridViewTextBoxColumn.Name = "ngayVaolamDataGridViewTextBoxColumn";
-            // 
-            // nhanVienBindingSource
-            // 
-            this.nhanVienBindingSource.DataSource = typeof(NhanVien.Domain.NhanVien);
             // 
             // NhanVienControl
             // 
@@ -262,10 +262,10 @@
             this.Size = new System.Drawing.Size(883, 488);
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nhanVienBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSearchStaff)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nhanVienBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }

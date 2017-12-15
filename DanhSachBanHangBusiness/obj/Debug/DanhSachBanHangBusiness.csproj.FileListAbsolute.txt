@@ -1,0 +1,13 @@
+C:\Users\Admiral\Documents\GitHub\BaoCao\DanhSachBanHangBusiness\bin\Debug\DanhSachBanHangBusiness.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\DanhSachBanHangBusiness\bin\Debug\DanhSachBanHangBusiness.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\DanhSachBanHangBusiness\bin\Debug\BaoCao.Library.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\DanhSachBanHangBusiness\bin\Debug\PhieuBanHang.Library.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\DanhSachBanHangBusiness\bin\Debug\PhieuBanHang.Repository.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\DanhSachBanHangBusiness\bin\Debug\PhieuBanHangSaveBusiness.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\DanhSachBanHangBusiness\bin\Debug\BaoCao.Library.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\DanhSachBanHangBusiness\bin\Debug\PhieuBanHang.Library.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\DanhSachBanHangBusiness\bin\Debug\PhieuBanHang.Repository.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\DanhSachBanHangBusiness\bin\Debug\PhieuBanHangSaveBusiness.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\DanhSachBanHangBusiness\obj\Debug\DanhSachBanHangBusiness.csproj.CoreCompileInputs.cache
+C:\Users\Admiral\Documents\GitHub\BaoCao\DanhSachBanHangBusiness\obj\Debug\DanhSachBanHangBusiness.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\DanhSachBanHangBusiness\obj\Debug\DanhSachBanHangBusiness.pdb

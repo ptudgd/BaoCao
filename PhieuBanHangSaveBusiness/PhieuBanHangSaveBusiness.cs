@@ -17,7 +17,7 @@ namespace PhieuBanHangSaveBusiness
         public void Execute()
         {
             List< BanHang.Domain.BanHang> check = null;
-            using(var cmd = new PhieuBanHangViewBusiness())
+            using(var cmd = new BanHangViewBusiness())
             {
                 cmd.ID = item.ID;
                 check = cmd.Execute();

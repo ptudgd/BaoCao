@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BanHangBusiness;
 using PhieuBanHang.Repository;
 namespace PhieuBanHangForm
 {
@@ -42,7 +43,7 @@ namespace PhieuBanHangForm
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void label2_Click(object sender, EventArgs e)

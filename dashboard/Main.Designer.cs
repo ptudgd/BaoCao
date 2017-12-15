@@ -185,7 +185,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Quản lý bán hàng";
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

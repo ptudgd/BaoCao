@@ -11,8 +11,10 @@ using NhomHangHoaRepository;
 using BaoCao.Repository;
 using System.Globalization;
 using DevExpress.XtraReports.UI;
-using PhieuBanHang.Repository;
+
 using PhieuBanHangSaveBusiness;
+using BanHangBusiness;
+using PhieuBanHang.Repository;
 
 namespace dashboard
 {
@@ -50,27 +52,36 @@ namespace dashboard
         public int rand = 0;
         private void bunifuTileButton2_Click(object sender, EventArgs e)
         {
-            if(rand == 0)
+            try
             {
-                rand = getRand(2);
+                if (rand == 0)
+                {
+                    rand = getRand(2);
+                }
+                var data = new BanHang.Domain.BanHang();
+                data.HanghoaId = this.cbbHangHoa.SelectedValue.ToString();
+                data.NhomHanghoaId = this.cbbNhomHangHoa.SelectedValue.ToString();
+                data.TenSanPham = this.cbbHangHoa.Text;
+                data.NgayBan = DateTime.Now.ToString();
+                data.SoLuong = Convert.ToInt32(this.txtSoLuong.Text);
+                data.Giaban = Convert.ToInt32(this.txtSoLuong.Text) * Convert.ToInt32(this.txtGiaBan.Text);
+                data.ID = rand;
+
+                using (var cmd = new BanHangAddRepository())
+                {
+                    cmd.item = data;
+                    cmd.Execute();
+                }
+                using (var cmd = new BanHangViewBusiness())
+                {
+                    cmd.ID = data.ID;
+                    this.banHangBindingSource.DataSource = cmd.Execute();
+                }
+                this.txtSoLuong.Text = "";
             }
-            var data = new BanHang.Domain.BanHang();
-            data.HanghoaId = this.cbbHangHoa.SelectedValue.ToString();
-            data.NhomHanghoaId = this.cbbNhomHangHoa.SelectedValue.ToString();
-            data.TenSanPham = this.cbbHangHoa.Text;
-            data.NgayBan = DateTime.Now.ToString();
-            data.SoLuong = Convert.ToInt32(this.txtSoLuong.Text);
-            data.Giaban = Convert.ToInt32(this.txtSoLuong.Text) * Convert.ToInt32(this.txtGiaBan.Text);
-            data.ID = rand;
-            using (var cmd = new BanHangAddRepository())
+            catch
             {
-                cmd.item = data;
-                cmd.Execute();
-            }
-            using (var cmd = new PhieuBanHangViewBusiness())
-            {
-                cmd.ID = data.ID;
-                this.banHangBindingSource.DataSource = cmd.Execute();
+                MessageBox.Show("Vui lòng kiểm tra lại!", "CÓ LỖI XẢY RA!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
         }
@@ -106,7 +117,7 @@ namespace dashboard
             var listcur = this.banHangBindingSource.DataSource as List<BanHang.Domain.BanHang>;
             if(listcur != null)
             {
-                using(var cmd = new PhieuBanHangViewBusiness())
+                using(var cmd = new BanHangViewBusiness())
                 {
                     cmd.ID = listcur[0].ID;
                     var rp = new InHoaDonPhieuBanHang();
@@ -114,6 +125,40 @@ namespace dashboard
                     rp.ShowPreviewDialog();
                 }
             }
+        }
+
+        private void bunifuTileButton3_Click(object sender, EventArgs e)
+        {
+            var listcur = this.banHangBindingSource.DataSource as List<BanHang.Domain.BanHang>;
+            if(listcur!= null)
+            {
+                using(var cmd = new BanHangDeleteRepository())
+                {
+                    cmd.ID = listcur[0].ID;
+                    cmd.Execute();
+                }
+                this.banHangBindingSource.DataSource = null;
+            }
+        }
+
+        private void bunifuTileButton4_Click(object sender, EventArgs e)
+        {
+            var cur = this.banHangBindingSource.Current as BanHang.Domain.BanHang;
+            if(cur != null && !string.IsNullOrWhiteSpace(cur.HanghoaId) && !string.IsNullOrWhiteSpace(cur.ID.ToString()))
+            {
+                using(var cmd = new BanHangDeleteRepository())
+                {
+                    cmd.ID = cur.ID;
+                    cmd.HanghoaId = cur.HanghoaId;
+                    cmd.Execute();
+                }
+                using(var cmd = new BanHangViewBusiness())
+                {
+                    cmd.ID = cur.ID;
+                    this.banHangBindingSource.DataSource = cmd.Execute();
+                }
+            }
+            
         }
     }
 }

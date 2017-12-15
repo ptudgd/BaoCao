@@ -8,4 +8,3 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHang.Library\bin\Debug\PhieuBan
 C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHang.Library\obj\Debug\PhieuBanHang.Library.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHang.Library\obj\Debug\PhieuBanHang.Library.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHang.Library\obj\Debug\PhieuBanHang.Domain.csproj.CoreCompileInputs.cache
-C:\Users\Admiral\Documents\GitHub\BaoCao\PhieuBanHang.Library\obj\Debug\PhieuBanHang.Domain.csprojResolveAssemblyReference.cache

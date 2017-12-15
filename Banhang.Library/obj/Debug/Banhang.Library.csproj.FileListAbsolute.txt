@@ -21,7 +21,7 @@ E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\Banhang.Library\obj\Deb
 E:\HomeWork\2017_10_12_Banhang.Solution\Banhang.Solution\Banhang.Library\obj\Debug\Banhang.Library.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Library\bin\Debug\Banhang.Library.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Library\bin\Debug\Banhang.Library.pdb
-C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Library\obj\Debug\Banhang.Library.csprojResolveAssemblyReference.cache
 C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Library\obj\Debug\Banhang.Library.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Library\obj\Debug\Banhang.Library.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Library\obj\Debug\Banhang.Library.csproj.CoreCompileInputs.cache
+C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Library\obj\Debug\Banhang.Library.csprojResolveAssemblyReference.cache
