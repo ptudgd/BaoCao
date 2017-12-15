@@ -7,11 +7,13 @@ using BaoCao.Library;
 using System.Data.SqlClient;
 
 
-namespace ThuChi.Business
+namespace ThuChiBusiness
 {
     public class ThuChiUpdateBusiness : ConnectDatabase
     {
-        public ThuChi.Domain.ThuChi item { get; set; }
+        public string Ngay { get; set; }
+        public int Thu { get; set; }
+        public int Chi { get; set; }
         public void Execute()
         {
             using(var conn = new SqlConnection(ConnectionString))
@@ -19,7 +21,7 @@ namespace ThuChi.Business
                 using(var cmd = conn.CreateCommand())
                 {
                     conn.Open();
-                    cmd.CommandText = "UPDATE ThuChi SET Thu='" + item.Thu + "',Chi='" + item.Chi + "' WHERE Ngay='"+item.Ngay+"'";
+                    cmd.CommandText = "UPDATE ThuChi SET Thu='" + Thu + "',Chi='" + Chi + "' WHERE Ngay='"+Ngay+"'";
                     cmd.ExecuteNonQuery();
                     conn.Close();
                 }

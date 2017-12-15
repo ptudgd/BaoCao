@@ -15,6 +15,7 @@ using DevExpress.XtraReports.UI;
 using PhieuBanHangSaveBusiness;
 using BanHangBusiness;
 using PhieuBanHang.Repository;
+using ThuChiBusiness;
 
 namespace dashboard
 {
@@ -117,6 +118,16 @@ namespace dashboard
             var listcur = this.banHangBindingSource.DataSource as List<BanHang.Domain.BanHang>;
             if(listcur != null)
             {
+                using(var cmd = new ThuChiAddBusiness())
+                {
+                    foreach (var item in listcur)
+                    {
+                        cmd.Thu = item.Giaban;
+                        cmd.Ngay = item.NgayBan;
+                        cmd.Chi = item.Giaban-10000;
+                        cmd.Execute();
+                    }
+                }
                 using(var cmd = new BanHangViewBusiness())
                 {
                     cmd.ID = listcur[0].ID;

@@ -10,26 +10,25 @@ namespace ThuChiChart
 {
     public class ThuChiChartListRepository:ConnectDatabase
     {
-        public string date1 { get; set; }
-        public string date2 { get; set; }
+        
+        public string Ngay { get; set; }
         public List<ThuChi.Domain.ThuChi> Execute()
         {
-            List<ThuChi.Domain.ThuChi> data = null;
+            var data = new List<ThuChi.Domain.ThuChi>();
             using (var conn = new SqlConnection(ConnectionString))
             {
                 using(var cmd = conn.CreateCommand())
                 {
                     conn.Open();
-                    if (!string.IsNullOrWhiteSpace(date1) && !string.IsNullOrWhiteSpace(date2))
+                    cmd.CommandText = "SELECT * FROM ThuChi WHERE CONVERT(date,Ngay)=@Ngay";
+                    cmd.Parameters.Add(new SqlParameter
                     {
-                        cmd.CommandText = "SELECT * FROM ThuChi WHERE Ngay BETWEEN " + date1 + " AND " + date2 ;
-                        
-                    }
-                    else
-                    {
-                        cmd.CommandText = "SELECT * FROM ThuChi";
-                    }
-                    using(var reader = cmd.ExecuteReader())
+                        ParameterName = "@Ngay",
+                        Value = Ngay,
+                        SqlDbType = System.Data.SqlDbType.NVarChar
+                    });
+                    
+                    using (var reader = cmd.ExecuteReader())
                     {
                         while (reader.Read())
                         {

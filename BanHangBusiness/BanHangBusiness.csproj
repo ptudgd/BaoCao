@@ -43,6 +43,8 @@
     <Compile Include="BanHangListRepository.cs" />
     <Compile Include="BanHangUpdateBusiness.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TongChiBusiness.cs" />
+    <Compile Include="TongThuBusiness.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BaoCao.Library\BaoCao.Library.csproj">

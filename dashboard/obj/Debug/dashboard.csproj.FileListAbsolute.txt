@@ -245,3 +245,11 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\dashboard\bin\Debug\dashboard.exe
 C:\Users\Admiral\Documents\GitHub\BaoCao\dashboard\obj\Debug\LoginForm.frmLogin.resources
 C:\Users\Admiral\Documents\GitHub\BaoCao\dashboard\obj\Debug\dashboard.exe.licenses
 C:\Users\Admiral\Documents\GitHub\BaoCao\dashboard\obj\Debug\dashboard.exe
+C:\Users\Admiral\Documents\GitHub\BaoCao\dashboard\obj\Debug\dashboard.HomeControl.resources
+C:\Users\Admiral\Documents\GitHub\BaoCao\dashboard\obj\Debug\dashboard.BangThongKeThuChiControl.resources
+C:\Users\Admiral\Documents\GitHub\BaoCao\dashboard\obj\Debug\dashboard.ThuChiTabList.resources
+C:\Users\Admiral\Documents\GitHub\BaoCao\dashboard\obj\Debug\dashboard.BieuDoThuChiControl.resources
+C:\Users\Admiral\Documents\GitHub\BaoCao\dashboard\bin\Debug\ThuChiBusiness.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\dashboard\bin\Debug\ThuChiBusiness.pdb
+C:\Users\Admiral\Documents\GitHub\BaoCao\dashboard\bin\Debug\ThuChiChart.dll
+C:\Users\Admiral\Documents\GitHub\BaoCao\dashboard\bin\Debug\ThuChiChart.pdb

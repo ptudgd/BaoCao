@@ -15,6 +15,8 @@ namespace dashboard
         public Main()
         {
             InitializeComponent();
+            this.PanelRight.Controls.Clear();
+            this.PanelRight.Controls.Add(new HomeControl());
         }
 
         private void btnMain_Click(object sender, EventArgs e)
@@ -22,6 +24,9 @@ namespace dashboard
             this.SlidePanel.Height = btnMain.Height;
             this.SlidePanel.Top = btnMain.Top;
             this.PanelRight.Controls.Clear();
+            this.PanelRight.Controls.Clear();
+            this.PanelRight.Controls.Add(new HomeControl());
+            
         }
 
         private void btnHangHoa_Click(object sender, EventArgs e)
@@ -52,6 +57,8 @@ namespace dashboard
         {
             this.SlidePanel.Height = btnThuChi.Height;
             this.SlidePanel.Top = btnThuChi.Top;
+            this.PanelRight.Controls.Clear();
+            this.PanelRight.Controls.Add(new ThuChiTabList());
         }
 
         private void button1_Click(object sender, EventArgs e)

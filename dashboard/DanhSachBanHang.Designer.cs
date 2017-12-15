@@ -44,10 +44,10 @@
             this.Datepicker1 = new Bunifu.Framework.UI.BunifuDatepicker();
             this.Datepicker2 = new Bunifu.Framework.UI.BunifuDatepicker();
             this.label1 = new System.Windows.Forms.Label();
-            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuTileButton1 = new Bunifu.Framework.UI.BunifuTileButton();
             this.bunifuTileButton2 = new Bunifu.Framework.UI.BunifuTileButton();
             this.bunifuTileButton3 = new Bunifu.Framework.UI.BunifuTileButton();
+            this.bunifuTileButton4 = new Bunifu.Framework.UI.BunifuTileButton();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.banHangBindingSource)).BeginInit();
@@ -149,7 +149,7 @@
             this.Datepicker1.FormatCustom = null;
             this.Datepicker1.Location = new System.Drawing.Point(12, 20);
             this.Datepicker1.Name = "Datepicker1";
-            this.Datepicker1.Size = new System.Drawing.Size(197, 36);
+            this.Datepicker1.Size = new System.Drawing.Size(237, 36);
             this.Datepicker1.TabIndex = 28;
             this.Datepicker1.Value = new System.DateTime(2017, 12, 14, 20, 3, 6, 397);
             // 
@@ -160,46 +160,20 @@
             this.Datepicker2.ForeColor = System.Drawing.Color.White;
             this.Datepicker2.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.Datepicker2.FormatCustom = null;
-            this.Datepicker2.Location = new System.Drawing.Point(232, 21);
+            this.Datepicker2.Location = new System.Drawing.Point(12, 77);
             this.Datepicker2.Name = "Datepicker2";
-            this.Datepicker2.Size = new System.Drawing.Size(197, 36);
+            this.Datepicker2.Size = new System.Drawing.Size(237, 36);
             this.Datepicker2.TabIndex = 29;
             this.Datepicker2.Value = new System.DateTime(2017, 12, 14, 20, 3, 6, 397);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(212, 34);
+            this.label1.Location = new System.Drawing.Point(114, 59);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(14, 13);
             this.label1.TabIndex = 30;
             this.label1.Text = "~";
-            // 
-            // bunifuThinButton21
-            // 
-            this.bunifuThinButton21.ActiveBorderThickness = 1;
-            this.bunifuThinButton21.ActiveCornerRadius = 20;
-            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.BackColor = System.Drawing.Color.White;
-            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
-            this.bunifuThinButton21.ButtonText = "Tìm kiếm";
-            this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton21.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton21.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.IdleBorderThickness = 1;
-            this.bunifuThinButton21.IdleCornerRadius = 20;
-            this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.Location = new System.Drawing.Point(128, 65);
-            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton21.Name = "bunifuThinButton21";
-            this.bunifuThinButton21.Size = new System.Drawing.Size(181, 41);
-            this.bunifuThinButton21.TabIndex = 31;
-            this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuThinButton21.Click += new System.EventHandler(this.bunifuThinButton21_Click);
             // 
             // bunifuTileButton1
             // 
@@ -261,15 +235,35 @@
             this.bunifuTileButton3.TabIndex = 34;
             this.bunifuTileButton3.Click += new System.EventHandler(this.bunifuTileButton3_Click);
             // 
+            // bunifuTileButton4
+            // 
+            this.bunifuTileButton4.BackColor = System.Drawing.Color.SeaGreen;
+            this.bunifuTileButton4.color = System.Drawing.Color.SeaGreen;
+            this.bunifuTileButton4.colorActive = System.Drawing.Color.MediumSeaGreen;
+            this.bunifuTileButton4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTileButton4.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuTileButton4.ForeColor = System.Drawing.Color.White;
+            this.bunifuTileButton4.Image = ((System.Drawing.Image)(resources.GetObject("bunifuTileButton4.Image")));
+            this.bunifuTileButton4.ImagePosition = 21;
+            this.bunifuTileButton4.ImageZoom = 50;
+            this.bunifuTileButton4.LabelPosition = 43;
+            this.bunifuTileButton4.LabelText = "Tìm kiếm";
+            this.bunifuTileButton4.Location = new System.Drawing.Point(307, 6);
+            this.bunifuTileButton4.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.bunifuTileButton4.Name = "bunifuTileButton4";
+            this.bunifuTileButton4.Size = new System.Drawing.Size(140, 133);
+            this.bunifuTileButton4.TabIndex = 44;
+            this.bunifuTileButton4.Click += new System.EventHandler(this.bunifuTileButton4_Click);
+            // 
             // DanhSachBanHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.bunifuTileButton4);
             this.Controls.Add(this.bunifuTileButton3);
             this.Controls.Add(this.bunifuTileButton2);
             this.Controls.Add(this.bunifuTileButton1);
-            this.Controls.Add(this.bunifuThinButton21);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Datepicker2);
             this.Controls.Add(this.Datepicker1);
@@ -298,9 +292,9 @@
         private Bunifu.Framework.UI.BunifuDatepicker Datepicker1;
         private Bunifu.Framework.UI.BunifuDatepicker Datepicker2;
         private System.Windows.Forms.Label label1;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
         private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton1;
         private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton2;
         private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton3;
+        private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton4;
     }
 }

@@ -21,12 +21,7 @@ namespace dashboard
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
         {
-            using (var cmd = new BanHangBusiness.BanHangListRepository())
-            {
-                cmd.data1 = this.Datepicker1.Value.ToShortDateString();
-                cmd.data2 = this.Datepicker2.Value.ToShortDateString();
-                this.banHangBindingSource.DataSource = cmd.Execute();
-            }
+            
         }
 
         private void bunifuTileButton1_Click(object sender, EventArgs e)
@@ -72,6 +67,16 @@ namespace dashboard
                 {
                     this.banHangBindingSource.DataSource = cmd.Execute();
                 }
+            }
+        }
+
+        private void bunifuTileButton4_Click(object sender, EventArgs e)
+        {
+            using(var cmd = new BanHangListRepository())
+            {
+                cmd.data1 = this.Datepicker1.Value.ToShortDateString();
+                cmd.data2 = this.Datepicker2.Value.ToShortDateString();
+                this.banHangBindingSource.DataSource = cmd.Execute();
             }
         }
     }

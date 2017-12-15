@@ -9,6 +9,11 @@ namespace ThuChi.Domain
 {
     public class ThuChi
     {
+        public ThuChi()
+        {
+            Thu = 0;
+            Chi = 0;
+        }
         [DisplayName("Ngày")]
         public DateTime Ngay { get; set; }
 

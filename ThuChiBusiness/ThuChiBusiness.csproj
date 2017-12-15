@@ -40,6 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ThuChiAddBusiness.cs" />
+    <Compile Include="ThuChiDeleteBusiness.cs" />
+    <Compile Include="ThuChiListBusiness.cs" />
     <Compile Include="ThuChiUpdateBusiness.cs" />
     <Compile Include="ThuChiViewBusiness.cs" />
     <Compile Include="ThuChiSaveBusiness.cs" />
