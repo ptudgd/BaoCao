@@ -41,6 +41,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BanHangListRepository.cs" />
+    <Compile Include="BanHangSoLuongBusiness.cs" />
+    <Compile Include="BanHangSubBusiness.cs" />
+    <Compile Include="BanHangSubSoLuongBusiness.cs" />
     <Compile Include="BanHangUpdateBusiness.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TongChiBusiness.cs" />

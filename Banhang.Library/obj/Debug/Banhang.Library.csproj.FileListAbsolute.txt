@@ -24,3 +24,4 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Library\bin\Debug\Banhang.Libra
 C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Library\obj\Debug\Banhang.Library.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Library\obj\Debug\Banhang.Library.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Library\obj\Debug\Banhang.Library.csproj.CoreCompileInputs.cache
+C:\Users\Admiral\Documents\GitHub\BaoCao\Banhang.Library\obj\Debug\Banhang.Library.csprojResolveAssemblyReference.cache

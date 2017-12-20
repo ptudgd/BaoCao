@@ -127,7 +127,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginForm", "LoginForm\Logi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. Presentation Layer Update", "06. Presentation Layer Update", "{0DC8A0D7-1AC1-4582-AF27-63E65E529639}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyBanHang", "dashboard\QuanLyBanHang.csproj", "{64BB86F2-97B6-445C-ACB3-96195A753408}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dashboard", "dashboard\dashboard.csproj", "{64BB86F2-97B6-445C-ACB3-96195A753408}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhieuBanHangSaveBusiness", "PhieuBanHangSaveBusiness\PhieuBanHangSaveBusiness.csproj", "{5B5DE1CB-0141-411A-9126-A9523999F649}"
 EndProject

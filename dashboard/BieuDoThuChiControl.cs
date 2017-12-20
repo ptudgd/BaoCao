@@ -20,17 +20,24 @@ namespace dashboard
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
         {
-            this.BieuDoThuChi.Series["Thu"].Points.Clear();
-            this.BieuDoThuChi.Series["Chi"].Points.Clear();
-            using (var cmd = new ThuChiChartListRepository())
+            try
             {
-                cmd.Ngay = this.datepicker.Value.ToShortDateString();
-                var data = cmd.Execute();
-                foreach (var item in data)
+                this.BieuDoThuChi.Series["Thu"].Points.Clear();
+                this.BieuDoThuChi.Series["Chi"].Points.Clear();
+                using (var cmd = new ThuChiChartListRepository())
                 {
-                    this.BieuDoThuChi.Series["Thu"].Points.AddY(item.Thu);
-                    this.BieuDoThuChi.Series["Chi"].Points.AddY(item.Chi);
+                    cmd.Ngay = this.datepicker.Value.ToShortDateString();
+                    var data = cmd.Execute();
+                    foreach (var item in data)
+                    {
+                        this.BieuDoThuChi.Series["Thu"].Points.AddY(item.Thu);
+                        this.BieuDoThuChi.Series["Chi"].Points.AddY(item.Chi);
+                    }
                 }
+            }
+            catch
+            {
+                MessageBox.Show("Có lỗi xảy ra!", "THÔNG BÁO!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

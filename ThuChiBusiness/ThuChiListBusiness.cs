@@ -19,7 +19,7 @@ namespace ThuChiBusiness
                 using(var cmd = conn.CreateCommand())
                 {
                     conn.Open();
-                    cmd.CommandText = "SELECT * FROM ThuChi WHERE Ngay=@Ngay";
+                    cmd.CommandText = "SELECT * FROM ThuChi WHERE CONVERT(date,Ngay)=@Ngay";
                     cmd.Parameters.Add(new SqlParameter
                     {
                         ParameterName = "@Ngay",

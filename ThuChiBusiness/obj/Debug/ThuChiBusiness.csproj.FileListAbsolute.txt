@@ -6,7 +6,6 @@ C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiBusiness\bin\Debug\ThuChi.Reposit
 C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiBusiness\bin\Debug\BaoCao.Library.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiBusiness\bin\Debug\ThuChi.Library.pdb
 C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiBusiness\bin\Debug\ThuChi.Repository.pdb
-C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiBusiness\obj\Debug\ThuChiBusiness.csprojResolveAssemblyReference.cache
 C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiBusiness\obj\Debug\ThuChiBusiness.csproj.CoreCompileInputs.cache
 C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiBusiness\obj\Debug\ThuChiBusiness.dll
 C:\Users\Admiral\Documents\GitHub\BaoCao\ThuChiBusiness\obj\Debug\ThuChiBusiness.pdb

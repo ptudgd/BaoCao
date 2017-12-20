@@ -73,6 +73,12 @@ namespace dashboard
                     cmd.item = data;
                     cmd.Execute();
                 }
+                using(var cmd = new BanHangSubBusiness())
+                {
+                    cmd.HanghoaId = data.HanghoaId;
+                    cmd.SoLuong = data.SoLuong;
+                    cmd.Execute();
+                }
                 using (var cmd = new BanHangViewBusiness())
                 {
                     cmd.ID = data.ID;

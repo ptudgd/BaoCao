@@ -91,9 +91,9 @@
       <Project>{5390fb3e-d6f2-4742-aa52-27a65fe71210}</Project>
       <Name>BaoCao.Library</Name>
     </ProjectReference>
-    <ProjectReference Include="..\dashboard\QuanLyBanHang.csproj">
+    <ProjectReference Include="..\dashboard\dashboard.csproj">
       <Project>{64bb86f2-97b6-445c-acb3-96195a753408}</Project>
-      <Name>QuanLyBanHang</Name>
+      <Name>dashboard</Name>
     </ProjectReference>
     <ProjectReference Include="..\Login.Domain\Login.Domain.csproj">
       <Project>{00b4fe6c-fa6d-4038-b013-977e3ef290df}</Project>
